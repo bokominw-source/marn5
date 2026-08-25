@@ -1,0 +1,290 @@
+{%- comment -%}
+  Marn5 JP — 히어로 (풀 폭 · 라운드 블록)
+  ============================================
+  레퍼런스: the act (Anastasia Ulyasheva) · CLAUDE.md §11
+  「라운드는 글자가 아니라 모서리 반경에서 나온다」
+
+  설계 원문: design/jp-header-hero.html
+  영상은 테마 에셋(assets/hero-a.mp4 · hero-b.mp4)에 올라가 있다.
+
+  관세 고지 카드는 장식이 아니라 §7 의 요건이다.
+  「関税・消費税込み／追加請求なし」를 상단에 고정하기로 한 이상
+  이 문구를 지우면 배송·과세 설계 전제가 무너진다.
+{%- endcomment -%}
+
+{%- liquid
+  assign sid = section.id
+  assign vid_src = ''
+  if section.settings.video_file != blank
+    assign vid_src = section.settings.video_file
+  endif
+  assign p = section.settings.product
+-%}
+
+<style>
+  #marn5-hero-{{ sid }}{
+    --mh-gut: clamp(12px, 1.4vw, 28px);
+    --mh-pad: clamp(20px, 3vw, 56px);
+    --mh-r: {{ section.settings.radius }}px;
+    /* 팔레트는 CLAUDE.md §11 확정값. 액센트 컬러는 없다 —
+       강조는 흑 필 + 백 텍스트로만 낸다. 테마 에디터에 노출하지 않는다. */
+    --mh-ink: #0A0A0A;
+    --mh-ink-2: #69695F;
+    --mh-ink-3: #9E9E95;
+    --mh-paper: #FFFFFF;
+    --mh-field: #F7F7F5;
+    --mh-hair: #E4E4DE;
+    position: relative;
+    margin: 0 var(--mh-gut) var(--mh-gut);
+    height: min({{ section.settings.height_vh }}vh, 940px);
+    min-height: 520px;
+    border-radius: var(--mh-r);
+    overflow: hidden;
+    background: var(--mh-field);
+    isolation: isolate;
+  }
+  #marn5-hero-{{ sid }} .mh__media{
+    position:absolute; inset:0; width:100%; height:100%;
+    object-fit:cover; display:block;
+  }
+  /* 스크림 — 영상 위 검은 타이포의 가독성을 확보한다.
+     좌상단(헤드라인)과 하단(카드)만 밝히고 가운데는 영상을 그대로 둔다. */
+  #marn5-hero-{{ sid }} .mh__scrim{
+    position:absolute; inset:0; pointer-events:none;
+    background:
+      linear-gradient(100deg,
+        rgba(255,255,255,{{ section.settings.scrim | divided_by: 100.0 }}) 0%,
+        rgba(255,255,255,{{ section.settings.scrim | times: 0.44 | divided_by: 100.0 }}) 30%,
+        rgba(255,255,255,0) 56%),
+      linear-gradient(0deg,
+        rgba(255,255,255,{{ section.settings.scrim | times: 0.38 | divided_by: 100.0 }}) 0%,
+        rgba(255,255,255,0) 26%);
+  }
+
+  #marn5-hero-{{ sid }} .mh__head{
+    position:absolute; left:var(--mh-pad); top:var(--mh-pad);
+    max-width:min(52%, 680px); z-index:2;
+  }
+  #marn5-hero-{{ sid }} .mh__head h1{
+    margin:0; color:var(--mh-ink);
+    font-family: var(--font-heading--family, inherit);
+    font-weight:400; line-height:.90;
+    font-size: clamp(46px, 7.4vw, 132px); letter-spacing:-.035em;
+  }
+  #marn5-hero-{{ sid }} .mh__head h1 b{ display:block; font-weight:700 }
+  #marn5-hero-{{ sid }} .mh__head p{
+    margin:20px 0 0; max-width:360px;
+    font-size:13px; line-height:1.75; letter-spacing:.01em; color:var(--mh-ink-2);
+  }
+
+  #marn5-hero-{{ sid }} .mh__note{
+    position:absolute; left:var(--mh-pad); bottom:var(--mh-pad); z-index:2;
+    display:flex; gap:14px; align-items:flex-start;
+    background:var(--mh-paper); border-radius:26px; padding:15px;
+    width:min(410px, 64%); box-shadow:0 14px 40px rgba(10,10,10,.11);
+  }
+  #marn5-hero-{{ sid }} .mh__mark{
+    flex:none; width:54px; height:54px; border-radius:18px;
+    background:var(--mh-ink); color:var(--mh-paper);
+    display:grid; place-items:center; font-size:23px; line-height:1;
+  }
+  #marn5-hero-{{ sid }} .mh__note h3{ margin:0; font-size:14px; font-weight:700; letter-spacing:.01em; color:var(--mh-ink) }
+  #marn5-hero-{{ sid }} .mh__note p{ margin:5px 0 0; font-size:11.5px; line-height:1.62; color:var(--mh-ink-2) }
+
+  #marn5-hero-{{ sid }} .mh__pcard{
+    position:absolute; right:var(--mh-pad); bottom:var(--mh-pad); z-index:2;
+    width:min(282px, 36%); background:var(--mh-paper); border-radius:26px;
+    padding:13px; box-shadow:0 14px 40px rgba(10,10,10,.11);
+  }
+  #marn5-hero-{{ sid }} .mh__ptop{ display:flex; align-items:center; gap:6px; margin-bottom:11px }
+  #marn5-hero-{{ sid }} .mh__tag{
+    font-size:10.5px; font-weight:500; color:var(--mh-ink-2);
+    background:var(--mh-field); border-radius:999px; padding:6px 12px; white-space:nowrap;
+  }
+  #marn5-hero-{{ sid }} .mh__arrow{
+    margin-left:auto; flex:none; width:34px; height:34px; border-radius:999px;
+    background:var(--mh-ink); color:var(--mh-paper); display:grid; place-items:center;
+    font-size:15px; text-decoration:none; transition:transform .18s ease;
+  }
+  #marn5-hero-{{ sid }} .mh__arrow:hover{ transform:translate(2px,-2px) }
+  #marn5-hero-{{ sid }} .mh__pname{ font-size:12.5px; font-weight:500; line-height:1.45; color:var(--mh-ink) }
+  #marn5-hero-{{ sid }} .mh__pend{
+    display:inline-block; margin-top:6px; font-size:9.5px; letter-spacing:.04em;
+    color:var(--mh-ink-3); border:1px solid var(--mh-hair); border-radius:999px; padding:2px 9px;
+  }
+  #marn5-hero-{{ sid }} .mh__prow{
+    display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin-top:11px;
+  }
+  #marn5-hero-{{ sid }} .mh__price{ font-size:20px; font-weight:500; letter-spacing:-.01em; color:var(--mh-ink) }
+  #marn5-hero-{{ sid }} .mh__price small{
+    display:block; font-size:10px; font-weight:400; letter-spacing:.03em; color:var(--mh-ink-3);
+  }
+  #marn5-hero-{{ sid }} .mh__pimg{
+    width:76px; height:95px; border-radius:18px; object-fit:cover;
+    background:var(--mh-field); flex:none;
+  }
+
+  @media (max-width: 900px){
+    #marn5-hero-{{ sid }}{
+      height:auto; aspect-ratio:4/5; min-height:0; border-radius:{{ section.settings.radius | times: 0.72 | round }}px;
+    }
+    #marn5-hero-{{ sid }} .mh__scrim{
+      background: linear-gradient(180deg,
+        rgba(255,255,255,{{ section.settings.scrim | times: 1.08 | at_most: 100 | divided_by: 100.0 }}) 0%,
+        rgba(255,255,255,{{ section.settings.scrim | times: 0.33 | divided_by: 100.0 }}) 36%,
+        rgba(255,255,255,0) 60%);
+    }
+    #marn5-hero-{{ sid }} .mh__head{ max-width:84% }
+    #marn5-hero-{{ sid }} .mh__note,
+    #marn5-hero-{{ sid }} .mh__pcard{ display:none }
+  }
+  /* 모바일에서는 카드를 히어로 밖으로 뺀다 — 4:5 안에 다 넣으면 영상이 안 보인다 */
+  #marn5-hero-cards-{{ sid }}{ display:none }
+  @media (max-width: 900px){
+    #marn5-hero-cards-{{ sid }}{
+      display:grid; gap:10px; margin:16px clamp(16px,3.4vw,72px) 0;
+    }
+    #marn5-hero-cards-{{ sid }} .mh__note,
+    #marn5-hero-cards-{{ sid }} .mh__pcard{
+      display:flex; position:static; width:auto; box-shadow:none;
+      border:1px solid var(--mh-hair, #E4E4DE);
+    }
+    #marn5-hero-cards-{{ sid }} .mh__pcard{ display:block }
+  }
+</style>
+
+<section id="marn5-hero-{{ sid }}" {{ section.shopify_attributes }}>
+  {%- if vid_src != blank -%}
+    <video class="mh__media" autoplay muted loop playsinline
+           {% if section.settings.poster_asset != blank %}poster="{{ section.settings.poster_asset | asset_url }}"{% endif %}>
+      <source src="{{ vid_src | asset_url }}" type="video/mp4">
+    </video>
+  {%- elsif section.settings.fallback_image != blank -%}
+    {{ section.settings.fallback_image | image_url: width: 2400 | image_tag: class: 'mh__media', loading: 'eager' }}
+  {%- endif -%}
+
+  <div class="mh__scrim"></div>
+
+  <div class="mh__head">
+    <h1>{{ section.settings.headline_1 }}<b>{{ section.settings.headline_2 }}</b></h1>
+    {%- if section.settings.subcopy != blank -%}
+      <p>{{ section.settings.subcopy }}</p>
+    {%- endif -%}
+  </div>
+
+  {%- if section.settings.show_note -%}
+    <aside class="mh__note">
+      <div class="mh__mark">{{ section.settings.note_mark }}</div>
+      <div>
+        <h3>{{ section.settings.note_title }}</h3>
+        <p>{{ section.settings.note_body }}</p>
+      </div>
+    </aside>
+  {%- endif -%}
+
+  {%- if section.settings.show_product and p != blank -%}
+    <article class="mh__pcard">
+      <div class="mh__ptop">
+        {%- if section.settings.product_tag != blank -%}
+          <span class="mh__tag">{{ section.settings.product_tag }}</span>
+        {%- endif -%}
+        <a class="mh__arrow" href="{{ p.url }}" aria-label="{{ p.title | escape }}">&#8599;</a>
+      </div>
+      <div class="mh__pname">{{ p.title }}</div>
+      {%- if section.settings.product_pending != blank -%}
+        <span class="mh__pend">{{ section.settings.product_pending }}</span>
+      {%- endif -%}
+      <div class="mh__prow">
+        <div class="mh__price">{{ p.price | money }}
+          {%- if section.settings.price_note != blank -%}
+            <small>{{ section.settings.price_note }}</small>
+          {%- endif -%}
+        </div>
+        {%- if p.featured_image -%}
+          {{ p.featured_image | image_url: width: 300 | image_tag: class: 'mh__pimg', alt: p.title }}
+        {%- endif -%}
+      </div>
+    </article>
+  {%- endif -%}
+</section>
+
+<div id="marn5-hero-cards-{{ sid }}">
+  {%- if section.settings.show_note -%}
+    <aside class="mh__note">
+      <div class="mh__mark">{{ section.settings.note_mark }}</div>
+      <div>
+        <h3>{{ section.settings.note_title }}</h3>
+        <p>{{ section.settings.note_body }}</p>
+      </div>
+    </aside>
+  {%- endif -%}
+  {%- if section.settings.show_product and p != blank -%}
+    <article class="mh__pcard">
+      <div class="mh__ptop">
+        {%- if section.settings.product_tag != blank -%}
+          <span class="mh__tag">{{ section.settings.product_tag }}</span>
+        {%- endif -%}
+        <a class="mh__arrow" href="{{ p.url }}" aria-label="{{ p.title | escape }}">&#8599;</a>
+      </div>
+      <div class="mh__pname">{{ p.title }}</div>
+      <div class="mh__prow">
+        <div class="mh__price">{{ p.price | money }}</div>
+        {%- if p.featured_image -%}
+          {{ p.featured_image | image_url: width: 300 | image_tag: class: 'mh__pimg', alt: p.title }}
+        {%- endif -%}
+      </div>
+    </article>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Marn5 ヒーロー",
+  "settings": [
+    { "type": "header", "content": "映像" },
+    {
+      "type": "select", "id": "video_file", "label": "背景映像",
+      "options": [
+        { "value": "hero-b.mp4", "label": "B案 (10–25s)" },
+        { "value": "hero-a.mp4", "label": "A案 (0–15s)" },
+        { "value": "", "label": "映像なし（画像を使う）" }
+      ],
+      "default": "hero-b.mp4"
+    },
+    {
+      "type": "select", "id": "poster_asset", "label": "ポスター画像",
+      "options": [
+        { "value": "hero-b-poster.jpg", "label": "B案" },
+        { "value": "hero-a-poster.jpg", "label": "A案" },
+        { "value": "", "label": "なし" }
+      ],
+      "default": "hero-b-poster.jpg"
+    },
+    { "type": "image_picker", "id": "fallback_image", "label": "映像なしの場合の画像" },
+
+    { "type": "header", "content": "レイアウト" },
+    { "type": "range", "id": "height_vh", "label": "高さ", "unit": "vh", "min": 60, "max": 100, "step": 2, "default": 88 },
+    { "type": "range", "id": "radius", "label": "角丸", "unit": "px", "min": 0, "max": 60, "step": 2, "default": 36 },
+    { "type": "range", "id": "scrim", "label": "白オーバーレイの濃さ", "unit": "%", "min": 0, "max": 100, "step": 2, "default": 78 },
+
+    { "type": "header", "content": "見出し" },
+    { "type": "text", "id": "headline_1", "label": "1行目", "default": "PLUS +" },
+    { "type": "text", "id": "headline_2", "label": "2行目（太字）", "default": "Yourself" },
+    { "type": "textarea", "id": "subcopy", "label": "サブコピー", "default": "ブランドコピーはネイティブ監修後に差し替える。" },
+
+    { "type": "header", "content": "関税告知カード（§7 要件）" },
+    { "type": "checkbox", "id": "show_note", "label": "表示する", "default": true },
+    { "type": "text", "id": "note_mark", "label": "マーク", "default": "+" },
+    { "type": "text", "id": "note_title", "label": "見出し", "default": "関税・消費税込み" },
+    { "type": "textarea", "id": "note_body", "label": "本文", "default": "お受け取り時の追加請求はありません。¥8,800以上で送料無料。" },
+
+    { "type": "header", "content": "商品カード" },
+    { "type": "checkbox", "id": "show_product", "label": "表示する", "default": true },
+    { "type": "product", "id": "product", "label": "商品" },
+    { "type": "text", "id": "product_tag", "label": "ラベル", "default": "( ブラ )" },
+    { "type": "text", "id": "product_pending", "label": "注記バッジ", "default": "日本語コピー未確定" },
+    { "type": "text", "id": "price_note", "label": "価格の注記", "default": "税込 · 参考換算" }
+  ],
+  "presets": [{ "name": "Marn5 ヒーロー" }]
+}
+{% endschema %}
