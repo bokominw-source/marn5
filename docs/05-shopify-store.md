@@ -13,6 +13,10 @@
 | 스토어 이름 | `Marn5_JP` |
 | 플랜 | Basic |
 | 베이스 테마 | **Horizon** (MAIN) — D6 결정과 일치 |
+| 개발 테마 | `Marn5 JP — dev` (`156495577242`, UNPUBLISHED) — 홈 디자인 작업용 |
+
+> MCP 는 **게시 중인 테마(MAIN)에 파일을 쓸 수 없다.** 그래서 복제본에서 작업한다.
+> 테마 게시(`themePublish`)도 MCP 에서 차단돼 있으므로 최종 반영은 관리자에서 한다.
 
 MCP 커넥터는 **계정당 한 스토어**만 연결된다. 이 스토어에 연결하면 DHALIORA 연결이 끊기고,
 Cowork 에서 DHALIORA 로 재인증하면 **이쪽 연결이 조용히 바뀐다.**
@@ -83,6 +87,21 @@ Translate & Adapt 는 **기본 언어 위에** 번역을 얹는 구조라, 기�
 
 ### 로케일
 `ja` (Japanese) 추가 · **published** · primary 아님(§1 참조)
+
+### 브랜드 자산
+| 파일 | 크기 | 용도 |
+|---|---|---|
+| `assets/marn5-logo.png` | 679×120 | 헤더 기본 (1x) |
+| `assets/marn5-logo@2x.png` | 1358×240 | 레티나 |
+| `assets/marn5-logo@3x.png` | 2037×360 | 대형 배치 |
+| `assets/marn5-logo.ai.pdf` | 벡터 원본 | 인쇄·재가공 |
+
+전부 **순흑(#000000) + 투명 배경**, 여백 없이 잘려 있다 (§11 디자인 시스템과 일치).
+`@2x`/`@3x` 는 300dpi 원본의 ArtBox 를 잘라 흰 배경을 알파로 변환해 생성했다
+(`assets/marn5-logo.png` 와 대조 검증: 알파 평균 차이 0.4).
+
+슬로건 **`PLUS + Yourself`** 를 브랜드 요소로 적극 사용한다 (발주자 요청 08-25).
+영문 그대로 쓰며, 일본어 태그라인을 임의로 만들지 않는다 (§13 무감수 번역 금지).
 
 ### 메타필드 정의 8종 (`01-audit.md` 의 P0/P1)
 | 키 | 타입 | 핀 |
@@ -182,3 +201,6 @@ MCP 로 값을 넘기는 과정에서 한글이 깨져 **제목 16건 · 옵션�
 5. Horizon 커스텀 섹션 (P0-3 브라→쇼츠 추가구매)
 6. 네이티브 카피 확보 후 `translationsRegister` → DRAFT 해제
 7. JPY 정가표 확정 (현재는 환산 자리표시자)
+8. **[발주자] 로고 파일 업로드** — Settings → Files 에 `marn5-logo.png` (+ `@2x`).
+   MCP 는 바이너리를 올릴 수 없다 (`fileCreate` 는 공개 URL 만 받고 `data:` URI 를 거부,
+   staged upload 는 컨테이너 egress 차단). 업로드되면 테마 설정에 바로 연결한다.
