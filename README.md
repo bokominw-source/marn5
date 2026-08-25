@@ -12,6 +12,7 @@ docs/
   03-jp-tax-duty.md    일본 관세·소비세 계산 구조와 제도 타임라인
   04-open-questions.md 미해결 · 발주자 요청 항목
   05-shopify-store.md   JP Shopify 스토어 구축 현황 (실반영 상태)
+  06-ia-collections.md  카테고리·컬렉션 구조 제안 (Alo Yoga 벤치마크)
 data/
   mvp41.csv            발주자 제출 MVP 41 SKU
   products_41.csv      41건 실측 (가격·옵션축·태그·이미지)
