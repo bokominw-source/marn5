@@ -182,26 +182,30 @@
     </aside>
   {%- endif -%}
 
-  {%- if section.settings.show_product and p != blank -%}
+  {%- if section.settings.show_product -%}
     <article class="mh__pcard">
       <div class="mh__ptop">
         {%- if section.settings.product_tag != blank -%}
           <span class="mh__tag">{{ section.settings.product_tag }}</span>
         {%- endif -%}
-        <a class="mh__arrow" href="{{ p.url }}" aria-label="{{ p.title | escape }}">&#8599;</a>
+        <a class="mh__arrow" href="{% if p != blank %}{{ p.url }}{% else %}#{% endif %}" aria-label="{% if p != blank %}{{ p.title | escape }}{% else %}{{ section.settings.fallback_name | escape }}{% endif %}">&#8599;</a>
       </div>
-      <div class="mh__pname">{{ p.title }}</div>
+      <div class="mh__pname">{% if p != blank %}{{ p.title }}{% else %}{{ section.settings.fallback_name }}{% endif %}</div>
       {%- if section.settings.product_pending != blank -%}
         <span class="mh__pend">{{ section.settings.product_pending }}</span>
       {%- endif -%}
       <div class="mh__prow">
-        <div class="mh__price">{{ p.price | money }}
+        <div class="mh__price">{% if p != blank %}{{ p.price | money }}{% else %}{{ section.settings.fallback_price }}{% endif %}
           {%- if section.settings.price_note != blank -%}
             <small>{{ section.settings.price_note }}</small>
           {%- endif -%}
         </div>
-        {%- if p.featured_image -%}
+        {%- if p != blank and p.featured_image -%}
           {{ p.featured_image | image_url: width: 300 | image_tag: class: 'mh__pimg', alt: p.title }}
+        {%- elsif section.settings.fallback_image_card != blank -%}
+          {{ section.settings.fallback_image_card | image_url: width: 300 | image_tag: class: 'mh__pimg' }}
+        {%- else -%}
+          <span class="mh__pimg"></span>
         {%- endif -%}
       </div>
     </article>
@@ -218,19 +222,23 @@
       </div>
     </aside>
   {%- endif -%}
-  {%- if section.settings.show_product and p != blank -%}
+  {%- if section.settings.show_product -%}
     <article class="mh__pcard">
       <div class="mh__ptop">
         {%- if section.settings.product_tag != blank -%}
           <span class="mh__tag">{{ section.settings.product_tag }}</span>
         {%- endif -%}
-        <a class="mh__arrow" href="{{ p.url }}" aria-label="{{ p.title | escape }}">&#8599;</a>
+        <a class="mh__arrow" href="{% if p != blank %}{{ p.url }}{% else %}#{% endif %}" aria-label="{% if p != blank %}{{ p.title | escape }}{% else %}{{ section.settings.fallback_name | escape }}{% endif %}">&#8599;</a>
       </div>
-      <div class="mh__pname">{{ p.title }}</div>
+      <div class="mh__pname">{% if p != blank %}{{ p.title }}{% else %}{{ section.settings.fallback_name }}{% endif %}</div>
       <div class="mh__prow">
-        <div class="mh__price">{{ p.price | money }}</div>
-        {%- if p.featured_image -%}
+        <div class="mh__price">{% if p != blank %}{{ p.price | money }}{% else %}{{ section.settings.fallback_price }}{% endif %}</div>
+        {%- if p != blank and p.featured_image -%}
           {{ p.featured_image | image_url: width: 300 | image_tag: class: 'mh__pimg', alt: p.title }}
+        {%- elsif section.settings.fallback_image_card != blank -%}
+          {{ section.settings.fallback_image_card | image_url: width: 300 | image_tag: class: 'mh__pimg' }}
+        {%- else -%}
+          <span class="mh__pimg"></span>
         {%- endif -%}
       </div>
     </article>
@@ -241,50 +249,198 @@
 {
   "name": "Marn5 ヒーロー",
   "settings": [
-    { "type": "header", "content": "映像" },
     {
-      "type": "select", "id": "video_file", "label": "背景映像",
+      "type": "header",
+      "content": "映像"
+    },
+    {
+      "type": "select",
+      "id": "video_file",
+      "label": "背景映像",
       "options": [
-        { "value": "hero-b.mp4", "label": "B案 (10–25s)" },
-        { "value": "hero-a.mp4", "label": "A案 (0–15s)" },
-        { "value": "", "label": "映像なし（画像を使う）" }
+        {
+          "value": "hero-b.mp4",
+          "label": "B案 (10–25s)"
+        },
+        {
+          "value": "hero-a.mp4",
+          "label": "A案 (0–15s)"
+        },
+        {
+          "value": "",
+          "label": "映像なし（画像を使う）"
+        }
       ],
       "default": "hero-b.mp4"
     },
     {
-      "type": "select", "id": "poster_asset", "label": "ポスター画像",
+      "type": "select",
+      "id": "poster_asset",
+      "label": "ポスター画像",
       "options": [
-        { "value": "hero-b-poster.jpg", "label": "B案" },
-        { "value": "hero-a-poster.jpg", "label": "A案" },
-        { "value": "", "label": "なし" }
+        {
+          "value": "hero-b-poster.jpg",
+          "label": "B案"
+        },
+        {
+          "value": "hero-a-poster.jpg",
+          "label": "A案"
+        },
+        {
+          "value": "",
+          "label": "なし"
+        }
       ],
       "default": "hero-b-poster.jpg"
     },
-    { "type": "image_picker", "id": "fallback_image", "label": "映像なしの場合の画像" },
-
-    { "type": "header", "content": "レイアウト" },
-    { "type": "range", "id": "height_vh", "label": "高さ", "unit": "vh", "min": 60, "max": 100, "step": 2, "default": 88 },
-    { "type": "range", "id": "radius", "label": "角丸", "unit": "px", "min": 0, "max": 60, "step": 2, "default": 36 },
-    { "type": "range", "id": "scrim", "label": "白オーバーレイの濃さ", "unit": "%", "min": 0, "max": 100, "step": 2, "default": 78 },
-
-    { "type": "header", "content": "見出し" },
-    { "type": "text", "id": "headline_1", "label": "1行目", "default": "PLUS +" },
-    { "type": "text", "id": "headline_2", "label": "2行目（太字）", "default": "Yourself" },
-    { "type": "textarea", "id": "subcopy", "label": "サブコピー", "default": "ブランドコピーはネイティブ監修後に差し替える。" },
-
-    { "type": "header", "content": "関税告知カード（§7 要件）" },
-    { "type": "checkbox", "id": "show_note", "label": "表示する", "default": true },
-    { "type": "text", "id": "note_mark", "label": "マーク", "default": "+" },
-    { "type": "text", "id": "note_title", "label": "見出し", "default": "関税・消費税込み" },
-    { "type": "textarea", "id": "note_body", "label": "本文", "default": "お受け取り時の追加請求はありません。¥8,800以上で送料無料。" },
-
-    { "type": "header", "content": "商品カード" },
-    { "type": "checkbox", "id": "show_product", "label": "表示する", "default": true },
-    { "type": "product", "id": "product", "label": "商品" },
-    { "type": "text", "id": "product_tag", "label": "ラベル", "default": "( ブラ )" },
-    { "type": "text", "id": "product_pending", "label": "注記バッジ", "default": "日本語コピー未確定" },
-    { "type": "text", "id": "price_note", "label": "価格の注記", "default": "税込 · 参考換算" }
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "映像なしの場合の画像"
+    },
+    {
+      "type": "header",
+      "content": "レイアウト"
+    },
+    {
+      "type": "range",
+      "id": "height_vh",
+      "label": "高さ",
+      "unit": "vh",
+      "min": 60,
+      "max": 100,
+      "step": 2,
+      "default": 88
+    },
+    {
+      "type": "range",
+      "id": "radius",
+      "label": "角丸",
+      "unit": "px",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "scrim",
+      "label": "白オーバーレイの濃さ",
+      "unit": "%",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 78
+    },
+    {
+      "type": "header",
+      "content": "見出し"
+    },
+    {
+      "type": "text",
+      "id": "headline_1",
+      "label": "1行目",
+      "default": "PLUS +"
+    },
+    {
+      "type": "text",
+      "id": "headline_2",
+      "label": "2行目（太字）",
+      "default": "Yourself"
+    },
+    {
+      "type": "textarea",
+      "id": "subcopy",
+      "label": "サブコピー",
+      "default": "ブランドコピーはネイティブ監修後に差し替える。"
+    },
+    {
+      "type": "header",
+      "content": "関税告知カード（§7 要件）"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_note",
+      "label": "表示する",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "note_mark",
+      "label": "マーク",
+      "default": "+"
+    },
+    {
+      "type": "text",
+      "id": "note_title",
+      "label": "見出し",
+      "default": "関税・消費税込み"
+    },
+    {
+      "type": "textarea",
+      "id": "note_body",
+      "label": "本文",
+      "default": "お受け取り時の追加請求はありません。¥8,800以上で送料無料。"
+    },
+    {
+      "type": "header",
+      "content": "商品カード"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product",
+      "label": "表示する",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "商品"
+    },
+    {
+      "type": "text",
+      "id": "product_tag",
+      "label": "ラベル",
+      "default": "( ブラ )"
+    },
+    {
+      "type": "text",
+      "id": "product_pending",
+      "label": "注記バッジ",
+      "default": "日本語コピー未確定"
+    },
+    {
+      "type": "text",
+      "id": "price_note",
+      "label": "価格の注記",
+      "default": "税込 · 参考換算"
+    },
+    {
+      "type": "paragraph",
+      "content": "商品が下書き(DRAFT)の間はストアフロントから読めない。その場合は下のプレースホルダーが表示される。"
+    },
+    {
+      "type": "text",
+      "id": "fallback_name",
+      "label": "商品名（代替）",
+      "default": "쉬어 브라 커브넥 텐션윙"
+    },
+    {
+      "type": "text",
+      "id": "fallback_price",
+      "label": "価格（代替）",
+      "default": "¥3,196"
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image_card",
+      "label": "商品画像（代替）"
+    }
   ],
-  "presets": [{ "name": "Marn5 ヒーロー" }]
+  "presets": [
+    {
+      "name": "Marn5 ヒーロー"
+    }
+  ]
 }
 {% endschema %}

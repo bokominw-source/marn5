@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "marn5_hero": {
+      "type": "marn5-hero",
+      "settings": {
+        "video_file": "hero-b.mp4",
+        "poster_asset": "hero-b-poster.jpg",
+        "height_vh": 88,
+        "radius": 36,
+        "scrim": 78,
+        "headline_1": "PLUS +",
+        "headline_2": "Yourself",
+        "subcopy": "ブランドコピーはネイティブ監修後に差し替える。ここは配置の確認用。",
+        "show_note": true,
+        "note_mark": "+",
+        "note_title": "関税・消費税込み",
+        "note_body": "お受け取り時の追加請求はありません。¥8,800以上で送料無料。",
+        "show_product": true,
+        "product": "p0000brw-1140",
+        "product_tag": "( ブラ )",
+        "product_pending": "日本語コピー未確定",
+        "price_note": "税込 · 参考換算",
+        "fallback_name": "쉬어 브라 커브넥 텐션윙",
+        "fallback_price": "¥3,196"
+      }
+    },
+    "product_list_fa6P9H": {
+      "type": "product-list",
+      "settings": {
+        "collection": "all",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    }
+  },
+  "order": [
+    "marn5_hero",
+    "product_list_fa6P9H"
+  ]
+}
