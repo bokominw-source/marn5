@@ -10,6 +10,9 @@ Cafe24 Admin API 추출기 (marun5 → Shopify JP 이관용)
 
 사용 순서
 ---------
+  ⚠ mall_id 는 **m5m5m5** 다. 도메인 marun5 가 아니다 (CLAUDE.md §1).
+     marun5 를 넣으면 존재하지 않는 몰에 인증을 시도하게 된다.
+
   0) developers.cafe24.com 에서 앱 생성
      - Redirect URL 에 http://localhost:8724/callback 등록
      - Scope 체크: mall.read_product, mall.read_category, mall.read_store,
@@ -17,10 +20,10 @@ Cafe24 Admin API 추출기 (marun5 → Shopify JP 이관용)
      - Client ID / Client Secret 확보
 
   1) 인증 (브라우저 1회)
-     python cafe24_extract.py auth --mall marun5 --client-id XXX --client-secret YYY
+     python cafe24_extract.py auth --mall m5m5m5 --client-id XXX --client-secret YYY
 
   2) 추출
-     python cafe24_extract.py pull --mall marun5 --out ./cafe24_dump
+     python cafe24_extract.py pull --mall m5m5m5 --out ./cafe24_dump
 
 산출물 (./cafe24_dump/)
   categories.json     카테고리 전수
@@ -375,7 +378,8 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     a = sub.add_parser("auth", help="OAuth 인증 후 토큰 저장")
-    a.add_argument("--mall", required=True, help="mall_id (예: marun5)")
+    a.add_argument("--mall", required=True,
+                   help="mall_id — 운영몰은 m5m5m5 다. 도메인(marun5)이 아니다")
     a.add_argument("--client-id", required=True)
     a.add_argument("--client-secret", required=True)
     a.add_argument("--redirect-uri", default=REDIRECT_URI)

@@ -312,6 +312,11 @@ Shopify 기본 Bundles 는 고정 묶음만 되고 선택형 추가구매는 불
 
 ## 14. 다음 할 일
 
+> **로컬 전환 절차는 `docs/07-local-setup.md` 에 있다.**
+> `*.cafe24api.com` 차단이 풀리면 아래 6번이 1순위로 올라온다 —
+> §8 런칭 차단 P0 의 절반이 Admin API 에 걸려 있다.
+
+
 1. 발주자의 JP Shopify 스토어 개설 완료 대기 → Shopify MCP/CLI 연결 전환
 2. **옵션 재설계 스펙 확정** — 4축→3축 매핑표, 할인 표기 제거 규칙, 음수 재고 처리 (P0-1/2/4)
 3. 41 SKU Shopify 투입 스크립트 (`productSet` · `metafieldsSet` · `translationsRegister`) + diff 검증
