@@ -1,0 +1,1003 @@
+<title>Marn5 재팬 이관 감사</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&family=Gothic+A1:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --bg:#FFFFFF;
+  --surface:#F6F6F4;
+  --surface-2:#FBFBFA;
+  --ink:#0A0A0A;
+  --ink-2:#5E5E5C;
+  --ink-3:#95958E;
+  --line:#E7E7E2;
+  --line-strong:#0A0A0A;
+  --chip:#EFEFEB;
+  --p0-bg:#F7E9E5; --p0-ink:#9C3520;
+  --p1-bg:#F7F1E2; --p1-ink:#7A5A0A;
+  --p2-bg:#EAF0EC; --p2-ink:#3F5F4C;
+  --logo-invert:0;
+  --r-lg:28px; --r-md:20px; --r-sm:14px; --r-pill:999px;
+  --measure:44rem;
+  --wide:70rem;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B0B0A;
+    --surface:#171716;
+    --surface-2:#121211;
+    --ink:#F3F3EF;
+    --ink-2:#A7A7A0;
+    --ink-3:#75756E;
+    --line:#2B2B28;
+    --line-strong:#F3F3EF;
+    --chip:#222220;
+    --p0-bg:#33201B; --p0-ink:#E8A08B;
+    --p1-bg:#2E2818; --p1-ink:#DCC084;
+    --p2-bg:#1C2721; --p2-ink:#9CC2AB;
+    --logo-invert:1;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0B0B0A;
+  --surface:#171716;
+  --surface-2:#121211;
+  --ink:#F3F3EF;
+  --ink-2:#A7A7A0;
+  --ink-3:#75756E;
+  --line:#2B2B28;
+  --line-strong:#F3F3EF;
+  --chip:#222220;
+  --p0-bg:#33201B; --p0-ink:#E8A08B;
+  --p1-bg:#2E2818; --p1-ink:#DCC084;
+  --p2-bg:#1C2721; --p2-ink:#9CC2AB;
+  --logo-invert:1;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"M PLUS Rounded 1c","Gothic A1","Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif;
+  font-weight:400;
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  letter-spacing:.005em;
+}
+
+/* ---------- shell ---------- */
+.wrap{max-width:var(--wide);margin:0 auto;padding:0 24px 120px;}
+.col{max-width:var(--measure);}
+section{padding-block:56px;border-top:1px solid var(--line);}
+section:first-of-type{border-top:0;}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.navin{max-width:var(--wide);margin:0 auto;padding:10px 24px;display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none;}
+.navin::-webkit-scrollbar{display:none;}
+nav a{
+  flex:0 0 auto;
+  font-size:12.5px;font-weight:500;letter-spacing:.02em;
+  color:var(--ink-2);text-decoration:none;
+  padding:7px 14px;border-radius:var(--r-pill);
+  border:1px solid transparent;
+  transition:background .15s,color .15s;
+}
+nav a:hover,nav a:focus-visible{background:var(--chip);color:var(--ink);}
+nav a:focus-visible{outline:2px solid var(--ink);outline-offset:2px;}
+.navmark{flex:0 0 auto;margin-right:8px;display:flex;align-items:center;}
+.navmark img{height:15px;width:auto;filter:invert(var(--logo-invert));opacity:.9;}
+
+/* ---------- header ---------- */
+header.hero{padding:64px 0 44px;}
+.mark img{height:34px;width:auto;filter:invert(var(--logo-invert));display:block;}
+h1{
+  font-size:clamp(2.1rem,5.5vw,3.4rem);
+  line-height:1.14;font-weight:700;letter-spacing:-.02em;
+  margin:30px 0 0;text-wrap:balance;
+}
+.sub{font-size:1.05rem;color:var(--ink-2);margin:16px 0 0;max-width:38rem;}
+.metabar{
+  display:flex;flex-wrap:wrap;gap:8px;margin-top:30px;
+}
+.metabar span{
+  font-family:"DM Mono",ui-monospace,monospace;
+  font-size:11.5px;letter-spacing:.03em;
+  background:var(--surface);border-radius:var(--r-pill);
+  padding:7px 14px;color:var(--ink-2);
+}
+.metabar b{color:var(--ink);font-weight:500;}
+
+/* ---------- type ---------- */
+h2{
+  font-size:clamp(1.45rem,3.2vw,1.95rem);
+  font-weight:700;letter-spacing:-.015em;line-height:1.25;
+  margin:0 0 6px;text-wrap:balance;
+}
+h3{font-size:1.06rem;font-weight:700;letter-spacing:-.005em;margin:34px 0 12px;}
+h4{font-size:.94rem;font-weight:700;margin:22px 0 8px;}
+.eyebrow{
+  font-family:"DM Mono",ui-monospace,monospace;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 14px;display:block;
+}
+p{margin:0 0 16px;}
+.lede{font-size:1.02rem;color:var(--ink-2);max-width:var(--measure);}
+strong{font-weight:700;}
+a.ext{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px;}
+code,.mono{font-family:"DM Mono",ui-monospace,monospace;font-size:.86em;letter-spacing:-.01em;}
+code{background:var(--chip);padding:2px 7px;border-radius:var(--r-sm);}
+ul,ol{margin:0 0 16px;padding-left:1.15em;}
+li{margin-bottom:7px;}
+li::marker{color:var(--ink-3);}
+
+/* ---------- cards ---------- */
+.card{
+  background:var(--surface);
+  border-radius:var(--r-lg);
+  padding:26px 28px;
+}
+.card.plain{background:transparent;border:1px solid var(--line);}
+.grid{display:grid;gap:14px;}
+@media(min-width:760px){
+  .g2{grid-template-columns:1fr 1fr;}
+  .g3{grid-template-columns:repeat(3,1fr);}
+}
+
+/* key findings */
+.findings{counter-reset:f;display:grid;gap:12px;}
+.finding{
+  background:var(--surface);border-radius:var(--r-lg);
+  padding:22px 26px 22px 26px;
+  display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;
+}
+.finding .num{
+  counter-increment:f;
+  font-family:"DM Mono",ui-monospace,monospace;
+  font-size:12px;font-weight:500;
+  width:30px;height:30px;border-radius:var(--r-pill);
+  background:var(--ink);color:var(--bg);
+  display:grid;place-items:center;flex:0 0 auto;margin-top:2px;
+}
+.finding .num::before{content:counter(f,decimal-leading-zero);}
+.finding h4{margin:0 0 4px;font-size:1rem;}
+.finding p{margin:0;color:var(--ink-2);font-size:.94rem;}
+
+/* ---------- chips ---------- */
+.chip{
+  display:inline-flex;align-items:center;gap:5px;
+  font-family:"DM Mono",ui-monospace,monospace;
+  font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+  padding:4px 10px;border-radius:var(--r-pill);
+  background:var(--chip);color:var(--ink-2);
+  white-space:nowrap;vertical-align:middle;
+}
+.chip.p0{background:var(--p0-bg);color:var(--p0-ink);}
+.chip.p1{background:var(--p1-bg);color:var(--p1-ink);}
+.chip.p2{background:var(--p2-bg);color:var(--p2-ink);}
+.chip.solid{background:var(--ink);color:var(--bg);}
+
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;border-radius:var(--r-md);background:var(--surface);padding:4px;margin:18px 0 8px;}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px;}
+th,td{text-align:left;padding:12px 16px;vertical-align:top;border-bottom:1px solid var(--line);}
+thead th{
+  font-family:"DM Mono",ui-monospace,monospace;
+  font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:400;
+  border-bottom:1px solid var(--line);white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:0;}
+td.num,th.num{font-family:"DM Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+td.k{font-weight:500;white-space:nowrap;}
+.caption{font-size:12.5px;color:var(--ink-3);margin:6px 2px 0;}
+
+/* IA tree */
+.ia{display:grid;gap:10px;}
+.ianode{background:var(--surface);border-radius:var(--r-md);padding:16px 20px;}
+.ianode .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
+.ianode .name{font-weight:700;font-size:.98rem;}
+.kids{display:flex;flex-wrap:wrap;gap:6px;}
+.kid{
+  font-size:12.5px;background:var(--bg);border-radius:var(--r-pill);
+  padding:4px 12px;color:var(--ink-2);
+  display:inline-flex;gap:6px;align-items:center;
+}
+.kid .n{font-family:"DM Mono",ui-monospace,monospace;font-size:10.5px;color:var(--ink-3);}
+.ianode.flagged{outline:1.5px solid var(--p0-ink);outline-offset:-1.5px;}
+.verdict{font-size:13px;color:var(--ink-2);margin-top:10px;padding-top:10px;border-top:1px solid var(--line);}
+.verdict b{color:var(--ink);}
+
+/* gap list */
+.gap{
+  background:var(--surface);border-radius:var(--r-lg);
+  padding:20px 24px;margin-bottom:12px;
+}
+.gap .hd{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px;}
+.gap .t{font-weight:700;font-size:1rem;}
+.gap p{margin:0;color:var(--ink-2);font-size:.94rem;}
+.gap .ask{
+  margin-top:12px;padding-top:12px;border-top:1px solid var(--line);
+  font-size:13px;color:var(--ink-2);
+}
+.gap .ask b{color:var(--ink);font-weight:500;}
+
+/* checklist */
+.check{display:grid;gap:8px;counter-reset:c;}
+.citem{
+  display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;
+  background:var(--surface);border-radius:var(--r-pill);padding:12px 20px 12px 14px;
+  font-size:.94rem;
+}
+.citem .b{
+  counter-increment:c;
+  width:26px;height:26px;border-radius:var(--r-pill);
+  border:1.5px solid var(--ink-3);color:var(--ink-3);
+  font-family:"DM Mono",ui-monospace,monospace;font-size:11px;
+  display:grid;place-items:center;
+}
+.citem .b::before{content:counter(c);}
+
+/* callout */
+.note{
+  border-radius:var(--r-lg);padding:22px 26px;
+  background:var(--surface-2);border:1px solid var(--line);
+  font-size:.93rem;color:var(--ink-2);
+}
+.note b{color:var(--ink);}
+
+/* swatch row for design section */
+.swatches{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 4px;}
+.sw{width:74px;text-align:center;}
+.sw i{display:block;height:56px;border-radius:var(--r-md);border:1px solid var(--line);}
+.sw span{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;color:var(--ink-3);display:block;margin-top:6px;letter-spacing:.02em;}
+
+footer{border-top:1px solid var(--line);padding:38px 0 0;font-size:13px;color:var(--ink-3);}
+footer a{color:var(--ink-2);}
+hr.soft{border:0;border-top:1px solid var(--line);margin:28px 0;}
+
+@media(max-width:600px){
+  .card{padding:22px 20px;}
+  .finding{padding:20px;gap:14px;}
+  section{padding-block:44px;}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+</style>
+
+<nav>
+  <div class="navin">
+    <span class="navmark"><img src="data:image/png;base64,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" alt="Marn5"></span>
+    <a href="#summary">요약</a>
+    <a href="#facts">팩트시트</a>
+    <a href="#mvp">MVP 41</a>
+    <a href="#mcp">MCP 실증</a>
+    <a href="#ia">IA 51</a>
+    <a href="#schema">데이터 매핑</a>
+    <a href="#size">사이즈·Variant</a>
+    <a href="#gaps">갭 P0–P2</a>
+    <a href="#unit">단가 검증</a>
+    <a href="#design">디자인</a>
+    <a href="#ask">요청 항목</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="mark"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqcAAAB4CAYAAADPElvXAAA5c0lEQVR42u2dd7wkVZXHvx0mEIfsIAxDRjCRRFBUQAUFVxdZBVFXFANBUHDNEV3dXXcJgoqigBEDICpgAFFxQVGQoATJQ2aIAwyTXof945yzfV9N94v3Vld1n9/nU58XZl511Q3n/O6JFaBNf9ECqsB9wLOAp/X3/X6uMqKq4/YM4B/AHP250odnsc9dAmwJPKA/D8q8VnS87Z2aPf5fHVgPmAtsCDxT52cD/f2awBr6tQ7M7DGWI/oZS4HFwDLgSeBx4AngUeAh4JHg6+PBfuq1XqrBPmz7vqOWo9xr57Q+W3plsZauyXnAJsBGwdpcU/99pl6hDGkAy4FFej0I3A/cC9wN3KP7fckYa67XMxVxzlo57Ytwzho93nOuztc8YGOVJ+sDa+ucmRyZkZmzNrBC5YbJjIXBvN2jX+/X/9PtsytDIifqOv6fAj6msrfu9CIJN3i2yo+VuEERBryqSncj4I3AGcHicEx+LBvAIUpMG76poiqOSkaxhoR0hiqMrYFt9dpcFcj6Oh95Ep/FShweUqVzJ3CrXnfqYXBZF4JQCwRIawjnuTkAMsDkQPgu6wHbATsC26shYB6wLjAr8jMs0XV3px6SrwWuA27SA1XL52wlQmrvEb7L5jpXOwLP00P+hnpoSIGnlbDeoXN1nc7dzSpPstyhNeAy4lm6N2YEc+SIT1J7bowinIDMenoD8PwcT6qDRp4AVgFuUbLf6uOmGhTLaajsQ6yjCmM34IXAc4D54xwG2j2sDpUe34d/N5HfVYJrPGV+n66Ta4Cr9OvtGWWTwspVZNR0LmfmsC/+0ctiMMW9X8us0ZnATsArgT2U5Kw9iXU51pps9/i+Mo68Wajr7BLgQh0Dpvj+Nm6zgRcllnN/UVIdU36ZhTQko+sCuwN769dtlRj10pmTkSPtMX4eb94eAK4GfqfXtRl5UNf3GCSvWBv4E7CrvlsNR+7coF2Qyxb3vsGCd0wcNl6H6Dg2+jyfJjyf1tM+9Ce8YKrCqdv6ez5wLPALtQz1Wscjepn1qtWn8TdLTCN4pmaP/79CD4ffBA5G3LxZZVor0RxO5WC3GmJtzmN+3h5BznVbpy8CTlRr11hrsxkcOlKtvXDdZT/n18GBYKrkDl2nqedq12k+a/YAFBLBNYF/AX6o5D372Y0cZclE5q0N/B34Lz3IZXVQZUBkwWzE49QeQ2b6lZgbFOWBjUxdkhE+jslZ+K7RyXdyOrUxzCqgnYHPq7Wgl7LvJwmNoYS6rZXFwG+BY/R0O2hKqBc5vS8Ym2aCa7l+fcs0yGmWlK4LHKkWvuw82/y2CrLuluszXRCJnM5TGZNizux+u0Qgp9mD3Q56iLi7h0wpkjxpBbIi+29XAEcgnqRBkA+2rjbVA3u7RHLdyWli62kLcUdV3JQ+KcEHsE+BTnplIqdZa8ZGwPuBP3d5ryIp+xSEtRtZXYq4YQ9EwkZ6KdxBIKcPJFZIpuDfOkVyGsrEjfXgdH8XQlpUa4+trQsjktOliebM7jcdcprdI/vquzczY1ImmdLsYlW9DzgOSagjoqW5X7r0pW41dXLaTXB/r8SLu5+nvV9TDJd+WchpNUNKX4C4tR/vsi6bQyhAullLbgE+qNY6BmSfloGchmt1bSUCj2YIThnW6LCQ06xs2R+4rMtaKPsht5nRNw+qfJhd0gNsNjxuxMmkk1N76JYKm00ZP1Db0dn82wfuqFItwD6RkVDRvBT4aUZRDCMhHY+oNjKWkg8poSu7FbXo5DT8P4cAC0pMcAadnGZDLvYGLh2DzA2SjAiJ3N/03bPzVRZy+nknp/3lBtUCKommnrqO0Bdwcjo+2ogb2jKrHWOTeVMS2wPnqvJ4XbD+2iqkfO2NJvO1gKg+E0mKuAp4fTBu7u2IP+4NpKzNL4EzkaoQjWCdVnyoCiVbGkjZrnMQb9ZL6YSsVQd0jxgpt/d/rr77iUg5plZJ3tsyxrf05dxfVAu8wd+O1HNruvAdc/5aaj14g5ODCSn6JuIWPRFJIHk9o4vo13y9jbvmQiX0LCX4ZyHF25t4pY1Y42zr8l1I/POrApLjpLRYsHJKs5GQiyuBA+jEcteG5LBrJNW8oO8H/qBkrwyywYw7mxWYIzk57ePibiJFo9/mhGtCCuxwYFUn8hNS9K8H/qpCc0YwZr7Gpq6EmsCblOzvhTd/iHFAbwGrA98BTkNKDg0TySmTbLGOTi9Fstc/FcjjQbWUTmRcrD70LsDlOj5Flg1Wa3M1JNkQ16dOTnuRifcixaSbPlU9Sfwc4FAn8WNaNFoqcL6GWPk2o+MW9TGb/l411/N84GIkJMeUkAv3ya/XJrAVYnF6q6/Vwh8iAD4L/B6phezztfJ63gBx8+9XYIJqsmou0tXP4eS063O1EFfA6+jEVjlGC8Y2Ui9xAx0vJwIrC8YG0r/3MuA9uFs09SEA4CuIa7PhCnpK6/Ulul53cJJfeNK1EXAR8En9vcuW3iR+NnAe8OqCElSbs00Ceebz6OS0K9pIRx7wRJ8smohb+ijG6VE75Ip+P1X02wdkyd2i6eSJuTg/BXwBd/FPdr2+VsmOx+8Wf652Q1pcvkJ/9uoyY8sGI+7nIGX7inZ4NR26hXMOJ6fjnbasddxLKE+2X17CsQ28BtiGThaoY7TyeDtwPp3EOlf0+Qj4GlKC5aNIzUMnqBNbrwchlqXZLu8KP1cHIN0M5/n6nhTfaCPxuOch7vMi6q6tfKqcnI4HO7kc61Pl4zJJ5XEEcAadumqu6PMlqDYPXwT+GXfxj7de3wj8INjfftgs7lwdilj/VqFjDXRMnHM0kHCI7wfyogiePy8j5eR0wjDr6X5IyRoX2p0x2Q3Y3YnXSmPTAN6MxD1aJn4Z10y2cHEZCaq58r6FNNXw/bvyGC1T+XZWcOj0MSqmrlwOHIZ0kWv5ep42yd8LaeTRLMg4ehkpJ6eTEt4eW9mduHgs7srEtAm8EClUboqjUrB5s9JLjcxliVrtjDUhtCqEf98c5++LIl/aSEWJb/r+HYUZOh67A2cHstgVYjHnqoXUmz215Ifeosnr4yiG4cnKSK2BWHUdTk4ntIgtK/0ZDHcGnVmitkISJ7xcyWjBMgdxjc4Ift9vImrksRUotJpaD8KrliHT2b8l8/e1Mf6+lSGs/d6/DeDlSFmkpq9ZABapPDsPcQ97N7zi4kGkFedpdKx8/ZYtY11lkdkg3aO+VICDq332hsC6kfVHO5DFfo2+eqJekkXcQIpQH4pkAJtbYBjJaYNO/VcPxO+MSxNpp7lZH8elFZDQWhfrygrgIaQv/T3Avfr9w8BjwBPAEv1/y4M1XlMhPhNJlpmDJHmtr8J0I6T8ySb686zM57YDpVrt0/y0kX7V5yE9lSuUM1whlhJcH7GYrueEvdBzNYIknn42OEDkQaK6Ec7KBD8/7GEevkvWE1MEw1NTif8+SB1U+12/9uV8OqWvqhHv7ft7Zaw+1losC7Ex5XYYcBKwdAiVW9g5619xq2lWwO0EvJv8s/LbjLaKmkBbDtwCXAtcA1wP3KZWmKWJnmWWktOtgR2RShc7K3mtBwQ677Vjh6p5wDt1Dw/rAdM8Qf+pBwzfx8XXPScFez0lsQutSWPVSm2pfFkR6MGq7v96QGB7katm8DdFsNa3Eff+RX3U6d3KSFUjvFcFeECNEB7SNHpclukaLj05bapyeyOSYDFsys3co+9QpeZW09E4LufN3w6IsJGLO4HfIV2S/gLcMYYgzFpA2j2+7yZA6fKuprAW6HVRcDrdGdgX+CckvitUUrUc93AbOBrp1LWc4baerkUxEmrawdeprsFKjzU5KHI3JTHNejXC9bAA+Adwkx5070E8L4voeFjC/TVbCap5VuYibTg3U9K1uerQWpfPr/Vp/sJcgVeo7OyX9RTiZuqbfjgO+Lqr6AnJoZV+WYbLYu+uKdCJL09lVkFi0xbQSYop8nyZhe5pxJqXQnnZGng+nSShvNaifb9ID0t76/x0E77dYkpTrZNq5jNDzFSS+tPg+cNEqrzGbf+CHY5tTlZTK0c7hzFp9WlPNhBX9UiC/ZK9f6PL+rI1cGGG/E11789DPBH9GtOpXs2MHGkr+TwLCV97jpLNmJiFeFXeAJyCeHO66dh+6fbzp7kmYhxCftpFxk9njttKuq28XsWviYWXpFYOMU+bFgeyPfBK+huf0i+r6QFITExsi1dZs6gtQeztdFzH1cTr2dywjyKZu6epUulmaWnnvD67JUSEVtoVwC/02hX4OBJPl5cV1Z7vECT2dBitpuRoZQxJYzU4uIRo6QHrMf36hJK9JQHBNF0xAymgvop+nYNkN9tVG2MNhUkQw5z4lS0X9jBwARJ/fBnwVBcZV+1i5abHXu9lyTbPyi16na1ztQvS/OFAJEEvL1nQ7aCxt1p37whke97zsmmk/WlhE03g7szhyTFJAVYW62lbiSlDJOSMXPw1sE4Ufa5SW07DbM87MyfVVJYO+/4MxF0WEtJ+ucUmO2bZ9q0HBdbCkZzWxJNIe04KMmb9sJymtsp1m8vHgT/qoeoItehsA6wzDTIyG4mD3wp4kVrlPoi4MS9RorG8y7NcMGSW06xn5yokh2L9LoaIMG409joPPSsh1gc+kln/eY6nrdeP5GQ467b/5wCPRFpL9vcL9eAGHnNaCHJqE3MTEvQa+95NtaAOQxacvd/LExGwEeBvCYR7anJq4/LCHBSTjflTSuYIBGhZBU5oRdsEuDQngmoHqzf2QQkNMjkNy4eFv7sKSb7aJzgQTIS89Cp3NtnwlJlqDdsX+CTwMyQp8NdDRE5DY8JlSMe0SgEOtzbf4R58BvDVHs+exxhdSf4VBWwtbRvsn1YknXG1E9NikVNTcF9UIRTT2mf3/tY0hVuZSARIjFZMYWGxYFcgPdBjC6LU5NQE6gcSkyp7j0eVCJedlPYax5l0XO0pCeqIjulpTk6TkJ+2HjY/hcRid3vXbrVxK9MYu171e3t5tuaopbUSQS4WmZw2M4aaA7vsvaLIkUpmL+4L3J8zQW2pfNg6M8d5GYBeFfF9TYaeOyQ8pXTk9NN6Yo+5wM3d8LQKpkHu1GGn6ecSP1jd5uPNSAmm2KQkL8vpWQkJlR2qliOdfKBT4H8QrfM1JFs2pUJqBgSqKDUXy0pOG5lxPU8VbL0LCepX2Ml4SXqDSk5Hgjn6d11bNh5FJiohSd2UjletkeOYHZbzwdU+58iIusTu8V8FOoSX0iqXCmup5fQe4gU4W73PVXURD3pnlTbwPuImf9mYPQ78GGlwUDbYWtoyAfENP6OGlAK5TInpyACuMStl00TCFu4lXUJCJZi3DfGWplPdv5a00ga+D7wAqYLwKzpl5kwuhu7+fjxr2LJ3GFp/2vjfCLwU+IQe0mvknyQ5lfmy51+AxCXfSCchOQ/sFTxLntg6wT1vc3FVTHJqVqav0mmrGOu520hB7zmBwBu0uWkhBdQPIm6xbhuvM5VszS7Z2Fh9zFlILb8U5NSI6V3ACXSqAQwqWqqQHtXDUKoapCYHViF/992gHCTM+nYxkoT0FiS2zSyU1lWvVdB3aBf42WIcGupIG+XdkAS0emBUKRvBfghplf1YxiiQko/srNwhL71ucm6LiLrE3uX2PhFtJ6cTUHgoCXo8ODnGIm4bqGAexC4rRsDfg7iEYm1UG6ulemhILXBSYnXSZULamPwQSeqrDoGAaeja+AnSRCBVqbZWxlLhltPJzc9CpHza3kjMeC2QiU1cEfaLmJps/QxwMFKVwsoAtku63upKsN6dgww0ObAJkkSXl2ww3bpppM9sB8aMu52cFpucLkQSmGKeHs2yc1RwyhoU2DitAbyLuKELthHPDU51rRKOD3RqLqb8jD8wXJ2M7L1PzeGztnARPGFlZ5btnyGWpW/RqYHZZDAtkWUjplUk1Ow4OhbssuslI6jn6pWytriNVw14dk7k1O6/FvDMyJ/5CBLD7uS0gOQ0XABfQRJLYltPt0EKibcZnKBjG6ODEbd1zMLVNm4nUn6LVcpOYWaJv5fuxe0HFaZ4LqRj+Un17vNcBE/ogG8xmh9ByhDdq7Ku5aS0MAeHKvA2pL5rncGyYNsa/DDpvUh23+fkTE43UoIa4zNbge54muFt01wKcjoTsdL9NNFp8tjMohgEglBH+pDHTBixxJffIjFqZc88b5A+DrQ5ZDLBLEAPI679FPvK1vP6A7ZvU6y9qh4SXoNk/poLv+HDU4i9Ypa+dwLfUZk6aHNj5Pt2pDpKHhbhbTNkNTU5nR/xveyZF+TMs5ycTmMRnEhcF7VlEO6OBJ9bEkuZUdcxejWwHXGtprYRjy/5prHN/5Qq7kbCa1jlQgX4U2IFsXZOCqisxLSGuAX3RCzZZpFzMl8sI8KHgdMZ3Goeof44JbGeNR21WU4H17B6SGxZdGvmMxwFJKcW5/hnJIavGvHkZYv32AE6pYIUl08xB39DsnzLbH0xa/JTwGI6fb/rCa5hLZ5stUhTCNewrqiT0+4yoAbch5TVuVrXoltLiwOLxTwVaTZTH3BiavrjWjpdnFJYT002bIh4XPMqNbdVgnt6GalpIM8YTYt1PAF4WcT7Wkzca3WB3Ua6Go2pYZbgXZD6eLFPqBXgpODEPwgE6kg9ZTcTHbbuGUICZXvnjsSHWCP/pvicpHY8JY8hBfX/4cS0kEStDvweeC9pk4SKBNOr59BpG52KnK6t18IcdAjErZftZaRKRk4bOvG/QIr6bkscl7XV9JupguJ95FswOMVmOSY4mcYgBjbO9wI/YnRWZJmJKXR6dOf1ecMAe9eHkASI2YksGDPpuKodo7vL7A9c78S0kIeHChKTfXAgW9tD8u7Q6SKXQn+YjFk9IKcpD66mY+dHIqcWtjiS0LARdtabTpe9MNG3cEm/ecccWs23L0VecGY9/VdgPcpZlN9OpZurYoq5+U2gfg1YQtoMbPqwpuoJr2GOF3pKL0c+sAPj4Uj40yAm1wzCAaKqc/QAnaoJw3RovQlpTlJJ9O52EF4nEmEcjwivQ/wW2w8DD0Ygp9nWv8abrFKHdV6bytUM7tPuok/71fIYyN+1a6TxB0ih4lhlksx6uhbwDjoxQGUS7BYDeiTS+agRaX6M5D4JfJPBqL2XXVOONFiKlEJZH28zmsc6rgNnMBzJNWU+PJyP1PwcNqu26ZIVwDVI0fp2os+pkL6tthG9jZBOkzFknIXi3YsYgiZrhLPyiG16Jz/OAtZVuby+fr8eEsO/hn41Umvkc5nK8iVInsbjSDfAx4KvT/fQp9aRrp0hsgNFTq0W6VPAN4BPEc91bRN6BJJRuIzyxLEZYVwHOIT4rUrrwPcQF8mwxEc5po+GE6RcEJbqOZqOh8lRLGJWUWL2IdJZDcugqwCuo+PhSzHWkK77X/ZdNs0QyxjPfqd+nchezjbTCNfVfCQE8rlI7dctlUwbGY2BZUpOFyLlr25FrOM3Ijk8j2XewZ43aZ3lfiTFmIv560iG/WqRTiw2ufOBA5SMleVkawv4ECWojYhzU1OCcQqedOKYvKD1skX5jLN1F3qawQq7GRTYIf/7SJLasB/y/5GQONraXy3xO6QsI3XbBD671oWQbga8GNgDSYzekrG7IJolsz2Fd7fmHrOR7ljPBHbI/L9HlKhapaUrkXCFVsC7KiSwqPaLnNaA+xH3/rsik7E28H4VImVQrGY1nYW49GPWgbVxvcAFqsNRWNJTA34M/AZPgCq6AeG/h/yQb+99V0BOUiGvJjEpykjd0uP31UDn2z5/HtJkY19gJyWLWc7UypDKkFzGmtN2hujWEAvtS/T6N2AR0pzlQuCXdGq5Gp+M1hmt2scFXgFOJm7WuFkcdkLqA5ahKL898/5IMlTsVqUg5bs8XtDhKJ6iryJutY8xvK7iMhwgKsBFiBWpOsTzFFbyaCQm6qnJqc3hFgHxi6Vz78yMV+gKbyIJWEcClyHxu59HLKazA+LaCmREmKRUjazPQ6IbJkTZ3NrzNJG8nr2RpPa/I9Vy3orEBzfohCRWYg1k3jDX/vXAr4ibpGOLoSxF+W0sjom8yS2W90+6AQYtEcrhGBTS810k3nSYSU8ZcDrTK90zSOR0EeWu5GEHwRrxy0itAO4O7hnGZ+6IVM25HviyEtJqQP7aAUGsFmCtVRhdLSAkq7OUqH4HadhyHLBx5j2mjHqfXxqkleZ+ESfBBnAfJIj4eorrzrbn2gOJL0lh6T0hOIi44iuvIO31c2Wc/zvVz2sz2v0U06Jv92oGgm86Fph2SQ9eFg9+PB4PXmQyVkMshReXeK3FxhIkPnrtkr/HesQrI2Uy8yG9wmSoFyNdH18XyNFmoJvL0hSnEnCUMCdhPpLgfpSS75N0DCpM0SPUz97qZtn7PfHboZnSe19JBP6xgdKOqfxvBX6OW02LtLFD90m3Gq32+/DU3M5cLUbXuQuvRoRrJPi6pj7XTOLVjrV7raVKLvzMqdbrKxvMJXoRcLMfHgsLW1sXI5ZCT1YTrFBySknHw2TrRkjB/xhJ2TYODyBl+JqIpfQcxHu5Px0raTuQ9WW1xFeCd2jre60NfBQJVTgs0FeTNrr1m63bRJ0InBXZItEGDgQ+jSRfFU34Ww2y7YBX0ymzFeu0X0Uy9FfgSRZ5k8+s6y9bH649hX06Q0ndKvr9KsCq+rtVkcxW+/1q+vuZiOtltl5GimfQydJsBf+3G/4TqZEbuwuOrfczmXoPbTuELQA+Trmsj/au7iouxzz9yudplOxqqW4pK4wPbBq8T6wyUtcgdVP/A0n4rmdIWn1A94m9ZxPJ/D8VeAPSufMmJunB7vcgWczVeUgA8abELcq/OvAexNxcxJambaSuoZHHWEX3q0iHiu/iVtO8SKjF2YxFjmap0FqLTuHkdfTr2vr7tXXdrqHXTP15VkBOzfqYh+fjo3Tip2JjNlJ0frq4XclpmRS8uYp/g7uKiz5PI0jsvpdWGzxsNUWDQS/CC1KP9K90Eq3Mk1sbgvHMktS9kDJURwPfCowc4453vQCbv45kq34F+B/iF+V/J1L+Y3GBLCt2apuL9GdOUXT/dCRo3a2mcearwujsxXYPsvUMPTXO18PWfCRIfEOkm8daSjZTlAAhoqA1zKETnB9LMds4rq1rdKpuNTvIPl6y9WR79BI6rmInp8UkpxU1nCxIsLfKjkEg6jHLSJlMf9EQktJeJLWpRpYzkZJZxzI6Sayw5NQmsKKs+mOqsGIW5d9QCeDXC0TULJzh3TpxsVuVLkVM6l6aZvpktNFlDGcAm6hgezbSwWNrJaMbIFbOicxVr8LFlQl8H/5cSbw/G4nIaZgQNR1yWlbhfxHuKi46+aoCNwRr1Q8Rg0WsN08gQ+3eNR/mURn+x6jePBjxRoypU4pATs16+qgS1GMjkjVTgkcjlsQiCBZzs6+GhBzELLpvFpmzEVesC9PJEdKwhVyI+Xrq20mvbXWTzZgg8ax0IZIVF15Di7quj7/gruIyIGU3JEd/dHBL9+EmCea26kO80njXlZAeAPwESQ5rMoY3uyiBuVbr8ytIYdqpJkh0WyRNOklH59N/66mVlzgIcf/GbEJgJ5GTXJBOeNN0ayG3CbAbUuJrV2AbureQG6tzhxNPRy9ZVwXuQ2JlwV3FRcedPgQDifWJV0bKMT5mKEHdD/ihElXLBWoXmZzWgDuQ5KiDiNvSFMQie34BrBTZMleVyPe9GMkWNGLu6E7isy3kttNNsx+wMyv3dW4G8xWWhPJTsmMyMCF8G7AcLyFV9MMrSC9xP0QMlvxvIrkAq0bWw6llx0QqvlR6fC0SQX09UqXpGHoYDOsFFAYnICWgYil9Y+YvQwrdX0n/3N32udYgIKbVNGxq4CfB8UkpSHzo/sCbkCLJ9S5k1P7GLaGOmOT0jmBNOjktNjld5EMxkPO6mX4tYpvzVkBGTf9MNT69m4evn0aVGUpG349UNfheN05WJHJqWfpXApciLtVY5M3iS45RItJvxXRsorG7DrGcevmolYVRaEl+DhLveyDi2jE0GF0k3+FIhft8CEpDYpb7UAwkYpaRisENjJDWe5DHxcBjelhahFQ5Wq5/M4NOucE1kUTrOXrVutzPkpRM3+VtzDKj4VeBy5FqGKMO6vWCCoPjlZzGHIg2YiXbHIkhyttiYZOxE7BngtNaBTGTGxH38lGdcbfuSc8F/k0PKDMCYg/laiHnKD8e8SFwOPqKLQtCSE1PhXzgbqRf/TXA35EwoAeRsnnLJnDvGUpQ10G6YG2OhK49D6kws1FG3zXIt1uVJaWtgbQ73SdLoIumjI3J/wop37EdcYvyz0ISrj5Af4rytxFTtpWSimFat/G5B8nSd6tpZ85tLDZEirS/i04npAbDW4PO0X8s9SFwOPoC0/tbBLoibx5glXVM/zwJ/BEpL/cH4MZxZES1y7OH3btGECvrY0psLw3+3+qI93AvJFF8t4ALmhc2jzGx5PC9kU5SZxO494uYzGEP/CXiFs036+kheppo5rgozUo7H8lQi1l03yodfA3pU+69nztj0ALeAVxNpwqExZLW8bhcR//grmKHoz9GixZiWZyXMzkNXelWWuki4FA6FYVOROIwl9KpAV1ndO1t0/stOl7BbMWZMLY0e5/FwBXAF4CXADsgrVbvo2M9zcvAZc2SvkCnnXalqOTUJu8HwP3Ec7/bgK+jBDUmQZzoBByBlCSKRYztHZ4AvokX3YdOV4oNkXpqpyOduBrBeDkpdTgcjuEkpyCd/ObmRE5DUloDHgC+qKRwH6SF8310Qsuy1WSsEcyE2n4Gn9kOCGx4n0pAWCtI2MDHkLC3DyFtlc2CmdrQZfxuSzLdMotITu3hFgOnRSZcRhKPRFz8eVhPbZGthVjxYrcqrSDZbg/hmb8Wa7sn0s93/4CUuqXU4XA4nJyClJGaTfoyUiEpvRv4oJLADyOhi9VAN7UyRDQ1WTbdaM/wONLqfQfg23QMOXlwijaSKG7GpcLWaDR2f5qS1FiuaiNvmytxycN6as/+r8B6wbvFIvEjwMnEDYEoMzE9FKlYMI9OrdxBJKXtzOk46+JpRLpCl1DsqxbpGT3G2uFwTIacbh6Qx5QEsIbEk34a2B74H6QbZj3gI40+6257Bgs3uB/xLr8DSb5KbfQyjvRsxLDUBupFJqdVxPx9FvFjINpIWanUpwJ77pnAUcQvul9BGgvcwnBbTY2YfhgJb7CxKFv2fZZodiNh3TpSWTOAWnDFIpBP6meviEh4R/TrImBt/ZwZU3i2mfp1Hde5DodjEkiZqR9aS88GdgQ+i1gmzVjSKKC+bmdI6plI2MGiHPiFWYsPsWcpsvI2IneyMvhYFk7L0t8FeCmSxZaqKL9Zhl6rmyF2q1KQpgXDDCOmH0WCqs3aV9SQlfAK5zIb8D4RAbgECZx/Wq/F+vOTSMLNUv3dch2XZXqtCISjrfsR/X0lc7j6COL+SrG3lyJx2JVp3ueR4GeHw+GYCDltMbqc03Rhxihzkb8P+G6gp8KOhEU3kjTUYPAH4DWIN3IW6cIgLITgVUht1ieKTE6tDugNwC+BfyJeS1OzzH5AyWk74TuAxFLE/Awr93C5XsPaqjR05YfEtFKQDR4KvpCA9sJiJLntMSVcD+v1ELAQcQdZeZDFSkKX6pVK6H0OqYmXAo8rOXU4HI48YHpyW9K0n64j2fYHIx7NWkD2yoYRJaiXIwbCHxDXwJYl9i3EC7Y7cGFZ3J4nKDmtRlxAbaR0w3bATcQ3W5s1dnekjliqovswnC59s0rvipTRavaZmIZkNGw3V81s9geAu5BGEAv0ugcpsPyoktMl01gTofW1Mo372An5CSSztRVx/9m9FgGrIZbd6cRMt/G4U4fDMTG5ZiUF740o10zuX4XklyxmMJrhGEH9IVKP9O0JCaqN4SvLQE7NQngp8BfgBREHxszvRwOHkc4NfGxGIcdS7LcAP6cTvzKMQmZ1pFJBnXiJZpMlRWHLuZCMLgVuZXSXj9uRYPOJdPjo5eYPQwLaXX7fjji+YcmRFOQ0TIga9oQ+h8ORXl4b4dojwb0rgWyvDpBeNh72QSREcR3SuPdN3+0G5UgYsUk+Qdl7LJi5/WDgM4jbNJYF0u6zDRKv0Y441lb64RTdZMPYqtTCGD6HdPlo5LyWLWkp7PAxAlyLxOj8rxLSu8d4/uoYxDJmHJTD4XA4RsvbZYnuHRbJHxSYrnsUaY702UQ613Ti1sDcMpBTy3z7KXAHsBlxW5qugbS1/BzxWppa/MRRiEk81kQaMX0ICbQexlalRvyfDbyXdC6GXpvUSnhVEXf0pbo2L0Gs2d0OQRW6l35yOBwOR/5I5WUbVO+PeSa/gRTqX5341lPTk2sB21VLMChGBpYDXyZNUf73ILFvMYry2/NtALyFNEX3T0diAYexVakt4M/QiR3Oq8OHuaJvBj6BFFPeBzg1IKZ1RlcLsAzNJumLKzscDodjYjI9xTWoMIPgg8CvA92W4nMoCzkNSdm3EdNy7KL8GwEHRSKS9mzvREoixG5VukTJ0DC2KjV3/rOAfyafJgphzbrrkGD37YHPIzGlYcs5WLkeqcPhcDgcZYfFhJ6fw2dtXRZyaiTkMeBbpCnK/z6mX+/UnmtVJMmqTbwkEiNJZyPZ3cOYoW9j+U46deNSt56rISWPjkYS8r6LxCtlO3wM4lxU8JavDofD4eh4/q6gk1CeCptWSzYwFeArSg5iWU/tPuainY41zu71BqR9ZswMZyNCJw0pYTDiP1vHF9IW2reaqZcqKbUENIshHVRCGmI2Eu7icDgcjuGG8a0FwH0BL4ut5wHmlo2cVpH6kD8hrvXUBv3YzM+ThcUlvp80Rfd/g2SED2siVBupa7pJZOLfjZjWge8AL0dKQNWDuRj0uFETEOvrBW5BdTgcjmEnp5YIfNc0udJ4umftagkHyIrPx3SZW5b+nkgf3KlYT81q+gokJjFmPKRN2PFDTBTsnfdJdGILDwJ14CzgbXSaJzSGcKyfhRSsbuHk1OFwOIYdxrnuT0RODWuUjZxajOFVwO+I27bTLHHHTHHAY1lfe73ztYjldFhblRoZfUlCgm5E9BqkE4YVwh+28bax3SvxQcDhcDgc5cOjie9fL6vlFKQof0yY5fMAYD6Tcxvb3z4fab2VolXpSaR1ZRd9zlto/bPMCS4W7DDRAA4FVjCcFRHsQDQD2D/RWDscDoejvEjtSSwlOTVL4q+A64lnSTQL2SrAEUw+bKCNxJrGzKI3Mno38GOG04oXHki2ANYmTW1Ti+s9C7Gc1od0rO2g9Spgq2BcHA6Hw+HIA+2yKh0r+fSlyCTFFPM7ECvdREoVGRmdB7yRuLGmFut3KtKrfRiL7hOQo82DcUlFyk7B+7xXgE+6fHQ4HA5HF6TuLtooKzk10vhDJDA3lrXSLJPrIcXWJ0I0LYv8MKS+aeyi+4uQjlDDajUNsWkwNjFhh4CbgKuDNTaMAqeJtPN9Afm2hnU4HA5HObBu4vsvLys5NeK2GPg6aVqavhfJVB6LbBphXBOJU0zRqvR7wMPBcw0z5ia6r62dPxI/XrgssIoEWwH/w/DGNzscDodjbF25YcCBYnM7gCeqJR+kCnAa8BTxW5puBbx2HMJpn/kW4BnEK7ljn7kCOBl3MxvWS3z/G4Z0XC1ue3WkA9kaiQSPw+FwOMoJMwLORGqNp9QRj5adnFaBB5EklhQtTY/NnBaysKzmo4ibpGNW0/Pp9G8f5nI+RsxXSbjp0LU0jMS0pev4HKTihCdBORwOh6ObntwE2DgROTVdf1/ZFZARwpPptJuMAbOI7gbsTnfraV1//xqkWHnsVqUg5bLcetXB7MSntaWZDTLoqAUn4fOQBgcx95HD4XAUhVilvIbFkFFBGhVZfkKqd7+j7OTUCOGNwC/o9DyPdW8Q62l7jH8/JvI72YRfjsRAeiLUaDJVZvJbJMzQdbUuUpZtPzptWx0Oh2OQ0E58DdMY7hP8nOIQAXDzICmiE5AY0ViEO7SMbgPcQscFahan3ZCORSmK7h8fnFa8Q49gWaJNYffbcAiIqZ1+R/QEfJaubyemDodj0IwZTWAP4IvED1eyWuj3A//CYLe4NiPZasCrg/FNoZ9awI2DoIxswf0B+DOwC/FK4IQxpe/NLOw2HatpLJe+3edm4ALcapo9TS1L/Dk7DPBJuEInIx/gcCQr38qfOTF1OByDihckvv8LEU/noLYXN92xL2LESVFm0MI0FwK3DErSg5VZih2jGWbjb6Dksa5ftwReR5qi+6cglq1hLbrfC4sSrh+APRHXfovBsaBW6HgBGsDWwM+AryoxHdbSWQ6HY7BhuvNOxLDRTHCtUBl6+IDranu3YxJ+hnmIbwCeHBRyanGaPwNuJ35R/jmMrmM60Tqok52YGvAQUtvUraYrI1U2vZ125yH95GMeOIpCStcAPgFchYS/NJl8i16Hw+EoG6F6QK8aHQ9SrGum3vMNSHjUINaHtvCI1yChjKmas9h8Xc4ADaKRieXAl0lTlP9wJN5iBVJv822ksZp+E3gCt5p2w92JyVwb+Hed57IKmWqwdhqIdfQw4Brgc0pSm4Gg7jeB9moUDocjJS9YQaeGdQqdahVPThjAA7/J51lIGFjMkpnddBfAbxmwQTQL5reBR4lflH8ecJDe813AWsRvVboEODUyuR6kE/DtwUkuxcZoAZsDZ+j3ZXF5VxErqa2bJtIU4gPAtbqmtqBjLe33O9mema1C3eFwOFLKmj8kJKdmWdwXeI8aBWYMyPhZyaj/IK1l2O57P3DloJFTU7qPK7lIUZT/cKQQ/Hsin5CM5P4YuBfP0O+2cAFuA54mXccsEzJvREIrVqGTLFSkvVLpQkgbOiYvBL4C/F1PulvpOxjRLpKlcg6wTkaJOBwOR2zdcXHig7mFhp2MVPAZGQCCOkPf40Ak1jRlDeyWzs+FSL3xenUAF2IFSfZYRjzrqSn15wOnA/MDghCTFJ3kSrrnweD/s/gSnoDDuXgzEvvyYt2URu76RfDMXW9xpCEh3Qqpx/sn4ArgCGD9DCktGrk2V9jWuHvf4XCk5QR/R1z7qXI5TIbNRHJfXlBygmrEdE/EG53ai2glDr9v+n0QyWkVWACcm2Ah1oE3RSZGZjW9GLgOT4QaizS2kXIdbdJalo2g7gD8L3Aa0gXMMjTbAVGtJiBWoWU0665v6M/PQ9z2v1fBezywq/59I3jGaoH3KogrLGUck8PhcN3RBH6Q2LBhHs+1gYuQYvUj+vuycC1LpB3R5z8fiTcloYw2DnQ9cJlxoEHN1K0AJ5ImODl2mSG71wmJF0DZYQLll8S1Wo8l0Gyu34UkFH0f2BuJlTSi2grWWT24QvLa67L/E/5NhdGWUSOaGyOVBE7RQ8x1iNv+ZSo8GgHhq5dgHYVl2tajE6fl69/hcKQ4CH8XcRmnTDY2groW0rXyw3TyF4oWHtaNlFoi7WFIrfW8koPN4z2qEkCKVl4j+vWkQFnmCRvI3wSD3S7gZYTir306Xdm8fCQzbzEuI21PI0V7p0u87W9XR8qChJ+RxzyFP9+GWFMPROrdxl7fqwHb6f1PQlz1i3vss0bCcWjqZzQTj+uFwek83MOTuWIcEFfLYW3ZHntrn2TjoMDmfJ4SjhRzZvfbJThQOTq4NpATKfbIERH3iM3dGQl0Xa+1Y+vnEmCnzLMUJf6/khnfuUi+RfYdUl1m4LkfqSTz/yFegyoYQ2vkywtujakoAQkL/Du6W05rStLOBY4kv85GtWCzVpDM9y3UojoC3IXEwt6q3z8APIyUBFuKlDhrBUp1ppIxSwjaQJXspsBmwCbAM7us27A2aSXxu7dyODCZdXpfJFzji0iYwkLfBw6HI7L+qAD/ieQT1EkbTlQJZPZeamA4Q3X9TRkDUXgQyotzVIPnayDewEOBj9PpAFUlPXcy3vPfwFP6fWOQyakN7K+ReLznkK5w7HSV/13AOXis6UQFDMDXELdDnpbmSrB+WgFRnYFYT7ccZz2G5LQ2iXXcDoRJXuu3obLhBj1F76/WoxTuHXOD7Qj8EOkCdhdSdWPFOMLRnuc2tbKkquLgcDjKDUvouQX4OtKSvJEDB6oFRpR3I/XRfwKcqQfxkYwstLrq4TVdvRVeZq00rrEe4qE7AvHWkSNXsjm5Q+dkVOvXQXYpVXXxnYRk2Bdxs9SRGpRLwxODY9zFfD1wHvAvOQmYbmurGhDmrCDJCoRal83eSwBl/y5vWIbpn5H2vAt1jFOR05CgtpFYrbUm+ffzfWs4HI4J6I8q8Bmko9MG5BNPGXreZiFJ1W8C/oHEpf4SCe17nO4eoyqTr2iSDU0JMQd4EfB6pFvgBgEpzdMIYhzo35Aa77Xw/QeZnFoG2I+AzyJu0qJ0/TEX9SLS1GQdZJgl8RO6sWr0N9t7IkKjPcZptkjj2lRi+ks9TZubZUHw3CkJP5O0GNh+ftK3hcPhmICMqwKPIe3Hz9GDdx6coMLK4WHP0utYpG35tUh76WuAm5Ga570I60QxE4kj3QrYWUnpLvq7LFfK0xhi1uSfIoamWpYD1Qd8IdaRhJyvIa0bmwUhpzYx30FiE91qOrnTVk03738jMTKNgq/lSgnG1GJYv4bE87bo1Lq7kfy6ZU2GtOcd7uBwOMoN073nIoahd+SsP7qFh1UR6+XeehkeBR7UayGdPIZFKpeX0SktaN32LI9hLmKQ2xiJIZ3dReaHtbvz1jdVfZ/D6YQyMCzkNDwRfAP4IJIN1u+aimG/3y/jrUqnQ1A/B/wTUvOzaDHFZYEJ5hE9wX85IIh2YLoDuA9J2iqK98HhcDimygtqiPV0R2D7PumPbHhYK+AnNWBdvZ4dSWe2ggN9v2qv2nvW9WDwIF2spgyBkjEz/kKkRmUR3OdGmH+OZHd7q9KpzWsbyYJ/MxKv4iR/asKqjlih91RiWsuMcU1P6FcFf+dwOBxl1x9LkbjLhb0IUo4wQlrPyOCw+cpkr251uPtdwsqMIZ9B6qjWe417dUgWYgXpeZuyN+xkTkvQKbrvmDq5suSoQxidVOMYez80gpPzN4EXIq1aTVBkE7RAavU5HA7HIOmPO5HchcVkEnIKgDBsqT6FK1UHw6nCkm2/CxzHOOGM1SFZhFUkM+4CRrsr84bFvP4v0ge9iidCTXc868DZwPvo1Il1gtp7vCy29Dbgn5FarU+oIGv02D8Av1Lh4kXjHQ7HIOmPvyDhYU+7Tk5OTC8A3j6RcR622LETCvLeJwzp+KeAuQlOBo6h47ZwATNaCJulYDmSSLYz8LMJjJcd7m5HCkm3fWwdDseA6Y/fA69CMvl7HdQd0yOmFwIHMLrr1NCT09BieUWfyEuRLLiDKmBOQnq1L3MBsxIprSLFn3cBPkTHWtpkfEuzyYkzKX7lAYfD4ZiK/rgM2APxKnkFnenDQshmAD9GmrlYY5VxvZvDZLkLYz0rfZqoIsW+DqqA+b4KmBvptIZrDplAMMJppPQ3wCv01Po3Jm9dtnCAc5DWrJ585nA4Bk1/1JCOki9GuktamJjLuskjDCE7Aamb3ZiM7qgO4WD9TE9GeWbJm9W0SFUDBpmg/hnYFThFf2+B7oM85q1g8xv5vAhxVb0SSWiyJKiJWEuzhLeKFOX/DB6X5XA4BpMj1JCC+K8C/j2QmQ08l2GyRH8J8E7gA4wumTUhDBM57Wd9Uasv9g2km03NF3ryjfEUcDSwO3AxnazH9hTIWZHXdCM4/NRVIJwFvATYRy0AlYCgT3XNm+A+DekgZQX6HQ6HY5AIqmW4fxLxON2kstWNSuOPHTpWf1Xde3qgeyalc6tDOHgV4NvAIzmRRCPF1qnKXaL5zXMN+CPSdeM1wO8YbVlslpCotgJCam6TqgrQTyMNCd6MxE9lCXmMz67q/a8rEEH1g57D4YgpY63D5CVInP4XEcPWMHjhpjJeZrwYAb6AhEZcwxh1TJ2cdieKi5TR53ESMqL0I6TLjhfdz2+uw1PwhcBeSLH579GxYIdEtUGxSlG1AzLaCPasEdL7dB3vg3Q5+SySVV9LJERtXB5Xwn+ZEtR+xPXauFg5GIfD4YgJ88ItBj6M1IP+eXDoH3aS2gp0bA3JbXgR0lJ8OZ1wiCmhOqQDWgFORTpEpLaeWkb0l/BM536ego2E/h54K9IS7kg9Gds6qAdkNuzKMaHSFxFIaPYzKwEZNQJ2E/BVYD9gOySm5yI91dvzNxMKTbOePoS4vE4M1nk7EcHvRdJnBodNh8PhiI3QC3ct8Do1Bvw2IGVGZIfBg2OGiFbw/tcBByG5DVcFunZaRrh6ogFtJ1bm01WuNeAu4Fyk9FCq4uJm6r4IyZIuciJJ7DlrZ74WQcgQCJN7leR9FdgUeBnwcsSFs8UY62EsolqZwHhk/7+R4W5/uwLpa381Ugbtj8ANmTVUC56rkeMequrp+Fgki//jwL6ZcQtDJsJ3rExgvbQDEloNxspwB2K5vVAPGJVIa63F6B7XKcbOG0WkG9OYc5ZqDQwSUUmRzV60PRJ64VB9fpGS1KOAVwdyrxnIrcoA7rGwverVSPWhs5RDVYjoja4nGsB6cNooKiqI1ectiGuSROMAcPwEyEu/x6ISeT1UMmNQpJNwSHpawAK9vq1rdgvguUj85rbAlsBGwLqJ1vQS4GElzLcpAb0eqYl7VxfhX2e0tbVfwsoI4x8RS+4ueoLeB9hmkmM11rpbpmT0GqSz2hU6RssSvNcqpPUozSzovigrKjpnKWWrN0vpjlmBHB2GPdIKDAItJNn018COSNejA4ANe+iashHVdqBjasE8jygxPw2p1x6OSdT8jTqSqBMbVtJnWUEH3k5BVyMxJK8gfu1Rm9S/Ii6AImf6rdB10IgoEMzqsJTiWtBbGaJqJ+Rb9Do3+P9rAhsAc/V6BrCeEtY1gDl6yKkHX5fpZ6zQcViEVBF4BHGLP4TUDV0IPIpYIrshdJOY67yIFoW/6FVVcro9Ej6xJbCxjtXqqtRm0EmoGtF3X4zEsz4I3K1E/Wadi7u7rKPQatyO9D53AOuTzmpme+xJ5zbRxvM2XVOpLKfLfJi74m5gNTqelNh75IkC8weTP23lEVcjCan7IjU991BZl9U3lYKS1ZCMhknDNq/XI01cfoTUECdD1KNzm4oq2lRYUmAhbItjthKLVHhKiV8st2MKrKYEK9Wif5jyJIFVMleeyT6ht6FNscNjelmYxgqCr+h+mxmQ+BH9/8v1GutdsyQ9xbjMzJFUeWJknD0zI/FnjOBhGN0wIzHJShk7H1vuZY1P85Awsf2QzPUNe8iAbjonNQklIKJZvRM+298QK+kFiLcqawlOGnrh8TQOx9RIa69Nn/2+MsZ+a2eERXvAxqra5VQ+kb8NLQtlJOkOh2M4dUS1i6ybg7j+X6JE9XmMbRRsTUKHjEdAu+mvXgew24ErgUuBy5GwshC5dszKk6kXeUHhYzDU7+8ozjprD4E88D3h8svHfbDHPRsqFmINYCvgOUpUt0OScucCayUe1xXAY0gZwluR2P2/IW77BYyd39AepMXlcDgcDofDMcwkPnSFd7M81pA8ho2QkIB5+v1cJFZ/XST8blX9WutC5EeQuP2lSDjlY0g+w4NIsu09SJzwA0hsfzdYzkluFtJe+D9cuZAIMuukpwAAAABJRU5ErkJggg==" alt="Marn5"></div>
+  <h1>카페24 현행 감사와<br>일본 이관 설계</h1>
+  <p class="sub">marun5.com(Cafe24)을 일본어·JPY 단독 Shopify 스토어로 옮기기 위해, 지금 사이트에 실제로 무엇이 있고 무엇이 없는지를 공개 프론트엔드에서 전수 확인한 결과.</p>
+  <div class="metabar">
+    <span>대상 <b>marun5.com</b></span>
+    <span>감사일 <b>2026-08-23</b></span>
+    <span>방법 <b>공개 프론트엔드 실사</b></span>
+    <span>Admin API <b>미발급</b></span>
+    <span>MVP <b>41 SKU</b></span>
+    <span>플레이북 <b>v1.2 연계</b></span>
+  </div>
+</header>
+
+<section id="summary">
+  <span class="eyebrow">Section 01 — Executive Summary</span>
+  <h2>이번 실사로 새로 확정된 것</h2>
+  <p class="lede">플레이북 v1.2는 제도·일정·리스크를 다뤘지만 현행 사이트의 실제 데이터는 비어 있었다. 사이트 전수 실사와 발주자 제출 <b>테스트 SKU 41개 리스트</b>를 합쳐, 아래 여섯 가지가 추정에서 실측으로 바뀌었다. 그중 넷은 일정과 비용을 직접 바꾼다.</p>
+
+  <div class="findings">
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>카테고리 51개 · cate_no 전수 확보 <span class="chip solid">실측</span></h4>
+        <p>대분류 13 / 하위 38개의 <code>cate_no</code>를 모두 추출했다. IA 재설계와 컬렉션 매핑을 추정 없이 시작할 수 있고, 일본 제외 대상(디즈니·마리페·아울렛)도 카테고리 단위로 특정된다.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>상품 상세에 소재 조성비·원산지·제조자 표기가 없다 <span class="chip p0">P0</span></h4>
+        <p>실사한 상품 페이지에는 세탁 안내 문구만 있고 섬유 조성·원산지·표시자 정보가 없다. 일본에서 의류를 판매하려면 家庭用品品質表示法상 조성·취급·표시자 표시가 요구되므로, <b>전 SKU에 대해 새로 수집해야 하는 데이터</b>다. 카페24에서 뽑아 옮기는 작업이 아니라 상품팀이 원자료를 만들어 주는 작업이다.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>사이즈 체계가 라인마다 다르다 <span class="chip p0">P0</span></h4>
+        <p>일루인 라인은 <code>S/M/L/XL</code>, 스포츠브라는 <code>A–G컵</code>, 스타킹은 <code>M~XXL</code>, 리뷰에는 <code>75B</code> 표기가 등장한다. 한 스토어 안에 최소 4개 체계가 공존한다. 일본 대응표는 체계별로 따로 만들어야 하고, 실측 cm 병기 없이는 어떤 체계도 일본에서 작동하지 않는다.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>MVP 41개 중 25개가 소액수입 면세 제외 품목 <span class="chip p0">P0</span></h4>
+        <p>테스트 리스트를 HS 계열로 분류하면 <b>면세 가능 16 : 면세 제외 25(61%)</b>다. 팬티·캡나시·팬티스타킹·FW 니트류는 금액과 무관하게 항상 과세된다. 진열·번들·무료배송 임계를 전부 이 구조 위에서 설계해야 하며, <b>무료배송 임계는 ¥9,800이 상한</b>이다 — ¥10,000으로 올리면 임계를 맞춘 주문이 면세에서 전액 과세로 넘어간다.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>카페24 “추가구매 기능” 7건은 Shopify에 대응물이 없다 <span class="chip p0">P0</span></h4>
+        <p>리스트에 “브라 단품 코드에 팬티 추가구매 기능 구현”이 7건 명시돼 있다. Shopify 기본 기능으로는 선택형 추가구매를 재현할 수 없어 <b>테마 커스텀 섹션 개발이 필요</b>하다. 요건정의서에 없던 독립 항목이며, 동시에 위 관세 구조를 성립시키는 핵심 장치다.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num"></div>
+      <div>
+        <h4>리뷰 62,140건이 최대 미이관 자산 <span class="chip p1">P1</span></h4>
+        <p>5점 척도, 사이즈 적합성 언급이 많다(예: “75b인데 잘 맞아요”). 일본 이너웨어 구매에서 사이즈 후기는 전환의 핵심 근거인데, 현재 이관 설계에 이 자산이 잡혀 있지 않다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="facts">
+  <span class="eyebrow">Section 02 — Fact Sheet</span>
+  <h2>현행 팩트시트</h2>
+  <p class="lede">아래는 전부 2026-08-23 공개 페이지에서 직접 확인한 값이다. 값 옆에 표시가 없으면 실측이다.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>항목</th><th>실측값</th><th>일본 이관 시</th></tr></thead>
+      <tbody>
+        <tr><td class="k">플랫폼</td><td>Cafe24 (<code>/product/list.html?cate_no=</code>)</td><td>Shopify 일본 전용 스토어 신규</td></tr>
+        <tr><td class="k">브랜드 표기</td><td>마른파이브 / 워드마크 <b>Marn5</b> / 도메인 marun5</td><td class="k">표기 3종 분열 — 일본어 표기 확정 필요</td></tr>
+        <tr><td class="k">슬로건</td><td>“나다움을 더하는 플러스웨어” · Plus yourself</td><td>네이티브 재작성 (직역 금지)</td></tr>
+        <tr><td class="k">법인</td><td>(주)마른파이브 · 대표 이보희, 정진식</td><td>特商法 판매업자명</td></tr>
+        <tr><td class="k">사업자등록번호</td><td class="num">736-81-00826</td><td>일본 JCT 등록번호로 대체</td></tr>
+        <tr><td class="k">통신판매업신고</td><td class="num">제2023-경기포천-0756호</td><td>일본 제도 없음 — 미표기</td></tr>
+        <tr><td class="k">서울센터</td><td>서울 성동구 아차산로 17 서울숲L타워 1301~2호</td><td>特商法 소재지 후보</td></tr>
+        <tr><td class="k">포천센터</td><td>경기 포천시 소흘읍 부흥로 260 나동 1층</td><td>출고 거점</td></tr>
+        <tr><td class="k">반품 수취지</td><td>경기 포천시 소흘읍 무봉리 9-4 롯데택배 소형전담</td><td class="k">일본 국내 주소 없음 — 신규 확보</td></tr>
+        <tr><td class="k">고객센터</td><td class="num">1544-0221 · support@marun5.com</td><td>일본어 CS 창구·SLA 별도</td></tr>
+        <tr><td class="k">개인정보책임자</td><td>홍세영</td><td>해외이전 고지 문구 재작성</td></tr>
+        <tr><td class="k">카테고리</td><td class="num">51개 (대분류 13 / 하위 38)</td><td>재편 후 대분류 6~7 권장</td></tr>
+        <tr><td class="k">서브브랜드</td><td class="num">9종</td><td>일본 상표 상태 전수 확인</td></tr>
+        <tr><td class="k">콜라보</td><td>DISNEY (<code>cate_no=512</code>)</td><td class="k">라이선스 지역 확인 전 이관 금지</td></tr>
+        <tr><td class="k">누적 리뷰</td><td class="num">62,140건 이상 · 5점 척도</td><td>리뷰 앱 import + 번역 + 표시 심사</td></tr>
+        <tr><td class="k">배송비</td><td class="num">2,500원 / 50,000원 이상 무료</td><td class="num">임계 ¥8,000~10,000 재설계</td></tr>
+        <tr><td class="k">배송 리드타임</td><td class="num">1~3일</td><td class="num">크로스보더 5~10일 재고지</td></tr>
+        <tr><td class="k">반품</td><td class="num">수령 후 7일 · 반송비 고객 부담 · 개봉/착용 불가</td><td class="k">사이즈 교환 허용 여부가 전환율 좌우</td></tr>
+        <tr><td class="k">결제 수단</td><td>신용카드 · 무통장입금</td><td class="k">JCB·PayPay·컨비니·Paidy 필수</td></tr>
+        <tr><td class="k">적립금</td><td class="num">최대 50% (예: 37,900원 → 18,950원)</td><td class="k">景表法 有利誤認 검토 대상</td></tr>
+        <tr><td class="k">가격대</td><td class="num">5,900 ~ 48,900원</td><td class="num">¥676 ~ ¥5,600</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="caption">환산 기준 100엔 = 873원 (2026-08-21). 환율은 가격표 확정 시점에 재고정한다.</p>
+</section>
+
+<section id="mvp">
+  <span class="eyebrow">Section 03 &mdash; MVP Scope</span>
+  <h2>테스트 배치 SKU 41개</h2>
+  <p class="lede">발주자 제출 「후이넘스요일 &times; 마른파이브 운영상품 리스트」 기준. 이 41개가 일본 MVP의 실제 범위이며, 아래 세 가지가 즉시 일정에 영향을 준다 &mdash; <b>면세 제외 품목이 61%</b>, <b>카페24 추가구매 기능 7건</b>, <b>합본 상품 4건</b>.</p>
+
+  <div class="grid g3" style="margin:22px 0 8px;">
+    <div class="card">
+      <span class="eyebrow" style="margin:0 0 6px;">구성</span>
+      <p style="font-size:.92rem;color:var(--ink-2);margin:0;">스타킹 10 &middot; 브라 8 &middot; 팬티 7 &middot; 캡나시 6 &middot; FW 6 &middot; 누드브라 4</p>
+    </div>
+    <div class="card">
+      <span class="eyebrow" style="margin:0 0 6px;">면세 판정</span>
+      <p style="font-size:.92rem;margin:0;"><b style="font-size:1.5rem;">25 / 41</b><br><span style="color:var(--ink-2);">이 소액수입 면세 <b>제외</b> 품목 (61%)</span></p>
+    </div>
+    <div class="card">
+      <span class="eyebrow" style="margin:0 0 6px;">구조 이슈</span>
+      <p style="font-size:.92rem;color:var(--ink-2);margin:0;">브라&rarr;팬티 추가구매 <b>7건</b> &middot; 2종 합본 <b>4건</b> &middot; 남녀 상하세트 <b>1건</b></p>
+    </div>
+  </div>
+
+  <h3>구조 이슈 1 &mdash; 카페24 “추가구매 기능”은 Shopify에 대응물이 없다 <span class="chip p0">P0</span></h3>
+  <p>리스트에 <b>“브라 단품 코드에 팬티 추가구매 기능 구현”</b>이 7건 명시돼 있다. 이건 카페24의 추가구매옵션 기능으로, 브라 상세페이지에서 짝 팬티를 함께 담게 하는 구조다. Shopify에는 이에 정확히 대응하는 기본 기능이 없다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>선택지</th><th>가능 여부</th><th>판단</th></tr></thead>
+      <tbody>
+        <tr><td class="k">Shopify Bundles (기본 앱)</td><td>부분</td><td>고정 묶음만 가능. <b>선택형 추가구매는 불가</b></td></tr>
+        <tr><td class="k">서드파티 번들 앱</td><td>가능</td><td>월 구독 발생 &middot; 일본어 UI 통제 제한 &middot; 테마 충돌 리스크</td></tr>
+        <tr><td class="k">Horizon 커스텀 섹션</td><td>가능</td><td class="k"><b>권장</b> &mdash; 브라 PDP에 페어 팬티 카드 + 동시 담기. 앱 의존 없음, 일본어 UI 완전 통제</td></tr>
+        <tr><td class="k">Shopify Functions</td><td>가능</td><td>가격 할인 로직이 필요할 때만. MVP 과잉</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>이 기능은 <b>일본에서 오히려 더 중요해진다</b>. 아래 단가 검증에서 보듯 객단가를 면세 한도 직하로 끌어올리는 것이 관세·배송비 양쪽의 해법인데, 브라&rarr;팬티 추가구매가 바로 그 장치다. 요건정의서에 <b>독립 개발 항목</b>으로 명시한다.</p>
+
+  <h3>구조 이슈 2 &mdash; “2종 합본” 4건 <span class="chip p1">P1</span></h3>
+  <p>합본 상품(얇은 끈 나시 2종, 골지 니삭스 2종, 시스루 앵클&amp;니삭스 2종, 히트터치 상의 2종)은 카페24에서 옵션으로 두 품목을 한 코드에 묶은 것이다. 일본에서는 <b>품목별로 소재 조성비&middot;HS 코드&middot;원산지가 다를 수 있고</b>, 특히 「시스루 앵클 &amp; 니삭스」는 두 품목의 면세 판정이 갈릴 여지가 있다. <b>분리 등록을 권장</b>하되, 합본 유지 시에는 Variant 단위 메타필드가 필요하다.</p>
+
+  <h3>구조 이슈 3 &mdash; 히트터치 남녀 상하세트 <span class="chip p2">P2</span></h3>
+  <p><code>HT오리지널세트&#9733;</code>는 남녀 상하 세트다. 앞서 “맨즈는 MVP 제외” 권고와 충돌한다. 여성 단품만 분리 판매할지, 세트를 유지할지 <b>W1에 결정</b>한다. 참고로 FW 6종은 히트터치 기모 라인이며 D+56 오픈(10월 중순) 기준 <b>시즌 타이밍은 맞다</b>.</p>
+
+  <h3>SKU 전수 &middot; 관세 분류</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>상품명</th><th>PI코드</th><th class="num">product_no</th><th>구분</th><th>HS 계열(추정)</th><th>1만엔 면세</th><th>구성</th></tr></thead>
+      <tbody>
+        <tr><td class="k">쉬어 브라 커브넥 텐션윙</td><td class="num">2037심브</td><td class="num">1140</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 릴렉스</td><td class="num">2037심팬</td><td class="num">1142</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라렛 미니멀 트라이앵글</td><td class="num">2611삼각브</td><td class="num">1926</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 미니멀 비키니</td><td class="num">2611스트링팬</td><td class="num">1927</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라 허그핏 코튼 삼각</td><td class="num">2612포인브</td><td class="num">1928</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 허그핏 코튼 삼각</td><td class="num">2612포인팬</td><td class="num">1929</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라렛 스칼렛 시스루 레이스</td><td class="num">2617레크브</td><td class="num">1734</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 스칼렛 시스루 레이스</td><td class="num">2617레팬</td><td class="num">1735</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라 글램 커버업</td><td class="num">F4글램</td><td class="num">852</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 심리스 커버업</td><td class="num">F4심팬</td><td class="num">1888</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라 소프트폼 3cm 볼륨업</td><td class="num">M32브</td><td class="num">1689</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 팬티 하이컷 심리스</td><td class="num">M32심팬</td><td class="num">1690</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라 오프숄더 논슬립</td><td class="num">U1오숄브</td><td class="num">848</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">쉬어 브라 시그니처</td><td class="num">쉬어브이넥브</td><td class="num">1386</td><td>브라</td><td class="num">6212</td><td><span class="chip p2">면세 가능</span></td><td class="num">세트 확장</td></tr>
+        <tr><td class="k">쉬어 햄라인 팬티 시그니처</td><td class="num">쉬어햄팬</td><td class="num">1384</td><td>팬티</td><td class="num">6108</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">캡내장 모달 브라캡 나시탑</td><td class="num">RA모달캡나</td><td class="num">63</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">캡내장 브리즈 모달 크롭 끈나시</td><td class="num">RA크롭모달캡나</td><td class="num">2147</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">날마다 모달 코튼 캡내장 얇은 끈 나시 2종</td><td class="num">SLN07가는캡나, 베이직</td><td class="num">620</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">합본</td></tr>
+        <tr><td class="k">날마다 모달 코튼 캡내장 크롭 백리스 나시</td><td class="num">SLN08백리캡나</td><td class="num">621</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">날마다 모달 코튼 캡내장 크롭 끈 조절 나시</td><td class="num">SLN09조절캡나</td><td class="num">629</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">날마다 브라탑 헨리넥 레이어드 캡나시</td><td class="num">SLN14레이어캡나</td><td class="num">1684</td><td>캡나시</td><td class="num">6109 / 6114</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">넉넉 니트 모달면 스타킹</td><td class="num">B768넉넉면스</td><td class="num">714</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">넉넉 올풀림방지 힙업 스타킹 10D</td><td class="num">넉넉10D</td><td class="num">858</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">빅사이즈 고탄력 팬티 스타킹 넉넉스타킹 150D</td><td class="num">넉넉150D</td><td class="num">109</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">넉넉 빅사이즈 팬티스타킹 20D</td><td class="num">넉넉20D</td><td class="num">103</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">자외선 차단 빅사이즈 넉넉스타킹 50D 골프스타킹</td><td class="num">넉넉50D</td><td class="num">139</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">승무원 압박스타킹 삭스타킹 40D</td><td class="num">삭40D</td><td class="num">107</td><td>스타킹</td><td class="num">6115.21~29</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">넉넉 소프트 웜 골지 니삭스 2종</td><td class="num">1091골지니_롱</td><td class="num">717</td><td>스타킹</td><td class="num">6115.9x / 6117</td><td><span class="chip p2">면세 가능</span></td><td class="num">합본</td></tr>
+        <tr><td class="k">넉넉 시스루 립 앵클 삭스 &amp; 니삭스 2종</td><td class="num">시스루_숏</td><td class="num">1257</td><td>스타킹</td><td class="num">6115.9x / 6117</td><td><span class="chip p2">면세 가능</span></td><td class="num">합본</td></tr>
+        <tr><td class="k">넉넉 2WAY 리브드 니트 레그워머</td><td class="num">넉넉레그워머</td><td class="num">713</td><td>스타킹</td><td class="num">6115.9x / 6117</td><td><span class="chip p2">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">넉넉 루즈 레그워머 삭스</td><td class="num">넉넉워머삭스</td><td class="num">1422</td><td>스타킹</td><td class="num">6115.9x / 6117</td><td><span class="chip p2">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">두프리 실리콘 누드브라 - 슬림</td><td class="num">DFR01실리콘SLIM</td><td class="num">449</td><td>누드브라</td><td class="num">3926.20 / 6212</td><td><span class="chip p1">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">브라 쉬는 날, 프리플 니플패치 2종</td><td class="num">FRF072글루</td><td class="num">454</td><td>누드브라</td><td class="num">3926.20 / 6212</td><td><span class="chip p1">면세 가능</span></td><td class="num">합본</td></tr>
+        <tr><td class="k">프리플 딥커버 니플 패치</td><td class="num">FRF074인비저블</td><td class="num">812</td><td>누드브라</td><td class="num">3926.20 / 6212</td><td><span class="chip p1">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">프리플 하프컵 니플 패치</td><td class="num">FRF075하프컵</td><td class="num">813</td><td>누드브라</td><td class="num">3926.20 / 6212</td><td><span class="chip p1">면세 가능</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 홀터넥 기모 브라탑</td><td class="num">HT124홀터넥캡나</td><td class="num">1444</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 모크넥 목폴라 브라탑</td><td class="num">HT150모크넥캡나</td><td class="num">1445</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 스퀘어넥 기모 브라탑</td><td class="num">HT89스퀘어넥캡나</td><td class="num">1460</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 모크넥 반폴라 티셔츠</td><td class="num">HT모크넥</td><td class="num">207</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 오리지널 - 남녀 상하세트</td><td class="num">HT오리지널세트★</td><td class="num">14</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">단품</td></tr>
+        <tr><td class="k">히트터치 슬림핏 상의 베이직 &amp; 크롭 2종</td><td class="num">HT크롭상의</td><td class="num">722</td><td>FW</td><td class="num">6109 / 6110</td><td><span class="chip p0">면세 제외</span></td><td class="num">합본</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="caption">HS 계열은 품목 성격에 따른 추정이며 통관사 확정 전 값이다. 특히 실리콘 누드브라&middot;니플패치(3926.20 vs 6212)와 레그워머(6115 vs 6117)는 분류에 따라 면세 판정이 바뀐다.</p>
+
+  <div class="note" style="margin-top:20px;">
+    <b>이 리스트가 바꾸는 것.</b> 플레이북은 “베스트 30~50 SKU”를 추상적으로 잡았지만, 실제 리스트를 넣어 보면 <b>면세 가능한 앵커(브라 8 + 누드브라 4 + 삭스&middot;워머 4 = 16개)</b>와 <b>항상 과세되는 니트류 25개</b>로 명확히 갈린다. 상품 진열&middot;번들&middot;무료배송 임계를 전부 이 16 대 25 구조 위에서 설계해야 한다.
+  </div>
+</section>
+
+<section id="mcp">
+  <span class="eyebrow">Section 04 &mdash; Live Data</span>
+  <h2>카페24 MCP 실증 &mdash; 41개 전량 실측</h2>
+  <p class="lede">카페24는 실제로 MCP를 제공하고 있었다(<code>cafe24-oss/cafe24-mcp-demo</code>). 커넥터 디렉터리에 없을 뿐이며, HTTP 엔드포인트를 직접 호출하면 된다. 2026-08-24 실행 결과 <b>MVP 41개 전량(41/41) 실데이터 수집에 성공</b>했다.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>MCP</th><th>엔드포인트</th><th>이 세션에서</th><th>얻는 것</th></tr></thead>
+      <tbody>
+        <tr><td class="k">Catalog MCP</td><td><code>mcp-catalog.cafe24.com/api/mcp</code></td><td><span class="chip p2">도달 가능</span></td><td>상품명·가격·태그·이미지·옵션 조합·재고</td></tr>
+        <tr><td class="k">Mall MCP</td><td><code>{mall_id}.cafe24api.com/api/mcp</code></td><td><span class="chip p0">차단됨</span></td><td>(허용목록에 <code>*.cafe24api.com</code> 없음)</td></tr>
+        <tr><td class="k">Admin API</td><td><code>{mall_id}.cafe24api.com/api/v2/admin</code></td><td><span class="chip p0">차단됨</span></td><td>원산지·조성비·상세HTML·리뷰·판매데이터</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="caption">marun5 의 <code>mall_id</code> 는 <b>m5m5m5</b> 다(도메인과 다름 &mdash; 이미지 CDN 경로 <code>cafe24.poxo.com/ec01/m5m5m5/</code>에서 확인). Admin API 를 쓰려면 <code>*.cafe24api.com</code> 을 조직 네트워크 허용목록에 추가하거나, 스크립트를 로컬 PC 에서 실행해야 한다.</p>
+
+  <h3>실측이 바꾼 것 &mdash; 다섯 가지</h3>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">옵션이 4축인 상품이 있다 &mdash; Shopify 3옵션 한계 초과</span></div>
+    <p>앞선 감사에서 “현행 2축이므로 여유 있음”이라고 적었는데 <b>틀렸다</b>. 실제 옵션 문자열은 <code>4매입-유발-스킨 4매-M/L</code> &mdash; <b>수량구성 × 유발/무발 × 컬러 × 사이즈 = 4축</b>이다. Shopify 는 상품당 옵션 3개가 상한이므로 그대로 옮길 수 없다.</p>
+    <div class="ask"><b>해법:</b> 유발/무발을 별도 상품으로 분리(권장 &mdash; HS 분류도 동일하고 일본에선 <code>つま先あり/なし</code>가 별개 상품으로 팔린다), 또는 수량구성을 별도 상품으로 분리. 해당 3건: <code>103</code> 넉넉 20D · <code>139</code> 골프스타킹 50D · <code>858</code> 힙업 10D.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">할인율이 옵션값 문자열에 박혀 있다 &mdash; 183건 중 162건</span></div>
+    <p>옵션명이 <code>[10%] 4매입</code>, <code>[20%] 10매입</code> 형태다. 옵션 텍스트에 할인율을 넣는 방식은 Shopify 에서 재현할 수 없고, 재현하더라도 일본에서는 <b>비교 대상 가격의 근거를 요구받는 표시</b>가 된다.</p>
+    <div class="ask"><b>해법:</b> 옵션명에서 할인 표기를 전부 제거하고, 수량 할인은 Shopify 가격/자동할인으로 옮긴다. 번역 전 정규화 단계에서 일괄 처리.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">재고가 음수다 &mdash; 183건 중 134건, 최저 &minus;221</span></div>
+    <p>카페24에서 마이너스 재고 판매를 허용한 상태다. Shopify 로 그대로 옮기면 재고 정합이 깨진다.</p>
+    <div class="ask"><b>해법:</b> 음수는 0 으로 클램프하고, 해당 SKU 만 <code>continue selling when out of stock</code> 을 켠다. 크로스보더에서 품절 미출고는 CS 폭탄이므로 <b>초도 실재고 확정이 선행</b>돼야 한다.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">상품 태그가 오염돼 있다</span></div>
+    <p><code>2065</code> 일루인 홀터넥 <b>브라</b>의 태그가 조거팬츠·냉장고바지·와이드팬츠·쿨링팬츠다. 검색 노출용으로 무관한 태그를 넣은 것으로 보인다. 또 <code>1140</code> 에는 <b>셀럽 이름 태그</b>(류혜영·류혜영PICK)가 들어 있다.</p>
+    <div class="ask"><b>해법:</b> 태그를 이관 대상에서 제외하고 일본용으로 새로 설계한다. 셀럽 태그는 <b>퍼블리시티권 범위 확인 전 사용 금지</b>.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p2">P2</span><span class="t">수량 묶음(4매입·10매입)이 이미 객단가 장치로 쓰이고 있다</span></div>
+    <p>단품이 아니라 <code>4매입</code>·<code>10매입</code>이 기본 옵션이다. 이것이 일본에서 그대로 <b>면세 한도 관리 도구</b>가 된다 &mdash; 묶음 총액이 과세가격이므로, 몇 매입까지 담게 할지가 곧 관세 설계다.</p>
+  </div>
+
+  <h3>얻은 것 · 못 얻은 것</h3>
+  <div class="grid g2">
+    <div class="card">
+      <span class="chip p2">확보</span>
+      <h4 style="margin-top:12px;">Catalog MCP 로 수집 완료</h4>
+      <p style="font-size:.92rem;color:var(--ink-2);margin:0;">상품명 · 상품코드(P0000xxx) · <b>실측 KRW 가격 41건</b> · 옵션 조합과 재고 183건 · 이미지 URL · 상품 URL · 태그</p>
+    </div>
+    <div class="card">
+      <span class="chip p0">여전히 부재</span>
+      <h4 style="margin-top:12px;">Admin API 가 있어야 하는 것</h4>
+      <p style="font-size:.92rem;color:var(--ink-2);margin:0;">원산지 · HS코드 · 소재 조성비 · 취급표시 · 실측 사이즈표 · 상세페이지 HTML · 리뷰 62,140건 · 12개월 판매데이터 · <b>전체 variant</b>(Catalog MCP 는 상품당 최대 5건만 반환)</p>
+    </div>
+  </div>
+  <p style="margin-top:18px;">즉 <b>P0 갭 목록은 하나도 해소되지 않았다.</b> Catalog MCP 가 준 것은 가격·옵션·이미지이고, 일본 런칭을 막고 있는 것은 여전히 품질표시·원산지·사이즈표다. 다만 이제 <b>가격표를 발주자에게 요청할 필요가 없어졌고</b>, 옵션 구조 문제를 설계 단계에서 미리 잡을 수 있게 됐다.</p>
+</section>
+
+<section id="ia">
+  <span class="eyebrow">Section 05 — Information Architecture</span>
+  <h2>카테고리 51개 전수와 일본 재편안</h2>
+  <p class="lede">현행 IA는 <b>축이 다섯 개가 섞여 있다</b> — 프로모션(마리페·베스트), 서브브랜드(컬렉션), 소재(그린라벨), 품목(브라·팬티·이너·레그·홈웨어), 신체/성별(빅사이즈·맨즈). 한국 사용자는 브랜드를 알고 들어오므로 작동하지만, 브랜드 인지가 0인 일본에서는 <b>품목 축을 1차 내비로 세우고 나머지를 필터·태그로 내려야</b> 한다.</p>
+
+  <div class="ia">
+    <div class="ianode flagged">
+      <div class="top"><span class="name">마리페</span><span class="chip">968</span><span class="chip p0">일본 제외</span></div>
+      <div class="kids">
+        <span class="kid">BEST <i class="n">970</i></span><span class="kid">일루인 <i class="n">971</i></span><span class="kid">이너웨어 <i class="n">972</i></span><span class="kid">언더웨어 <i class="n">973</i></span><span class="kid">레그웨어 <i class="n">974</i></span>
+      </div>
+      <div class="verdict">한국 한정 프로모션 허브. <b>이관 대상 아님.</b> 다만 일본 런칭 캠페인의 구조적 참고물로는 유효.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">베스트</span><span class="chip">291</span><span class="chip p2">자동 컬렉션 전환</span></div>
+      <div class="kids">
+        <span class="kid">주간BEST <i class="n">292</i></span><span class="kid">리뷰BEST <i class="n">294</i></span><span class="kid">인기PICK <i class="n">295</i></span><span class="kid">아울렛 <i class="n">297</i></span>
+      </div>
+      <div class="verdict">주간/리뷰/인기는 Shopify <b>자동 컬렉션</b>으로 재현. <b>아울렛(297)은 MVP 제외</b> — 브랜드 인지가 없는 시장에서 할인 진열을 먼저 노출하면 가격 앵커가 무너진다.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">신제품</span><span class="chip">378</span><span class="chip p2">자동 컬렉션</span></div>
+      <div class="verdict">생성일 기준 자동 컬렉션(30일)으로 대체. 일본 런칭 초기에는 전 상품이 신제품이므로 <b>오픈 후 6주 시점부터 노출</b>.</div>
+    </div>
+
+    <div class="ianode flagged">
+      <div class="top"><span class="name">컬렉션 (서브브랜드)</span><span class="chip">282</span><span class="chip p1">상표 확인</span></div>
+      <div class="kids">
+        <span class="kid">ILLUIN <i class="n">948</i></span><span class="kid">NUKKNUKK <i class="n">288</i></span><span class="kid">SCHIER <i class="n">284</i></span><span class="kid">FREEPLE <i class="n">285</i></span><span class="kid">DO.FREE <i class="n">286</i></span><span class="kid">SMOOVE <i class="n">289</i></span><span class="kid">FZIMA <i class="n">287</i></span><span class="kid">HEATTOUCH <i class="n">290</i></span><span class="kid">DISNEY <i class="n">512</i></span>
+      </div>
+      <div class="verdict"><b>DISNEY(512)는 라이선스 지역 문서 확인 전까지 이관 금지</b> — 게이트 항목. 나머지 8종은 <code>line:*</code> 태그로 내리고, 일본에서는 서브브랜드를 1차 내비에서 뺀다(인지 0). 8종 전부 일본 상표 상태 확인 필요.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">그린라벨 (소재축)</span><span class="chip">434</span><span class="chip p1">표기 정확도</span></div>
+      <div class="kids">
+        <span class="kid">오가닉코튼 <i class="n">435</i></span><span class="kid">모달 <i class="n">436</i></span><span class="kid">코튼 <i class="n">437</i></span><span class="kid">인견 <i class="n">439</i></span>
+      </div>
+      <div class="verdict">일본에서 「素材から選ぶ」로 살릴 가치가 있는 축. 단 <b>인견</b>은 일본 품표상 レーヨン / キュプラ 중 무엇인지 정확히 특정해야 하며, <b>오가닉 코튼은 인증 근거 없이 표기하면 景表法 우량오인</b>에 걸린다.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">브라</span><span class="chip">310</span><span class="chip solid">1차 내비</span></div>
+      <div class="kids">
+        <span class="kid">심리스 <i class="n">311</i></span><span class="kid">노와이어 <i class="n">312</i></span><span class="kid">스포츠브라 <i class="n">313</i></span><span class="kid">누드브라·패치 <i class="n">314</i></span>
+      </div>
+      <div class="verdict">GNB에는 <b>푸쉬업·오프숄더</b>도 있으나 <code>cate_no</code> 미확보 — Admin API로 보완. HS 6212 계열로 <b>1만엔 이하 면세 가능</b>한 유일한 주력군, 일본 앵커 상품군으로 세워야 한다.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">팬티</span><span class="chip">302</span><span class="chip solid">1차 내비</span></div>
+      <div class="kids">
+        <span class="kid">모달·코튼 <i class="n">305</i></span><span class="kid">삼각·반사각 <i class="n">805</i></span><span class="kid">드로즈·트렁크 <i class="n">307</i></span><span class="kid">티팬티 <i class="n">646</i></span><span class="kid">위생팬티 <i class="n">308</i></span><span class="kid">보정팬티 <i class="n">309</i></span>
+      </div>
+      <div class="verdict">니트 팬티는 HS 6108 — <b>소액수입 면세 제외</b>. 단품 직배송 시 항상 관세·소비세가 붙는다. <b>보정팬티(309)만 6212 해당 가능</b>하므로 통관사 분류 확인 필요.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">이너</span><span class="chip">315</span><span class="chip solid">1차 내비</span></div>
+      <div class="kids">
+        <span class="kid">나시 <i class="n">316</i></span><span class="kid">속바지 <i class="n">317</i></span><span class="kid">슬립 <i class="n">318</i></span><span class="kid">캡내장 <i class="n">319</i></span>
+      </div>
+      <div class="verdict">캡내장 나시탑은 일본 <b>カップ付きインナー</b>로 수요가 크고 검색량이 높다. 일본 MVP 우선 카테고리 후보.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">레그</span><span class="chip">320</span><span class="chip p1">관세 상시 발생</span></div>
+      <div class="kids"><span class="kid">스타킹 <i class="n">321</i></span><span class="kid">양말 <i class="n">322</i></span></div>
+      <div class="verdict">스타킹·타이츠는 HS 6115.21~29로 <b>면세 제외</b>, 일반 양말(6115.9x)은 <b>면세 가능</b>. 두 하위가 세무상 정반대이므로 <b>컬렉션을 분리 유지</b>해야 한다. 단가 ¥676~¥5,560으로 단품 직배송 최악 구간.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">홈웨어</span><span class="chip">323</span></div>
+      <div class="kids"><span class="kid">원마일웨어 <i class="n">324</i></span><span class="kid">파자마 <i class="n">325</i></span><span class="kid">디즈니 <i class="n">—</i></span></div>
+      <div class="verdict">우븐(62류) 홈웨어는 면세 가능, 니트(61류)는 제외. <b>같은 카테고리 안에 과세·면세가 섞인다</b> → 소재별 HS 분류가 컬렉션보다 아래 층위에서 필요.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">빅사이즈</span><span class="chip">298</span><span class="chip p2">필터로 흡수</span></div>
+      <div class="verdict">일본에서 「大きいサイズ」를 별도 카테고리로 분리하면 정서적 저항이 있다. <b>사이즈 필터 + <code>fit:relaxed</code> 태그</b>로 흡수하고, 전 상품 사이즈 레인지를 상세에 명시하는 방식이 안전하다.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">맨즈</span><span class="chip">327</span><span class="chip p2">MVP 제외 후보</span></div>
+      <div class="verdict">MVP 30~50 SKU를 여성 이너에 집중시키면 사이즈 대응표·품표 수집 범위가 절반으로 준다. <b>Phase 1.5 이후 검토</b>.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">악세서리</span><span class="chip">797</span></div>
+      <div class="kids"><span class="kid">패드</span><span class="kid">보호대</span><span class="kid">굿즈</span></div>
+      <div class="verdict">보호대류는 품목에 따라 일본 <b>의료기기·잡화 구분</b>이 갈릴 수 있다. 「矯正」「サポート」 표현은 薬機法 확인 대상.</div>
+    </div>
+
+    <div class="ianode">
+      <div class="top"><span class="name">이지웨어</span><span class="chip">미확보</span><span class="chip p2">API 보완</span></div>
+      <div class="verdict">GNB에는 존재하나 <code>cate_no</code>를 추출하지 못했다. Admin API 발급 후 보완.</div>
+    </div>
+  </div>
+
+  <h3>일본 1차 내비 제안</h3>
+  <p>현행 13개 대분류 → <b>6개</b>로 축약하고, 나머지는 전부 필터·태그로 내린다. Dhaliora 분석에서 가져온 <b>Track Order를 GNB 최상위에 유지</b>한다(크로스보더에서 배송 조회는 CS 문의 1위 항목).</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>일본 GNB</th><th>표기</th><th>구성</th></tr></thead>
+      <tbody>
+        <tr><td class="k">브라</td><td>ブラ</td><td>310 계열 전체 + 캡내장(319) 교차 노출</td></tr>
+        <tr><td class="k">쇼츠</td><td>ショーツ</td><td>302 계열</td></tr>
+        <tr><td class="k">이너</td><td>インナー</td><td>315 계열 (カップ付きインナー 강조)</td></tr>
+        <tr><td class="k">레그</td><td>レッグ</td><td>321 / 322 분리 유지</td></tr>
+        <tr><td class="k">홈웨어</td><td>ホームウェア</td><td>323 계열</td></tr>
+        <tr><td class="k">사이즈 가이드</td><td>サイズガイド</td><td>독립 콘텐츠 페이지 — 상품이 아닌 <b>신뢰 근거</b></td></tr>
+        <tr><td class="k">주문 조회</td><td>配送状況</td><td>GNB 최상위 고정</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="schema">
+  <span class="eyebrow">Section 06 — Data Mapping</span>
+  <h2>카페24 필드 → Shopify</h2>
+  <p class="lede">이관은 두 갈래다. <b>옮기는 데이터</b>와 <b>새로 만들어야 하는 데이터</b>. 후자가 일정을 결정한다.</p>
+
+  <h3>옮기는 데이터</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>카페24</th><th>Shopify</th><th>처리</th></tr></thead>
+      <tbody>
+        <tr><td class="k">상품명</td><td><code>title</code></td><td>일본어는 <code>translationsRegister</code>로 별도 등록. 브랜드 접두어(“쉬어 브라 …”) 유지 여부 결정 필요</td></tr>
+        <tr><td class="k">상품 URL</td><td><code>handle</code></td><td class="k">현행이 한글 슬러그라 재사용 불가 — 로마자/일본어 슬러그 신규 생성</td></tr>
+        <tr><td class="k">판매가</td><td><code>price</code></td><td>JPY 정가표 별도 (환산 자동 적용 금지)</td></tr>
+        <tr><td class="k">소비자가</td><td><code>compareAtPrice</code></td><td class="k">이중가격 표기 — 景表法 근거 없이 게재 금지</td></tr>
+        <tr><td class="k">상품코드</td><td><code>sku</code></td><td>KR SKU 유지 + JP 접두어 규칙 확정</td></tr>
+        <tr><td class="k">옵션 (색상·사이즈)</td><td><code>productOptions</code></td><td>최대 3개 제한. 현행 2축이므로 여유 있음</td></tr>
+        <tr><td class="k">재고</td><td><code>inventoryQuantity</code></td><td>MVP는 한국 로케이션 단일</td></tr>
+        <tr><td class="k">상품 이미지</td><td><code>media</code></td><td>누끼·모델컷은 그대로. <b>단, 아래 참조</b></td></tr>
+        <tr><td class="k">상세페이지</td><td><code>descriptionHtml</code></td><td class="k">한글 텍스트가 박힌 이미지 — 번역 불가, PSD/AI 원본 없으면 전면 재제작</td></tr>
+        <tr><td class="k">리뷰</td><td>리뷰 앱 (Judge.me 등)</td><td>62,140건 CSV import → 번역 → 표시 심사</td></tr>
+        <tr><td class="k">적립금 50%</td><td>—</td><td class="k">미이관. 일본 포인트 정책 신규 설계</td></tr>
+        <tr><td class="k">회원 등급·쿠폰</td><td>—</td><td>미이관. 일본은 신규 고객 베이스</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>새로 만들어야 하는 데이터 — 메타필드</h3>
+  <p>아래 항목은 <b>현행 사이트에 존재하지 않는다</b>. 카페24에서 뽑을 수 없으므로 상품팀·통관사가 원자료를 만들어야 한다. 이 표가 발주자 요청서의 실질이다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>키</th><th>타입</th><th>내용</th><th>근거</th><th>등급</th></tr></thead>
+      <tbody>
+        <tr><td><code>custom.material_composition</code></td><td class="num">single_line_text</td><td>本体：ナイロン85% ポリウレタン15%</td><td>家庭用品品質表示法</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>custom.care_symbols</code></td><td class="num">list.single_line_text</td><td>JIS L0001 취급 기호</td><td>家庭用品品質表示法</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>custom.label_holder</code></td><td class="num">single_line_text</td><td>표시자 명칭·주소·전화</td><td>家庭用品品質表示法</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>countryOfOrigin</code></td><td class="num">표준 필드</td><td>원산지</td><td>통관 · 표시</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>harmonizedSystemCode</code></td><td class="num">표준 필드</td><td>HS 코드 (6자리 이상)</td><td>체크아웃 관세 견적 전제</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>custom.size_chart_cm</code></td><td class="num">json</td><td>실측 치수표 (사이즈별)</td><td>전환율 · 반품률</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>custom.jp_size_map</code></td><td class="num">json</td><td>KR↔JP 사이즈 대응</td><td>상품팀 승인 필수</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>weight</code></td><td class="num">표준 필드</td><td>중량 (g)</td><td>배송비·관세 계산</td><td><span class="chip p0">P0</span></td></tr>
+        <tr><td><code>custom.fit_index</code></td><td class="num">json</td><td>착용감 지표 (압박·신축·비침)</td><td>Dhaliora “판단 근거” 등가물</td><td><span class="chip p1">P1</span></td></tr>
+        <tr><td><code>custom.rcep_origin</code></td><td class="num">boolean</td><td>RCEP 원산지 자기신고 대상</td><td>협정세율 적용</td><td><span class="chip p1">P1</span></td></tr>
+        <tr><td><code>custom.duty_exempt_class</code></td><td class="num">single_line_text</td><td>면세 가능 / 제외 품목 구분</td><td>번들 설계·고지 문구 분기</td><td><span class="chip p1">P1</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="caption">일본 법령 해석은 공개 자료 기준 정리이며 법률 자문이 아니다. 품표·특상법·약기법·경표법 판단은 일본 변호사·세리사 검토를 거친다.</p>
+</section>
+
+<section id="size">
+  <span class="eyebrow">Section 07 — Variants</span>
+  <h2>사이즈 — 이관 최대 난제</h2>
+  <p class="lede">실사 결과 한 스토어 안에 <b>최소 4개의 사이즈 체계</b>가 공존한다. 이건 데이터 정규화 문제가 아니라 상품팀의 판단이 필요한 문제다.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>체계</th><th>실측 사례</th><th>표기</th><th>일본에서의 문제</th></tr></thead>
+      <tbody>
+        <tr><td class="k">의류형 </td><td>일루인 홀터넥 브라</td><td class="num">S / M / L / XL</td><td>일본도 통용되나 <b>ヌード寸法 cm 병기가 사실상 필수</b>. 병기 없으면 이탈</td></tr>
+        <tr><td class="k">컵 범위형</td><td>스무브 앞지퍼 컨트롤집업</td><td class="num">A–G컵</td><td>일본 스포츠브라는 <b>S/M/L + 컵 범위</b> 병기가 표준. 표기 순서·범위 재구성 필요</td></tr>
+        <tr><td class="k">밴드–컵형</td><td>리뷰 내 <code>75B</code> 등장</td><td class="num">75A / 75B …</td><td class="k">일본은 <code>B75</code> 순서. <b>순서만 뒤집으면 된다는 통념은 검증 대상</b> — 컵 산출 기준이 다를 수 있다</td></tr>
+        <tr><td class="k">레그형</td><td>넉넉 빅사이즈 팬티스타킹</td><td class="num">M ~ XXL</td><td>일본 스타킹은 <b>身長 × ヒップ 매트릭스</b>(S–M / M–L / L–LL)가 표준. 알파벳 대응 불가</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note" style="margin-top:22px;">
+    <b>개발사가 추정하지 않는다.</b> 사이즈 대응표는 반품률·CS 부하·景表法 리스크를 동시에 건드린다. 4개 체계 각각에 대해 상품팀 승인 서명이 들어간 대응표를 받고, 승인 전까지 해당 SKU는 등록 보류한다. 이 조항은 계약서 지연 순연 사유에 포함시킨다.
+  </div>
+
+  <h3>Variant 규모 추정</h3>
+  <p>실측된 조합(컬러 3 × 사이즈 4 = 12)을 기준으로 확정 MVP <b>41 SKU</b>를 잡으면 약 <b>410~500 variant</b>다. Shopify 한도(상품당 2,048 variant / 옵션 3개) 안에서 안전하고, <b>MCP의 실익은 여기</b>에 있다 — 상품 등록이 아니라 대응표를 적용한 대량 Variant 생성과 메타필드 주입이다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>단계</th><th>도구</th><th>산출</th></tr></thead>
+      <tbody>
+        <tr><td class="k">추출</td><td>Cafe24 Admin API</td><td>상품·옵션·재고·리뷰 원본 JSON</td></tr>
+        <tr><td class="k">정규화</td><td>스크립트</td><td>SKU 매핑 · 사이즈 대응표 적용 · HS·원산지 주입</td></tr>
+        <tr><td class="k">스크리닝</td><td>규제 플래깅 레이어</td><td>薬機法·景表法 후보 표현 추출 → 사람 감수</td></tr>
+        <tr><td class="k">투입</td><td>Shopify MCP GraphQL</td><td><code>productSet</code> · <code>metafieldsSet</code> · <code>translationsRegister</code></td></tr>
+        <tr><td class="k">검증</td><td>diff 스크립트</td><td>원본 대비 누락·불일치 리포트</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="gaps">
+  <span class="eyebrow">Section 08 — Gap Analysis</span>
+  <h2>갭 — 지금 없는 것</h2>
+  <p class="lede">P0은 없으면 런칭이 불가능한 항목, P1은 없으면 성과가 나오지 않는 항목, P2는 판단이 필요한 항목이다.</p>
+
+  <h3>P0 — 런칭 차단</h3>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">소재 조성비 · 취급표시 · 표시자 정보</span></div>
+    <p>실사한 상품 페이지에 세탁 안내 문구는 있으나 섬유 조성·취급 기호·표시자 정보가 없다. 일본에서 섬유제품을 판매할 때 요구되는 표시 사항으로, 통신판매에서도 상품 페이지 게재가 필요하다.</p>
+    <div class="ask"><b>요청:</b> 전 SKU 품질표시 원문(택 라벨 사진 또는 생산 사양서). 일본어 번역은 이쪽에서 처리하되 <b>원문이 없으면 시작할 수 없다</b>.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">원산지 · HS 코드</span></div>
+    <p>상품 페이지에 원산지 표기가 없다. Shopify 체크아웃에서 관세를 선징수(DDP)하려면 상품별 HS 코드와 원산지가 입력돼 있어야 하며, 없으면 관세 견적 자체가 나오지 않는다.</p>
+    <div class="ask"><b>요청:</b> 전 SKU 원산지 + 통관사가 확정한 HS 코드. RCEP 원산지 판정 및 자기신고 문안 포함.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">실측 사이즈표 (cm)</span></div>
+    <p>상품 페이지에 “사이즈” 탭은 있으나 실측 치수가 확인되지 않았다. 일본 이너웨어 구매는 실측 기준으로 이뤄지며, 실측표 부재는 전환율 하락과 반품 폭증을 동시에 유발한다. 크로스보더 반품은 건당 비용이 국내의 수 배다.</p>
+    <div class="ask"><b>요청:</b> 전 SKU 사이즈별 실측 치수(cm) + 측정 위치 정의.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">상세페이지 원본 (PSD / AI)</span></div>
+    <p>현행 상세페이지는 한글 텍스트가 이미지 안에 박혀 있어 번역 레이어로 처리할 수 없다. 원본 레이어 파일이 없으면 <b>전면 재제작</b>이며, 이는 8주 일정에 잡혀 있지 않은 분량이다.</p>
+    <div class="ask"><b>요청:</b> MVP SKU 상세페이지 PSD/AI 원본. 없으면 <b>변경관리 단가표 적용 및 일정 순연</b> 대상임을 W1에 확정.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">DISNEY 라이선스 지역 (<code>cate_no=512</code>)</span></div>
+    <p>콜라보 라인이 카테고리로 실재함을 확인했다. 캐릭터 라이선스는 지역 한정이 원칙이므로 일본 판매 권리가 없을 가능성이 높다.</p>
+    <div class="ask"><b>요청:</b> 라이선스 계약서의 판매 가능 지역 조항. 미확인 상태에서는 <b>해당 SKU 전량 등록 보류</b>.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">일본 국내 반품 수취 주소</span></div>
+    <p>현행 반품지는 경기 포천이다. 特商法 표기에는 반품 관련 정보가 포함되며, 일본 소비자에게 한국 주소로의 반송을 요구하는 구조는 실무상 반품 포기를 유발한다.</p>
+    <div class="ask"><b>요청:</b> 일본 내 반품 수취 주소 확보 방안(대행사·창고·전송 서비스) 및 반송비 부담 주체 결정.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p0">P0</span><span class="t">모델 초상권 지역 범위</span></div>
+    <p>사이트 전반이 모델 착용컷 중심이다. 한국 촬영 계약이 “국내 온라인” 한정인 경우가 흔하며, 그렇다면 이미지 자산 대부분을 일본에서 쓸 수 없다.</p>
+    <div class="ask"><b>요청:</b> 모델 계약서의 사용 지역·기간·매체 조항. 제한이 있으면 <b>이미지 재촬영은 Out of Scope</b>임을 재확인.</div>
+  </div>
+
+  <h3>P1 — 성과 차단</h3>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">리뷰 62,140건 이관 설계 부재</span></div>
+    <p>사이즈 적합성 후기가 다수 확인된다(“75b인데 잘 맞아요”). 브랜드 인지가 0인 시장에서 이 자산은 광고보다 강한 전환 근거다. 다만 번역 게재 시 표시 규제 대상이 되므로 무감수 자동번역은 금지다.</p>
+    <div class="ask"><b>결정 필요:</b> 이관 범위(전량 / 베스트 SKU 한정), 번역 방식, 표시 문구(「韓国サイトのレビューを翻訳」 등 출처 명시).</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">이중가격 · 적립금 50% 표기</span></div>
+    <p>정상가/판매가 병기와 최대 50% 적립금 표시가 확인된다. 일본에서 비교 대상 가격은 근거(판매 실적·기간)를 요구받으며, 고액 포인트 환원 표시도 유리오인 관점의 검토 대상이다.</p>
+    <div class="ask"><b>결정 필요:</b> JP 가격 정책 — 참고가격 게재 여부, 포인트 환원율.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">결제 수단 격차</span></div>
+    <p>현행은 신용카드와 무통장입금뿐이다. 일본은 JCB 미지원 시 상당 비율이 결제 불가이며, PayPay·컨비니 결제·Paidy가 사실상 기본값이다.</p>
+    <div class="ask"><b>즉시 착수:</b> Shopify Payments(JP) 가부 판정 → 불가 시 KOMOJU. <b>심사 2~4주</b>이므로 W1에 신청하지 않으면 8주 일정이 무너진다.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">브랜드 표기 3종 분열</span></div>
+    <p>도메인은 <code>marun5</code>, 워드마크는 <code>Marn5</code>, 한글은 “마른파이브”다. 일본어 표기는 아직 없다.</p>
+    <div class="ask"><b>결정 필요:</b> 일본 표기 확정(<code>Marn5</code> 단독 / マルンファイブ 병기), 도메인(<code>marun5.jp</code> vs <code>marn5.jp</code>), 상표 출원 가능성 확인.</div>
+  </div>
+
+  <div class="gap">
+    <div class="hd"><span class="chip p1">P1</span><span class="t">무료배송 임계 미조정</span></div>
+    <p>현행 50,000원(≈¥5,726)을 그대로 쓰면 크로스보더 배송 실비를 회수하지 못한다. 아래 단가 검증 참조.</p>
+    <div class="ask"><b>권장:</b> ¥8,000~10,000. 물류 견적 확정 후 W3에 고정.</div>
+  </div>
+
+  <h3>P2 — 판단</h3>
+  <div class="grid g3">
+    <div class="card"><span class="chip p2">P2</span><h4 style="margin-top:10px;">빅사이즈 · 맨즈</h4><p style="font-size:.9rem;color:var(--ink-2);margin:0;">MVP 제외 시 품표·사이즈표 수집 범위가 절반으로 준다. 여성 이너 집중 권장.</p></div>
+    <div class="card"><span class="chip p2">P2</span><h4 style="margin-top:10px;">아울렛 노출</h4><p style="font-size:.9rem;color:var(--ink-2);margin:0;">인지 0 시장에서 할인 진열 선노출은 가격 앵커를 훼손한다. Phase 1.5 이후.</p></div>
+    <div class="card"><span class="chip p2">P2</span><h4 style="margin-top:10px;">서브브랜드 노출 층위</h4><p style="font-size:.9rem;color:var(--ink-2);margin:0;">9종을 1차 내비에 두면 일본 사용자에게 의미 없는 선택지가 된다. 태그로 내리고 스토리텔링으로만 노출.</p></div>
+  </div>
+</section>
+
+<section id="unit">
+  <span class="eyebrow">Section 09 — Unit Economics</span>
+  <h2>직배송이 성립하는가</h2>
+  <p class="lede">플레이북은 MVP를 한국 직배송 + DDP로 잡았다. 실측 가격을 넣어 보면 <b>이 모델은 단품 주문에서 성립하지 않는다</b>. 성립시키려면 장바구니 설계가 먼저다.</p>
+
+  <div class="note" style="margin:20px 0 8px;">
+    <b>2026-08-24 갱신.</b> 아래 가격은 추정치가 아니라 <b>Catalog MCP 로 수집한 41개 전량 실측값</b>이다. 최고가가 <b>¥3,769</b>(쉬어 브라렛 스칼렛), 최저가가 <b>¥676</b>(넉넉 20D)이며, <b>1만엔을 넘는 SKU 는 하나도 없다</b>.
+  </div>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>상품 (실측)</th><th class="num">KRW</th><th class="num">JPY</th><th>HS 계열</th><th>면세</th></tr></thead>
+      <tbody>
+        <tr><td class="k">넉넉 빅사이즈 팬티스타킹 20D</td><td class="num">5,900</td><td class="num">¥676</td><td class="num">6115.21~29</td><td><span class="chip p0">제외</span></td></tr>
+        <tr><td class="k">쉬어 팬티 미니멀 비키니</td><td class="num">7,900</td><td class="num">¥905</td><td class="num">6108</td><td><span class="chip p0">제외</span></td></tr>
+        <tr><td class="k">넉넉 시스루 앵클 &amp; 니삭스 2종</td><td class="num">9,500</td><td class="num">¥1,088</td><td class="num">6115.9x</td><td><span class="chip p2">가능</span></td></tr>
+        <tr><td class="k">쉬어 팬티 릴렉스</td><td class="num">12,900</td><td class="num">¥1,478</td><td class="num">6108</td><td><span class="chip p0">제외</span></td></tr>
+        <tr><td class="k">두프리 실리콘 누드브라 슬림</td><td class="num">15,900</td><td class="num">¥1,821</td><td class="num">3926.20 / 6212</td><td><span class="chip p1">분류 확인</span></td></tr>
+        <tr><td class="k">캡내장 모달 브라캡 나시탑</td><td class="num">15,900</td><td class="num">¥1,821</td><td class="num">6109 / 6114</td><td><span class="chip p0">제외</span></td></tr>
+        <tr><td class="k">히트터치 홀터넥 기모 브라탑</td><td class="num">19,900</td><td class="num">¥2,279</td><td class="num">6109 / 6110</td><td><span class="chip p0">제외</span></td></tr>
+        <tr><td class="k">쉬어 브라렛 미니멀 트라이앵글</td><td class="num">21,900</td><td class="num">¥2,509</td><td class="num">6212</td><td><span class="chip p2">가능</span></td></tr>
+        <tr><td class="k">쉬어 브라 오프숄더 논슬립</td><td class="num">25,900</td><td class="num">¥2,967</td><td class="num">6212</td><td><span class="chip p2">가능</span></td></tr>
+        <tr><td class="k">쉬어 브라 커브넥 텐션윙</td><td class="num">27,900</td><td class="num">¥3,196</td><td class="num">6212</td><td><span class="chip p2">가능</span></td></tr>
+        <tr><td class="k">쉬어 브라 글램 커버업</td><td class="num">29,800</td><td class="num">¥3,414</td><td class="num">6212</td><td><span class="chip p2">가능</span></td></tr>
+        <tr><td class="k">쉬어 브라렛 스칼렛 시스루 레이스</td><td class="num">32,900</td><td class="num">¥3,769</td><td class="num">6212</td><td><span class="chip p2">가능</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="caption">환율 100엔 = 873원 (2026-08-21). 전 41개 목록은 <code>products_clean.csv</code> 참조. HS 계열은 통관사 확정 전 추정.</p>
+
+  <h3>실측 가격으로 다시 계산한 장바구니</h3>
+  <div class="grid g3" style="margin-top:16px;">
+    <div class="card">
+      <span class="chip p0">붕괴</span>
+      <h4 style="margin-top:12px;">스타킹 단품 ¥676</h4>
+      <p style="font-size:.9rem;color:var(--ink-2);margin:0 0 10px;">배송 실비 ¥1,200~2,500 &middot; 면세 제외 품목</p>
+      <p style="font-size:.9rem;margin:0;">배송비가 상품가의 <b>2~4배</b>. 단품 노출을 억제하고 <b>4매입 옵션을 기본값</b>으로 세워야 한다 &mdash; 카페24에 이미 그 옵션이 있다.</p>
+    </div>
+    <div class="card">
+      <span class="chip p2">완전 면세</span>
+      <h4 style="margin-top:12px;">브라 3점 ¥8,431</h4>
+      <p style="font-size:.9rem;color:var(--ink-2);margin:0 0 10px;">글램 ¥3,414 + 커브넥 ¥3,196 + 누드브라 ¥1,821</p>
+      <p style="font-size:.9rem;margin:0;">전 품목 6212 / 3926 &rarr; <b>관세&middot;소비세 ¥0</b>. 다만 임계 ¥9,800 에는 <b>¥1,369 부족</b>하다.</p>
+    </div>
+    <div class="card">
+      <span class="chip p0">한도 초과</span>
+      <h4 style="margin-top:12px;">한 점 더 담으면 ¥10,241</h4>
+      <p style="font-size:.9rem;color:var(--ink-2);margin:0 0 10px;">브라 2 + 팬티 2 + 캡나시 1</p>
+      <p style="font-size:.9rem;margin:0;">0.6掛け 폐지 후 <b>1만엔 초과 &rarr; 전 품목 과세</b>. 무료배송을 받으려다 관세를 무는 구간에 정확히 들어간다.</p>
+    </div>
+  </div>
+
+  <h3>¥9,800 과 ¥10,000 사이 &mdash; 폭이 ¥200 뿐이다</h3>
+  <p>실측 단가대가 <b>¥676~¥3,769</b>이므로, 임계 ¥9,800 을 채우려면 <b>4~5점</b>을 담아야 한다. 일본 이너웨어 D2C 의 통상 장바구니(2~3점)보다 높고, 4~5점째를 담는 순간 ¥10,000 면세 한도를 넘길 위험이 커진다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>임계안</th><th class="num">필요 점수</th><th>면세 여유</th><th>판단</th></tr></thead>
+      <tbody>
+        <tr><td class="k">¥10,000</td><td class="num">4~5점</td><td><span class="chip p0">없음</span></td><td>임계 달성 = 면세 상실. <b>채택 불가</b></td></tr>
+        <tr><td class="k">¥9,800</td><td class="num">4~5점</td><td class="num">¥200</td><td>면세 한도를 최대로 쓰지만 <b>초과 경고 UI 필수</b></td></tr>
+        <tr><td class="k">¥8,800</td><td class="num">3~4점</td><td class="num">¥1,200</td><td class="k"><b>권장</b> &mdash; 브라 3점(¥8,431)에서 거의 닿고, 한 점 더 담아도 한도 안에 남는다</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note" style="margin-top:18px;">
+    <b>수정 권고: 임계 ¥8,800.</b> 앞선 v1 에서 ¥9,800 을 권했으나, 실측 가격을 넣어 보니 <b>달성 난이도와 면세 초과 위험이 동시에 높다</b>. ¥8,800 이면 브라 3점(¥8,431)에서 사실상 닿고, 네 번째 품목을 담아도 ¥10,000 아래에 머문다. 배송 실비 비중도 14~28% 로 회수 가능 구간이다.
+    <br><br>
+    어느 값을 쓰든 <b>장바구니가 ¥10,000 에 접근하면 경고를 띄우는 장치</b>가 필요하다. 「関税・消費税込み／追加請求なし」를 상단에 고정한 이상, 고객이 모르는 사이 과세 구간으로 넘어가게 두면 그 문구가 거짓이 된다.
+  </div>
+
+  <div class="note" style="margin-top:14px;">
+    <b>4매입 옵션이 답의 절반이다.</b> 카페24는 이미 <code>4매입</code>·<code>10매입</code> 묶음을 기본 옵션으로 운영하고 있다. 스타킹 4매입 한 건이면 단품 4개를 따로 담는 것보다 과세가격 관리가 쉽고, 배송 실비 비중도 한 번에 떨어진다. 일본 진열에서도 <b>묶음을 기본, 단품을 예외</b>로 세운다.
+  </div>
+
+  <div class="note" style="margin-top:14px;">
+    <b>시한.</b> 0.6掛け 폐지와 1만엔 이하 통신판매 수입화물 소비세 과세가 시행되면 위 여유가 모두 사라진다. 시행일은 공개 자료가 엇갈리므로 통관사 확인이 필요하나, <b>직배송의 가격 우위는 한시적</b>이라는 전제로 Phase 2 3PL 전환을 설계한다.
+  </div>
+</section>
+
+<section id="design">
+  <span class="eyebrow">Section 10 — Design Direction</span>
+  <h2>D6 갱신 — 화이트 · 블랙 · 라운드</h2>
+  <p class="lede">발주자 확정 방향: <b>동글동글한 라운드 형태 / 화이트 배경 / 블랙 타이포</b>. 제출된 <code>Marn5</code> 워드마크가 이 방향과 이미 정합한다 — 순흑 기하학 산세리프, 부드러운 곡선 종단, <code>a</code>자 카운터의 픽셀 노치.</p>
+
+  <div class="swatches">
+    <div class="sw"><i style="background:#FFFFFF;"></i><span>#FFFFFF</span></div>
+    <div class="sw"><i style="background:#F6F6F4;"></i><span>#F6F6F4</span></div>
+    <div class="sw"><i style="background:#E7E7E2;"></i><span>#E7E7E2</span></div>
+    <div class="sw"><i style="background:#5E5E5C;"></i><span>#5E5E5C</span></div>
+    <div class="sw"><i style="background:#0A0A0A;"></i><span>#0A0A0A</span></div>
+  </div>
+  <p class="caption">이 문서 자체가 해당 방향의 첫 적용본이다 — 무채색 5단, 컬러 액센트 없음, 라운드 28/20/14px, 칩은 완전 필.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>항목</th><th>결정</th><th>비고</th></tr></thead>
+      <tbody>
+        <tr><td class="k">베이스 테마</td><td>Horizon</td><td>Dhaliora 실사에서 확인된 구성 — Dawn 대비 섹션 자유도 높음</td></tr>
+        <tr><td class="k">그라운드</td><td class="num">#FFFFFF 단일</td><td>섹션 구분은 라인이 아닌 <b>라운드 서피스 블록</b>으로</td></tr>
+        <tr><td class="k">타이포 컬러</td><td class="num">#0A0A0A</td><td>보조 2단(#5E5E5C / #95958E)까지만</td></tr>
+        <tr><td class="k">라운드</td><td class="num">카드 24~28px / 버튼·칩 pill</td><td>Horizon 기본 radius 토큰 상향 커스터마이즈</td></tr>
+        <tr><td class="k">일본어 폰트</td><td>M PLUS Rounded 1c / Zen Maru Gothic</td><td>둘 다 라운드 고딕. 워드마크 곡선과 정합</td></tr>
+        <tr><td class="k">액센트 컬러</td><td>없음 (흑백)</td><td>강조는 <b>흑 필 + 백 텍스트</b>로. 컬러는 상품 이미지에만</td></tr>
+        <tr><td class="k">예외</td><td>관세 고지 배너</td><td>「関税・消費税込み」는 가독성 우선 — 흑 필 배너 고정</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note" style="margin-top:18px;">
+    <b>대기 중.</b> 제시하신 Pinterest 레퍼런스는 robots.txt로 차단되어 직접 확인하지 못했다. <b>스크린샷을 공유해 주시면</b> 위 결정을 레퍼런스에 맞춰 조정한다 — 특히 라운드의 강도(모서리 24px인지 40px인지), 여백 밀도, 이미지 크롭 형태(라운드 사각 vs 원형)는 레퍼런스를 봐야 확정할 수 있다.
+  </div>
+</section>
+
+<section id="ask">
+  <span class="eyebrow">Section 11 — Next</span>
+  <h2>즉시 요청 항목</h2>
+  <p class="lede">플레이북의 발주자 체크리스트 중, <b>이번 실사로 필요성이 확정된 것만</b> 추린 목록이다. 순서는 일정 영향도 순.</p>
+
+  <div class="check">
+    <div class="citem"><span class="b"></span><span>카페24 Admin API 앱 발급 — 상품·옵션·재고·리뷰 스코프</span><span class="chip">D+3</span></div>
+    <div class="citem"><span class="b"></span><span>Shopify Payments(JP) 신청 또는 KOMOJU 심사 착수 <b>— 2~4주 소요</b></span><span class="chip p0">D+3</span></div>
+    <div class="citem"><span class="b"></span><span>DISNEY 라이선스 판매 지역 조항 확인</span><span class="chip p0">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>모델 초상권 계약서 사용 지역·매체 범위</span><span class="chip p0">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>테스트 41 SKU의 KRW 가격표 — 리스트에 가격 열이 없다</span><span class="chip p0">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>브라→팬티 추가구매 7쌍의 짝 매핑 확정 + 세트 할인 정책</span><span class="chip p0">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>“2종 합본” 4건 — 분리 등록 vs 합본 유지 결정</span><span class="chip p1">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>히트터치 남녀 상하세트 — 여성 단품 분리 여부</span><span class="chip p2">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>전 SKU 소재 조성비 · 취급표시 원문 (택 라벨)</span><span class="chip p0">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>전 SKU 실측 사이즈표 (cm) + 측정 위치 정의</span><span class="chip p0">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>KR↔JP 사이즈 대응 승인표 — 4개 체계 각각</span><span class="chip p0">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>전 SKU 원산지 · HS 코드 (통관사 확정) · RCEP 자기신고 문안</span><span class="chip p0">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>상세페이지 PSD/AI 원본 — 부재 시 재제작 단가·순연 합의</span><span class="chip p0">D+10</span></div>
+    <div class="citem"><span class="b"></span><span>일본 내 반품 수취 주소 확보 방안</span><span class="chip p1">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>JPY 가격표 + 참고가격 게재 정책 + 포인트 환원율</span><span class="chip p1">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>브랜드 일본어 표기 · 도메인 확정 (marun5.jp / marn5.jp)</span><span class="chip p1">D+7</span></div>
+    <div class="citem"><span class="b"></span><span>서브브랜드 9종 일본 상표 상태 조회</span><span class="chip p1">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>리뷰 이관 범위·번역·출처 표기 방침 결정</span><span class="chip p1">D+14</span></div>
+    <div class="citem"><span class="b"></span><span>Pinterest 디자인 레퍼런스 스크린샷</span><span class="chip p2">즉시</span></div>
+  </div>
+
+  <h3>이 문서로 할 수 없는 것</h3>
+  <div class="note">
+    이번 감사는 <b>공개 프론트엔드만</b> 대상으로 했다. 따라서 아래는 확인하지 못했다 — 전체 SKU 수, 실제 옵션 조합 전수, 재고 수량, 12개월 판매 데이터, 이지웨어·푸쉬업·오프숄더의 <code>cate_no</code>, 상품별 사이즈 탭 실제 내용, 상세페이지 이미지의 텍스트 삽입 비율. 전부 <b>Admin API 발급 즉시</b> 보완 가능하며, 그 시점에 이 문서를 v2로 갱신한다.
+  </div>
+</section>
+
+<footer>
+  <p>Marn5 재팬 이관 감사 · 2026-08-23 · 플레이북 v1.2 연계 문서<br>
+  일본 세무·법무 기재는 공개 자료 기준 정리이며 법률 자문이 아니다. 特商法 표기, 소비세·관세 처리, 家庭用品品質表示法·薬機法·景表法 판단은 일본 세리사·변호사 검토를 거친다.</p>
+  <p>실사 출처 — <a class="ext" href="https://marun5.com/index.html">marun5.com</a> · <a class="ext" href="https://marun5.com/shopinfo/guide.html">이용안내</a> · <a class="ext" href="https://marun5.com/board/product/list.html?board_no=4">상품 사용후기</a> · <a class="ext" href="https://www.caa.go.jp/policies/policy/representation/household_goods/guide/fiber/fiber_show.html">消費者庁 繊維製品の表示について</a> · <a class="ext" href="https://ko.tradingeconomics.com/japan/currency">TradingEconomics JPY</a></p>
+</footer>
+
+</div>

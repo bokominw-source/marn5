@@ -1,0 +1,3787 @@
+[
+ {
+  "product_no": 1140,
+  "product_code": "P0000BRW",
+  "product_name": "쉬어 브라 커브넥 텐션윙",
+  "price": "27900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스브라",
+   "브라",
+   "쉬어",
+   "노와이어",
+   "노와이어브라",
+   "푸쉬업브라",
+   "볼륨업브라",
+   "쉬어브라",
+   "심리스",
+   "저중심",
+   "여자브라",
+   "노라인",
+   "후크",
+   "브이넥",
+   "빅사이즈",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202608/e270af4fd961cffbc615664ed0516440.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202608/8fdd694dc3aba0f6fc0f531fb68cd318.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202608/144cd4b1f47d6c103d8a07fe96eec1c5.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BRW00CI",
+    "options": "[10%] 4매입-스킨 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRW00CJ",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRW00CK",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -7,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRW00CL",
+    "options": "[10%] 4매입-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRW00CM",
+    "options": "[10%] 4매입-스킨 4매-XXL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1140&h=24558424ca5f54822cb3c51b79246641c74b520f9f3631b758d99475a1d6246c"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1140",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦27,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "2037심브",
+   "상품명": "쉬어 브라 커브넥 텐션윙",
+   "product_no": "1140",
+   "URL": "https://marun5.com/product/쉬어-브라-커브넥-텐션윙/1140/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1142,
+  "product_code": "P0000BRY",
+  "product_name": "쉬어 팬티 릴렉스",
+  "price": "12900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스브라",
+   "브라",
+   "쉬어",
+   "노와이어",
+   "노와이어브라",
+   "푸쉬업브라",
+   "볼륨업브라",
+   "심리스",
+   "저중심",
+   "여자브라",
+   "노라인",
+   "후크",
+   "브이넥",
+   "빅사이즈"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202608/c8684e1b28c2a62a8ba085799e073cc6.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202608/25b4f5706070e5bb37c4195a36a7b29d.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202608/1a45a24d6cae2cd4bd44e64d0a1451db.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BRY000A",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRY000B",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRY000D",
+    "options": "[10%] 4매입-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRY000F",
+    "options": "[10%] 4매입-더스티블루 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BRY000G",
+    "options": "[10%] 4매입-더스티블루 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1142&h=99dedd68040450a879e28f4251943b7754c69bdffcd38b15de43e9bb8dc23988"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1142",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦12,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "2037심팬",
+   "상품명": "쉬어 팬티 릴렉스",
+   "product_no": "1142",
+   "URL": "https://marun5.com/product/쉬어-팬티-릴렉스/1142/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 1926,
+  "product_code": "P0000CWC",
+  "product_name": "쉬어 브라렛 미니멀 트라이앵글",
+  "price": "21900.00",
+  "summary_description": "",
+  "product_tag": [
+   "쉬어브라",
+   "브라",
+   "포인텔",
+   "심리스",
+   "후크형",
+   "후크",
+   "큰컵브라",
+   "편한브라"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202604/4c3f4af9022b30f8940607ec6925d536.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202604/a5b74cf38b41e2e1bb6c038000355ff1.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202604/c4e6e099c6267d53880cc4cf4edbe912.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CWC00FO",
+    "options": "[10%] 4매입-화이트 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWC00FP",
+    "options": "[10%] 4매입-화이트 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWC00FQ",
+    "options": "[10%] 4매입-화이트 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWC00FR",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWC00FS",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1926&h=cec18e40f691a04cfc2d3f549fbed6fc84bd33f4ad42b7a2192f472d9e70cf8c"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1926",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦21,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "2611삼각브",
+   "상품명": "쉬어 브라렛 미니멀 트라이앵글",
+   "product_no": "1926",
+   "URL": "https://marun5.com/product/쉬어-브라렛-미니멀-트라이앵글/1926/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1927,
+  "product_code": "P0000CWD",
+  "product_name": "쉬어 팬티 미니멀 비키니",
+  "price": "7900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스",
+   "팬티",
+   "심리스팬티",
+   "여자",
+   "노라인",
+   "삼각팬티",
+   "빅사이즈",
+   "여성",
+   "속옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202604/d0b65175447313164e1f8177dbf07eeb.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202604/1205d58a02370e8cfc6a262e3afb7f63.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202604/aa666797de0ac47c5661aabf4ad4633f.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CWD00HS",
+    "options": "[10%] 4매입-화이트 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWD00HT",
+    "options": "[10%] 4매입-스킨 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWD00HU",
+    "options": "[10%] 4매입-레드 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWD00HV",
+    "options": "[10%] 4매입-블랙 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWD00HW",
+    "options": "[10%] 4매입-화이트 2매+스킨 2매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1927&h=dc4c1b9846f992e2744dd12a3e8255eaafebaecaa6c1593e21026a7877078e8d"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1927",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦7,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "2611스트링팬",
+   "상품명": "쉬어 팬티 미니멀 비키니",
+   "product_no": "1927",
+   "URL": "https://marun5.com/product/쉬어-팬티-미니멀-비키니/1927/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 1928,
+  "product_code": "P0000CWE",
+  "product_name": "쉬어 브라 허그핏 코튼 삼각",
+  "price": "27900.00",
+  "summary_description": "",
+  "product_tag": [
+   "쉬어브라",
+   "브라",
+   "포인텔",
+   "심리스",
+   "후크형",
+   "후크",
+   "큰컵브라",
+   "편한브라"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202604/513bc44d04d4a7b9fc7e809e51cbb3e2.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202604/d997cafd399e49b9b2464ccfed88893a.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202604/c21099a1eaad2264dcd5c11f1ba592bf.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CWE00CU",
+    "options": "[10%] 4매입-그레이 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWE00CV",
+    "options": "[10%] 4매입-그레이 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWE00CW",
+    "options": "[10%] 4매입-그레이 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWE00CX",
+    "options": "[10%] 4매입-그레이 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWE00CY",
+    "options": "[10%] 4매입-레드 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1928&h=79f6fee17a21fed1e10b27eb89e7e5cc858faefc279c1161beea03b7df2955ac"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1928",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦27,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "2612포인브",
+   "상품명": "쉬어 브라 허그핏 코튼 삼각",
+   "product_no": "1928",
+   "URL": "https://marun5.com/product/쉬어-브라-허그핏-코튼-삼각/1928/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1929,
+  "product_code": "P0000CWF",
+  "product_name": "쉬어 팬티 허그핏 코튼 삼각",
+  "price": "7900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스",
+   "팬티",
+   "심리스팬티",
+   "여자",
+   "노라인",
+   "삼각팬티",
+   "빅사이즈",
+   "여성",
+   "속옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202604/bad24ac60b4a16af1a9fa1cf673cee58.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202604/56d5f9437f8150e0f5d23ff9824e1ef4.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202604/5f6c2baacc45a5225f596781c468e727.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CWF000Y",
+    "options": "[10%] 4매입-그레이 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWF000Z",
+    "options": "[10%] 4매입-그레이 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWF00BA",
+    "options": "[10%] 4매입-레드 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWF00BB",
+    "options": "[10%] 4매입-레드 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CWF00BC",
+    "options": "[10%] 4매입-브라운 4매-F/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1929&h=9ab32da0949ca4be4022afd24164e6bb41869b35ce12983236fa09758a541a6c"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1929",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦7,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "2612포인팬",
+   "상품명": "쉬어 팬티 허그핏 코튼 삼각",
+   "product_no": "1929",
+   "URL": "https://marun5.com/product/쉬어-팬티-허그핏-코튼-삼각/1929/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 1734,
+  "product_code": "P0000COS",
+  "product_name": "쉬어 브라렛 스칼렛 시스루 레이스",
+  "price": "32900.00",
+  "summary_description": "",
+  "product_tag": [
+   "캡내장",
+   "캡내장브라",
+   "몰드브라",
+   "몰드내장",
+   "노와이어브라",
+   "편한브라",
+   "심플",
+   "베이직",
+   "여름브라",
+   "여름속옷",
+   "쉬어브라"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202602/58c8f57ef70fa3dbb14f0baa9888ce46.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202602/69006a332b56e90e35f72e8be7cc26ee.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202602/de85da8ae45bc830eeb2764610c77ca6.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000COS00ZO",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COS00ZP",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COS00ZQ",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COS00ZR",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COS00ZS",
+    "options": "[10%] 4매입-클린화이트 2매 + 미스티그린 2매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1734&h=b8af4f7631c6236c5e3334f862ac311b19e42caa7b8ea658b5f245f1f592ff86"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1734",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦32,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "2617레크브",
+   "상품명": "쉬어 브라렛 스칼렛 시스루 레이스",
+   "product_no": "1734",
+   "URL": "https://marun5.com/product/쉬어-브라렛-스칼렛-시스루-레이스/1734/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1735,
+  "product_code": "P0000COT",
+  "product_name": "쉬어 팬티 스칼렛 시스루 레이스",
+  "price": "13900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스팬티",
+   "팬티",
+   "치키팬티",
+   "치키",
+   "쉬어",
+   "삼각팬티",
+   "삼각",
+   "쉬어팬티",
+   "노라인",
+   "후크",
+   "빅사이즈",
+   "노라인팬티",
+   "레이스",
+   "레이스팬티",
+   "시스루팬티",
+   "시스루"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202602/6faf207ac190080ca78c5ab6f1ee4a33.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202602/8fe000e485146c6cd95fe48a577cb1ba.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202602/e72b860c72ecb8694509ca98ffdf3dc0.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000COT00OY",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COT00OZ",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COT00PA",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COT00PB",
+    "options": "[10%] 4매입-클린화이트 2매 + 더스티블루 2매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000COT00PC",
+    "options": "[10%] 4매입-클린화이트 2매 + 미스티그린 2매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1735&h=fcee20f4a574d11b5c08744d7fdc38b5b8ad21f71f2581017a30d9ae8a6f115a"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1735",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦13,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "2617레팬",
+   "상품명": "쉬어 팬티 스칼렛 시스루 레이스",
+   "product_no": "1735",
+   "URL": "https://marun5.com/product/쉬어-팬티-스칼렛-시스루-레이스/1735/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 852,
+  "product_code": "P0000BGU",
+  "product_name": "쉬어 브라 글램 커버업",
+  "price": "29800.00",
+  "summary_description": "",
+  "product_tag": [
+   "글램",
+   "글램브라",
+   "큰컵",
+   "큰컵브라",
+   "심리스",
+   "심리스브라",
+   "큰컵심리스",
+   "노와이어",
+   "노와이어브라",
+   "큰가슴",
+   "빅사이즈",
+   "빅사이즈브라",
+   "큰가슴브라",
+   "심리스속옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202601/8f7448093a80a33247d8e5235b96d139.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202601/5feb2d83ebe80464216d7609a3c6a80c.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202601/d5da70ea8c7253bb4f86ea6176f4f742.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BGU000A",
+    "options": "[10%] 4매입-아이보리 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -21,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGU000B",
+    "options": "[10%] 4매입-아이보리 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -44,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGU000C",
+    "options": "[10%] 4매입-아이보리 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -49,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGU000D",
+    "options": "[10%] 4매입-아이보리 4매-2XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -48,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGU000E",
+    "options": "[10%] 4매입-아이보리 4매-3XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -74,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D852&h=bc438e14831f5b709f028118de5b83b44599bc1fd502ac494788366a3b9ca79e"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=852",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦29,800",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "F4글램",
+   "상품명": "쉬어 브라 글램 커버업",
+   "product_no": "852",
+   "URL": "https://marun5.com/product/쉬어-브라-글램-커버업/852/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1888,
+  "product_code": "P0000CUQ",
+  "product_name": "쉬어 팬티 심리스 커버업",
+  "price": "7900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스팬티",
+   "팬티",
+   "치키팬티",
+   "치키",
+   "쉬어",
+   "삼각팬티",
+   "삼각",
+   "쉬어팬티",
+   "노라인",
+   "후크",
+   "빅사이즈",
+   "노라인팬티",
+   "데일리팬티",
+   "데일리",
+   "빅사이즈팬티",
+   "XL",
+   "xl"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202604/f0c2da957f753d628f7c03e2cbe504df.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202604/439d2daa7a6d1d19aecb162383aa3c5f.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202604/a4126e3defcdac529ea1c21e9c7bb33b.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CUQ00EL",
+    "options": "[10%] 4매입-아이보리-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CUQ00EM",
+    "options": "[10%] 4매입-아이보리-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CUQ00EN",
+    "options": "[10%] 4매입-아이보리-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CUQ00EO",
+    "options": "[10%] 4매입-아이보리-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CUQ00EP",
+    "options": "[10%] 4매입-스카이블루-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1888&h=196c8ddbe8f6ebe39b3a37f8a4531c747618dd302e03717e57bc943fc39b1722"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1888",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦7,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "F4심팬",
+   "상품명": "쉬어 팬티 심리스 커버업",
+   "product_no": "1888",
+   "URL": "https://marun5.com/product/쉬어-팬티-심리스-커버업/1888/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 1689,
+  "product_code": "P0000CMZ",
+  "product_name": "쉬어 브라 소프트폼 3cm 볼륨업",
+  "price": "27900.00",
+  "summary_description": "",
+  "product_tag": [
+   "글램",
+   "글램브라",
+   "큰컵",
+   "큰컵브라",
+   "심리스",
+   "심리스브라",
+   "큰컵심리스",
+   "노와이어",
+   "노와이어브라",
+   "큰가슴",
+   "빅사이즈",
+   "빅사이즈브라",
+   "큰가슴브라",
+   "심리스속옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202602/9003d2ebaedecff90cd106724e1b8eba.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202602/0ceda72f900d397105b05876d65a88c5.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202602/1ad603c2be7f886a77a290446a534055.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CMZ00DK",
+    "options": "[10%] 4매입-스킨 4매-XS",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMZ00DL",
+    "options": "[10%] 4매입-스킨 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMZ00DM",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMZ00DN",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMZ00OQ",
+    "options": "[10%] 4매입-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1689&h=a15df2ba8863b161e1789febc96b1b0f50dd4acbc1fe53ecf45e86fda417ac1e"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1689",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦27,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "M32브",
+   "상품명": "쉬어 브라 소프트폼 3cm 볼륨업",
+   "product_no": "1689",
+   "URL": "https://marun5.com/product/쉬어-브라-소프트폼-3cm-볼륨업/1689/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1690,
+  "product_code": "P0000CNA",
+  "product_name": "쉬어 팬티 하이컷 심리스",
+  "price": "7900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스팬티",
+   "팬티",
+   "치키팬티",
+   "치키",
+   "쉬어",
+   "삼각팬티",
+   "삼각",
+   "쉬어팬티",
+   "노라인",
+   "후크",
+   "빅사이즈",
+   "노라인팬티"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202602/e779709c7a0e3e69a06975e98a3afc82.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202602/aa910621d9ad4eea5c029103053315a9.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202602/64f56d0f5487a2984c93b9fb585ca1a9.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CNA00HG",
+    "options": "[10%] 4매입-스킨 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CNA00HH",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CNA00HI",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CNA00HJ",
+    "options": "[10%] 4매입-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CNA00HK",
+    "options": "[10%] 4매입-옐로우 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1690&h=e4b94d2c3bd6f0ff017de23533ac3b4233df155d178598ab4c749cfeb536c72f"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1690",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦7,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "M32심팬",
+   "상품명": "쉬어 팬티 하이컷 심리스",
+   "product_no": "1690",
+   "URL": "https://marun5.com/product/쉬어-팬티-하이컷-심리스/1690/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 848,
+  "product_code": "P0000BGQ",
+  "product_name": "쉬어 브라 오프숄더 논슬립",
+  "price": "25900.00",
+  "summary_description": "",
+  "product_tag": [
+   "오프숄더브라",
+   "쉬어",
+   "논슬립",
+   "쉬어브라",
+   "브라",
+   "노와이어",
+   "빅사이즈",
+   "심리스",
+   "심리스브라",
+   "빅사이즈브라",
+   "오픈숄더브라",
+   "오프숄더",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202606/693bddad6b2710eb0a0bb254c279ed78.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202606/fb9d3395c6cbd2b4ceb69a4a8740abe2.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202606/da0aef3903a1e7599aedb444bc59ec15.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BGQ000Y",
+    "options": "[10%] 4매입-스킨 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": -10,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGQ000Z",
+    "options": "[10%] 4매입-스킨 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGQ00BA",
+    "options": "[10%] 4매입-스킨 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGQ00BB",
+    "options": "[10%] 4매입-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BGQ00BC",
+    "options": "[10%] 4매입-블랙 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": -10,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D848&h=bd02684fb7a0e731269ea3af9976cf16f31d0aabe87542b3e1c43d62daed1b31"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=848",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦25,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "U1오숄브",
+   "상품명": "쉬어 브라 오프숄더 논슬립",
+   "product_no": "848",
+   "URL": "https://marun5.com/product/쉬어-브라-오프숄더-논슬립/848/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1386,
+  "product_code": "P0000CBI",
+  "product_name": "쉬어 브라 시그니처",
+  "price": "27900.00",
+  "summary_description": "",
+  "product_tag": [
+   "캡내장",
+   "캡내장브라",
+   "몰드브라",
+   "몰드내장",
+   "노와이어브라",
+   "편한브라",
+   "심플",
+   "베이직",
+   "여름브라",
+   "여름속옷",
+   "시그니처",
+   "쉬어시그니처",
+   "쉬어브라",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/8b82a40705fb61620e8cd3f88ffb6d90.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/20566ae7a9083a0a84690d2704257a67.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/3a807f02e19a24714beef2c4941dd694.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CBI000A",
+    "options": "[10%] 4매입-에버베이지 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBI000B",
+    "options": "[10%] 4매입-에버베이지 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBI000C",
+    "options": "[10%] 4매입-에버베이지 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBI000D",
+    "options": "[10%] 4매입-에버베이지 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBI000E",
+    "options": "[10%] 4매입-에버베이지 4매-XXL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1386&h=b005af8121dcfd7523f47bbb188033a1ccb2b90ba555b3483dd49517a140138c"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1386",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦27,900",
+  "_sheet": {
+   "카테고리": "브라",
+   "PI코드": "쉬어브이넥브",
+   "상품명": "쉬어 브라 시그니처",
+   "product_no": "1386",
+   "URL": "https://marun5.com/product/쉬어-브라-시그니처/1386/category/105/display/1/",
+   "구성메모": "브라 단품 코드에 팬티 추가구매 기능 구현"
+  }
+ },
+ {
+  "product_no": 1384,
+  "product_code": "P0000CBG",
+  "product_name": "쉬어 햄라인 팬티 시그니처",
+  "price": "13900.00",
+  "summary_description": "",
+  "product_tag": [
+   "심리스",
+   "팬티",
+   "심리스팬티",
+   "여자",
+   "노라인",
+   "삼각팬티",
+   "빅사이즈",
+   "여성",
+   "속옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202509/430a9a5f24cb71f991d5cdb0d5b9cacd.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202509/86debc5dc5a87dba720c7a7bab32c8bf.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202509/1187a95ca3d512030bc9e8233ef7b5a2.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CBG0CHG",
+    "options": "[10%] 4매입-에버베이지 4매-S",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBG0CHH",
+    "options": "[10%] 4매입-에버베이지 4매-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -4,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBG0CHI",
+    "options": "[10%] 4매입-에버베이지 4매-L",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBG0CHJ",
+    "options": "[10%] 4매입-에버베이지 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CBG0CHK",
+    "options": "[10%] 4매입-에버베이지 4매-XXL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1384&h=23129be9338ca057fb4d26fb78d7a9ef2f61745aeee4f6b63569f544fd5cd17f"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1384",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦13,900",
+  "_sheet": {
+   "카테고리": "팬티",
+   "PI코드": "쉬어햄팬",
+   "상품명": "쉬어 햄라인 팬티 시그니처",
+   "product_no": "1384",
+   "URL": "https://marun5.com/product/쉬어-햄라인-팬티-시그니처/1384/category/105/display/1/",
+   "구성메모": ""
+  }
+ },
+ {
+  "product_no": 63,
+  "product_code": "P00000CL",
+  "product_name": "캡내장 모달 브라캡 나시탑",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "캡나시",
+   "기모나시",
+   "골지나시",
+   "끈나시",
+   "기모끈나시",
+   "프리미엄나시",
+   "여자나시",
+   "여성나시",
+   "골지여성",
+   "여자골지",
+   "여성골지",
+   "밍크기모",
+   "두꺼운나시",
+   "여성기모",
+   "여자기모",
+   "와이드",
+   "기본",
+   "베이직",
+   "일상",
+   "브라캡",
+   "노브라",
+   "노브라나시"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202601/2021d1e909b0640a6fa8d0ab473f494c.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202601/d35e03934233513cf45fd3e5d7682939.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202601/c21379c481153be7f1098fda0e40339a.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000CL00HE",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -108,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000CL00HF",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-XL (55-77)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000CL00HG",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-XXL (66-99)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -102,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000CL00HH",
+    "options": "[10%] 4매입-블랙 2매+ 그레이 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000CL00HI",
+    "options": "[10%] 4매입-블랙 2매+ 그레이 2매-XL (55-77)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D63&h=0ed36437af484533e74d558e0ad6c30d3bc5f89ebd4f321d4964403372f47b1d"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=63",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "RA모달캡나",
+   "상품명": "캡내장 모달 브라캡 나시탑",
+   "product_no": "63",
+   "URL": "https://marun5.com/product/캡내장-모달-브라캡-나시탑/63/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 2147,
+  "product_code": "P0000DEP",
+  "product_name": "캡내장 브리즈 모달 크롭 끈나시",
+  "price": "15500.00",
+  "summary_description": "",
+  "product_tag": [
+   "캡나시",
+   "기모나시",
+   "골지나시",
+   "끈나시",
+   "기모끈나시",
+   "프리미엄나시",
+   "여자나시",
+   "여성나시",
+   "골지여성",
+   "여자골지",
+   "여성골지",
+   "밍크기모",
+   "두꺼운나시",
+   "여성기모",
+   "여자기모",
+   "와이드",
+   "기본",
+   "베이직",
+   "일상",
+   "브라캡",
+   "노브라",
+   "노브라나시"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202608/68746c6e53568161a9f364e1e0b602f6.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202608/2df89c4859105f290669a9a9c59988ad.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202608/661b2afacd7877d3d604ada20ff267a2.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000DEP000A",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -108,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000DEP000B",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-XL (55-77)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000DEP000C",
+    "options": "[10%] 4매입-블랙 2매+ 아이보리 2매-XXL (66-99)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -102,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000DEP000D",
+    "options": "[10%] 4매입-블랙 2매+ 그레이 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D2147&h=f18e20d47b6f96ba2102c85165f881037a9f3650da2772baf6c9339e1d0ac390"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=2147",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,500",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "RA크롭모달캡나",
+   "상품명": "캡내장 브리즈 모달 크롭 끈나시",
+   "product_no": "2147",
+   "URL": "https://marun5.com/product/캡내장-브리즈-모달-크롭-끈나시/2147/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 620,
+  "product_code": "P00000XW",
+  "product_name": "날마다 모달 코튼 캡내장 얇은 끈 나시 2종",
+  "price": "17900.00",
+  "summary_description": "",
+  "product_tag": [
+   "브라탑나시",
+   "브라캡나시",
+   "끈나시",
+   "캡나시",
+   "브라나시",
+   "캐미솔",
+   "나시",
+   "면나시",
+   "모달나시",
+   "브라탑",
+   "여성나시티",
+   "런닝",
+   "나시티",
+   "편한브라",
+   "여름브라",
+   "민소매",
+   "민소매나시",
+   "매리야스",
+   "이너",
+   "탑나시",
+   "나시탑",
+   "튜브탑",
+   "노브라나시",
+   "노브라",
+   "노와이어",
+   "크롭",
+   "크롭나시",
+   "크롭캡나시",
+   "크롭탑나시",
+   "크롭탑",
+   "캡내장",
+   "브라렛",
+   "슬리브리스",
+   "이너웨어",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/06524cd99e16308bc541e2e8dcb006d5.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/0c898a8e89bc35bc63889c7e31298cfa.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/c4e5edf1b5f11c7de23cb5586a219d5e.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000XW00HO",
+    "options": "[10%] 숏기장 4매입-화이트 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -17,
+    "safety_inventory": -10,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XW00HP",
+    "options": "[10%] 숏기장 4매입-화이트 4매-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XW00HQ",
+    "options": "[10%] 숏기장 4매입-블랙 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XW00HR",
+    "options": "[10%] 숏기장 4매입-블랙 4매-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XW00HS",
+    "options": "[10%] 숏기장 4매입-화이트 2매 + 블랙 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -80,
+    "safety_inventory": -10,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D620&h=79187d6ce9afc1aac469a762c917c03e73e0845d47170256741fc4d6e9e2bc7f"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=620",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦17,900",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "SLN07가는캡나, 베이직",
+   "상품명": "날마다 모달 코튼 캡내장 얇은 끈 나시 2종",
+   "product_no": "620",
+   "URL": "https://marun5.com/product/날마다-모달-코튼-캡내장-얇은-끈-나시-2종/620/category/105/display/1/",
+   "구성메모": "2종 합본"
+  }
+ },
+ {
+  "product_no": 621,
+  "product_code": "P00000XX",
+  "product_name": "날마다 모달 코튼 캡내장 크롭 백리스 나시",
+  "price": "18900.00",
+  "summary_description": "",
+  "product_tag": [
+   "브라탑나시",
+   "브라캡나시",
+   "끈나시",
+   "캡나시",
+   "브라나시",
+   "캐미솔",
+   "나시",
+   "면나시",
+   "모달나시",
+   "브라탑",
+   "여성나시티",
+   "런닝",
+   "나시티",
+   "편한브라",
+   "여름브라",
+   "민소매",
+   "민소매나시",
+   "매리야스",
+   "이너",
+   "탑나시",
+   "나시탑",
+   "튜브탑",
+   "노브라나시",
+   "노브라",
+   "노와이어",
+   "크롭",
+   "크롭나시",
+   "크롭캡나시",
+   "크롭탑나시",
+   "크롭탑",
+   "슬리브리스"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202507/ef7e082aeb71d1d6233b9bf527e85fca.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202507/7b1969363491551a50b09cbad5861f3b.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202507/87779e025199ecd91615ae87f1893316.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000XX00BX",
+    "options": "[10%] 4매입-화이트 4매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -17,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XX00BY",
+    "options": "[10%] 4매입-블랙 4매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -6,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XX00BZ",
+    "options": "[10%] 4매입-화이트 2매 + 블랙 2매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -90,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XX00CA",
+    "options": "[10%] 4매입-화이트 4매-XL(66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -5,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000XX00CB",
+    "options": "[10%] 4매입-블랙 4매-XL(66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D621&h=5a14ef03c3acad5a44bf9e03a9906fe50d3c131ea880237f777d778f9eb88680"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=621",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦18,900",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "SLN08백리캡나",
+   "상품명": "날마다 모달 코튼 캡내장 크롭 백리스 나시",
+   "product_no": "621",
+   "URL": "https://marun5.com/product/날마다-모달-코튼-캡내장-크롭-백리스-나시/621/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 629,
+  "product_code": "P00000YF",
+  "product_name": "날마다 모달 코튼 캡내장 크롭 끈 조절 나시",
+  "price": "19900.00",
+  "summary_description": "",
+  "product_tag": [],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202507/bc1222bfb827d0ab083bf987eaa3620f.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202507/07f33babec03104f7c4d1a074433d114.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202507/10c2974ce44355b0143b440896a1cc25.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000YF00BW",
+    "options": "[10%] 4매입-화이트 4매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -9,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000YF00BX",
+    "options": "[10%] 4매입-블랙 4매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000YF00BY",
+    "options": "[10%] 4매입-화이트 2매 + 블랙 2매-F/L(44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -32,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000YF00BZ",
+    "options": "[10%] 4매입-화이트 4매-XL(66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000YF00CA",
+    "options": "[10%] 4매입-블랙 4매-XL(66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D629&h=c7efb3eb1fcf970b78b5f923cf6901995e1b8395183d164185b8149bdc856275"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=629",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦19,900",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "SLN09조절캡나",
+   "상품명": "날마다 모달 코튼 캡내장 크롭 끈 조절 나시",
+   "product_no": "629",
+   "URL": "https://marun5.com/product/날마다-모달-코튼-캡내장-크롭-끈-조절-나시/629/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1684,
+  "product_code": "P0000CMU",
+  "product_name": "날마다 브라탑 헨리넥 레이어드 캡나시",
+  "price": "23900.00",
+  "summary_description": "",
+  "product_tag": [
+   "브라탑나시",
+   "브라캡나시",
+   "끈나시",
+   "캡나시",
+   "브라나시",
+   "캐미솔",
+   "나시",
+   "면나시",
+   "모달나시",
+   "브라탑",
+   "여성나시티",
+   "런닝",
+   "나시티",
+   "편한브라",
+   "여름브라",
+   "민소매",
+   "민소매나시",
+   "매리야스",
+   "이너",
+   "탑나시",
+   "나시탑",
+   "튜브탑",
+   "노브라나시",
+   "노브라",
+   "노와이어",
+   "크롭",
+   "크롭나시",
+   "크롭캡나시",
+   "크롭탑나시",
+   "크롭탑",
+   "캡내장",
+   "브라렛",
+   "슬리브리스",
+   "이너웨어",
+   "레이어드",
+   "레이어드나시"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202602/65f883812a1ce6665de68505d20947fc.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202602/554ab2d7710d94e768ecbea58a1b0d30.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202602/37e2bc85b9821401ecaa392888dcfdf7.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CMU00GQ",
+    "options": "그레이&화이트-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -109,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMU00GR",
+    "options": "그레이&화이트-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 224,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMU00GS",
+    "options": "네이비&그레이-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 66,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMU00GT",
+    "options": "네이비&그레이-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 150,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CMU00GU",
+    "options": "옐로우&화이트-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -34,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1684&h=531c556fedf6da079cdf1aaf3dc756fad60b0507d9bcf5377036bfa378af1dc3"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1684",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦23,900",
+  "_sheet": {
+   "카테고리": "캡나시",
+   "PI코드": "SLN14레이어캡나",
+   "상품명": "날마다 브라탑 헨리넥 레이어드 캡나시",
+   "product_no": "1684",
+   "URL": "https://marun5.com/product/날마다-브라탑-헨리넥-레이어드-캡나시/1684/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 714,
+  "product_code": "P0000BBM",
+  "product_name": "넉넉 니트 모달면 스타킹",
+  "price": "17900.00",
+  "summary_description": "",
+  "product_tag": [
+   "패션스타킹",
+   "가을",
+   "겨울",
+   "니트",
+   "꽈배기",
+   "스타킹",
+   "종아리",
+   "면",
+   "코튼",
+   "스타킹양말",
+   "타이즈",
+   "레깅스",
+   "코튼스타킹",
+   "면스타킹",
+   "골지스타킹",
+   "니트스타킹",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/e5f8fb8f1baf9e1b36880e001713593d.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/d286aee2f6de88e146a1df8ade5f2865.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/e2c5c851c478293a26b97afef9b4c78d.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BBM0CEI",
+    "options": "[10%] 4매입-그레이 FREE(2매)-그레이 FREE(2매)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBM0CEJ",
+    "options": "[10%] 4매입-그레이 FREE(2매)-라이트그레이 FREE(2매)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBM0CEK",
+    "options": "[10%] 4매입-그레이 FREE(2매)-브라운 FREE(2매)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBM0CEL",
+    "options": "[10%] 4매입-그레이 FREE(2매)-블랙 FREE(2매)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D714&h=85ca2e52ec16bf1151b7301a023369a35aaccb6f37952d6e0349fa5799a4e2d9"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=714",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦17,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "B768넉넉면스",
+   "상품명": "넉넉 니트 모달면 스타킹",
+   "product_no": "714",
+   "URL": "https://marun5.com/product/넉넉-니트-모달면-스타킹/714/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 858,
+  "product_code": "P0000BHA",
+  "product_name": "넉넉 올풀림방지 힙업 스타킹 10D",
+  "price": "11900.00",
+  "summary_description": "",
+  "product_tag": [
+   "넉넉스타킹",
+   "빅사이즈",
+   "빅사이즈스타킹",
+   "스타킹",
+   "10D",
+   "10데니아",
+   "여름스타킹",
+   "봄스타킹",
+   "가을스타킹",
+   "얇은스타킹",
+   "스킨톤",
+   "피부톤",
+   "색상",
+   "파운데이션",
+   "컬러",
+   "21호",
+   "19호",
+   "23호",
+   "맞춤",
+   "퍼스널컬러",
+   "올풀림",
+   "보정",
+   "힙업",
+   "엉덩이"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202404/ce390c5615c572dacc9e1b4137ea2303.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202404/9603b04d004b0a6b3acf859847df899c.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202404/14cad972177674d26f1196c3c0f82a6f.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BHA00EH",
+    "options": "[10%] 4매입-내추럴 4매-S-M",
+    "display": "T",
+    "selling": "T",
+    "quantity": -18,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D858&h=123aa599dfde61a77a5544f9a173e5e1bc9c8e62309b63cab00a2371f6df8275"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=858",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦11,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉10D",
+   "상품명": "넉넉 올풀림방지 힙업 스타킹 10D",
+   "product_no": "858",
+   "URL": "https://marun5.com/product/넉넉-올풀림방지-힙업-스타킹-10d/858/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 109,
+  "product_code": "P00000EF",
+  "product_name": "빅사이즈 고탄력 팬티 스타킹 넉넉스타킹 150D",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "스타킹",
+   "겨울스타킹",
+   "넉넉스타킹",
+   "빅사이즈스타킹",
+   "150D",
+   "150데니아",
+   "스타킹추천",
+   "두꺼운스타킹",
+   "레깅스스타킹",
+   "무발스타킹",
+   "유발스타킹"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202410/25307e868dc389323f11b45bf19c785f.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202410/1091c2395d3753e643408e0d1980fa2f.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202410/461228dadc4f59b390c36caa2f6826c0.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000EF000J",
+    "options": "[20%] 3매입-블랙 3매-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -32,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000EF000K",
+    "options": "[20%] 3매입-블랙 3매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -77,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000EF000M",
+    "options": "1매 단품-블랙 1매-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -94,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000EF000N",
+    "options": "1매 단품-블랙 1매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -204,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D109&h=5dec76ad0321fefcaf982576765d35cade4a65877b3f5d69edeee42339cc4cea"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=109",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉150D",
+   "상품명": "빅사이즈 고탄력 팬티 스타킹 넉넉스타킹 150D",
+   "product_no": "109",
+   "URL": "https://marun5.com/product/빅사이즈-고탄력-팬티-스타킹-넉넉스타킹-150d/109/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 103,
+  "product_code": "P00000DZ",
+  "product_name": "넉넉 빅사이즈 팬티스타킹 20D",
+  "price": "5900.00",
+  "summary_description": "",
+  "product_tag": [
+   "넉넉스타킹",
+   "빅사이즈",
+   "빅사이즈스타킹",
+   "스타킹",
+   "20D",
+   "20데니아",
+   "여름스타킹",
+   "봄스타킹",
+   "가을스타킹",
+   "얇은스타킹"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202410/b53b8da72199a298f3dd9697cc9b1533.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202410/19619974d9466f33df48a40225c26f47.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202410/c1c4dea100fc31b586215e534e5e6de4.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000DZ00CC",
+    "options": "[11%] 4매입-유발-스킨 4매-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -83,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000DZ00CD",
+    "options": "[11%] 4매입-유발-스킨 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -221,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000DZ00CE",
+    "options": "[11%] 4매입-유발-스킨 4매-XXL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -146,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000DZ00CF",
+    "options": "[11%] 4매입-유발-커피 4매-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -36,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000DZ00CG",
+    "options": "[11%] 4매입-유발-커피 4매-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -44,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D103&h=38f6cf392e5fa0ba96397e7f7426010242f9a2990b5f68c35d5c30049d2f0790"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=103",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦5,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉20D",
+   "상품명": "넉넉 빅사이즈 팬티스타킹 20D",
+   "product_no": "103",
+   "URL": "https://marun5.com/product/넉넉-빅사이즈-팬티스타킹-20d/103/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 139,
+  "product_code": "P00000FJ",
+  "product_name": "1억 펀딩 자외선 차단 빅사이즈 넉넉스타킹 50D 골프스타킹",
+  "price": "13500.00",
+  "summary_description": "",
+  "product_tag": [
+   "빅사이즈스타킹",
+   "파데스타킹",
+   "파운데이션스타킹",
+   "넉넉스타킹",
+   "50d",
+   "50d 스타킹",
+   "사계절스타킹",
+   "50데니아 스타킹",
+   "스타킹",
+   "50데니아",
+   "빅사이즈",
+   "팬티스타킹",
+   "무발스타킹",
+   "와디즈스타킹",
+   "넉넉 골프",
+   "자외선차단",
+   "UV"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202311/02f63975fa1bdbe017b717582be29bf4.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202311/fb047dc79d7fb7dd30319690fdc90b5b.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202311/304d705d238dd2479facc7c58f7b54bd.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000FJ00BE",
+    "options": "[20%] 10매입-유발-스킨-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -22,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000FJ00BF",
+    "options": "[20%] 10매입-유발-스킨-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -119,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000FJ00BG",
+    "options": "[20%] 10매입-유발-스킨-XXL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -106,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000FJ00BH",
+    "options": "[20%] 10매입-유발-블랙-M/L",
+    "display": "T",
+    "selling": "T",
+    "quantity": -5,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000FJ00BI",
+    "options": "[20%] 10매입-유발-블랙-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D139&h=8e259cedc7dd71203638e1f2b021da6b3702169fe1bb664243a5082fddc1557a"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=139",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦13,500",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉50D",
+   "상품명": "자외선 차단 빅사이즈 넉넉스타킹 50D 골프스타킹",
+   "product_no": "139",
+   "URL": "https://marun5.com/product/1억-펀딩-자외선-차단-빅사이즈-넉넉스타킹-50d-골프스타킹/139/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 107,
+  "product_code": "P00000ED",
+  "product_name": "승무원 압박스타킹 삭스타킹 40D",
+  "price": "12900.00",
+  "summary_description": "",
+  "product_tag": [
+   "스타킹",
+   "승무원스타킹",
+   "삭스타킹",
+   "압박스타킹",
+   "각선미",
+   "40D",
+   "40데니아",
+   "여성스타킹",
+   "스타킹추천"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202601/b3b073a52dd01fed937fae8bc43cfb9d.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202601/547c35e256a84d96fa595b5b8c81da79.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202601/1820408e602db53d019ee4f33c65ecd8.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000ED00BK",
+    "options": "1매 단품-스킨-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -211,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000ED00BL",
+    "options": "1매 단품-스킨-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -174,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000ED00BM",
+    "options": "1매 단품-커피-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -60,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000ED00BN",
+    "options": "1매 단품-커피-XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -70,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000ED00BO",
+    "options": "1매 단품-블랙-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -129,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D107&h=7b494d350cfb623b03d9a7d4757c07b959531b50d4db94ac0afd978a609227a7"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=107",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦12,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "삭40D",
+   "상품명": "승무원 압박스타킹 삭스타킹 40D",
+   "product_no": "107",
+   "URL": "https://marun5.com/product/승무원-압박스타킹-삭스타킹-40d/107/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 717,
+  "product_code": "P0000BBP",
+  "product_name": "넉넉 소프트 웜 골지 니삭스 2종",
+  "price": "14900.00",
+  "summary_description": "",
+  "product_tag": [
+   "양말",
+   "여성",
+   "반스타킹",
+   "무지",
+   "겨울",
+   "베이직",
+   "여성양말",
+   "패션양말",
+   "오버니삭스",
+   "롱",
+   "오버",
+   "반양말",
+   "롱삭스",
+   "교복",
+   "패션",
+   "스타일",
+   "코디",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/b1bf8556871eaaa8a15ebb30c64f058e.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/b1cb1238f683011aa991fd88e0a1b5ca.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/bd76bf3f2465bc1ee817b3e590f732b7.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BBP000A",
+    "options": "[15%] 숏 니삭스 4매입-아이보리 4매-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -11,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBP000E",
+    "options": "[15%] 숏 니삭스 4매입-베이지 4매-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBP000F",
+    "options": "[15%] 숏 니삭스 4매입-브라운 4매-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBP000G",
+    "options": "[15%] 숏 니삭스 4매입-그레이 4매-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -10,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBP000H",
+    "options": "[15%] 숏 니삭스 4매입-블랙 4매-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -33,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D717&h=f93af125eacd598b4aded5f2e6f97a24ef361b5ef3f45d5d002224d36bee0e36"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=717",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦14,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "1091골지니_롱",
+   "상품명": "넉넉 소프트 웜 골지 니삭스 2종",
+   "product_no": "717",
+   "URL": "https://marun5.com/product/넉넉-소프트-웜-골지-니삭스-2종/717/category/105/display/1/",
+   "구성메모": "2종 합본"
+  }
+ },
+ {
+  "product_no": 1257,
+  "product_code": "P0000BWJ",
+  "product_name": "넉넉 시스루 립 앵클 삭스 & 니삭스 2종",
+  "price": "9500.00",
+  "summary_description": "",
+  "product_tag": [
+   "양말",
+   "시스루양말",
+   "시스루",
+   "얇은양말",
+   "여름양말",
+   "여름니삭스",
+   "시스루니삭스",
+   "학생양말",
+   "중목양말",
+   "코디양말",
+   "하복양말",
+   "니삭스",
+   "골지양말",
+   "골지니삭스",
+   "여름코디아이템",
+   "여름삭스",
+   "망사양말",
+   "시원한양말",
+   "롱삭스",
+   "패션양말",
+   "반스타킹"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202506/bed1b0021ff56c72361731eefe780c66.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202506/d1d2fa0a4826860c81b09fdde32b9db5.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202506/8a8c6306187f4712389e34ce3f717580.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BWJ00FX",
+    "options": "니삭스 1매 단품-화이트-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -2,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BWJ00FY",
+    "options": "니삭스 1매 단품-아이보리-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BWJ00FZ",
+    "options": "니삭스 1매 단품-그레이-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BWJ00GA",
+    "options": "니삭스 1매 단품-블랙-FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1257&h=b8ad02ec9ab072c2b1bfe7759b541210a37826208002519abcb2db6bff2e6a54"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1257",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦9,500",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "시스루_숏",
+   "상품명": "넉넉 시스루 립 앵클 삭스 & 니삭스 2종",
+   "product_no": "1257",
+   "URL": "https://marun5.com/product/넉넉-시스루-립-앵클-삭스-니삭스-2종/1257/category/105/display/1/",
+   "구성메모": "2종 합본"
+  }
+ },
+ {
+  "product_no": 713,
+  "product_code": "P0000BBL",
+  "product_name": "넉넉 2WAY 리브드 니트 레그워머",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "레그워머",
+   "니트",
+   "골지",
+   "고리",
+   "여성레그워머",
+   "여성양말",
+   "여자양말",
+   "양말",
+   "발토시",
+   "숏기장",
+   "롱기장",
+   "어그",
+   "부츠",
+   "니삭스",
+   "무릎",
+   "겨울",
+   "가을",
+   "겨울양말",
+   "필라테스",
+   "워머",
+   "패션양말",
+   "꽈배기",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/512ca80321b85c6487b412db2ddbe581.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/57a0808396da42e8a8bd124c2ea91865.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/8a1d706d44cbf07194319e60590685ca.jpg",
+  "sold_out": "T",
+  "variants_simple": [],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D713&h=72b81707b5a8694f6b4458f72fb5d171dc56ecfe208f3da0b6d15c04b69c4e3b"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=713",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉레그워머",
+   "상품명": "넉넉 2WAY 리브드 니트 레그워머",
+   "product_no": "713",
+   "URL": "https://marun5.com/product/넉넉-2way-리브드-니트-레그워머/713/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1422,
+  "product_code": "P0000CCS",
+  "product_name": "넉넉 루즈 레그워머 삭스",
+  "price": "18900.00",
+  "summary_description": "",
+  "product_tag": [
+   "넉넉",
+   "넉넉워머",
+   "넉넉삭스",
+   "넉넉루즈",
+   "넉넉루즈삭스",
+   "삭스",
+   "루즈삭스",
+   "루즈",
+   "넉넉레그워머",
+   "레그워머",
+   "워머",
+   "패션양말",
+   "양말",
+   "니하이",
+   "니삭스",
+   "반양말",
+   "반스타킹",
+   "레이어드",
+   "레이어드템"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202511/83aa08b92a899789d02725aa1a7a927b.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202511/81b825f543131f6e57fd480e3ca3b96f.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202511/666dadcabb7b36bcf6cf9664ce5af144.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CCS00BL",
+    "options": "[10%] 4매입-화이트 4매",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CCS00BM",
+    "options": "[10%] 4매입-아이보리 4매",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CCS00BN",
+    "options": "[10%] 4매입-베이지 4매",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CCS00BO",
+    "options": "[10%] 4매입-그레이 4매",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CCS00BP",
+    "options": "[10%] 4매입-차콜 4매",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1422&h=919f5f8157128fdadf23d7a4f60b00253a0032bcb93806a855b36840c1378d22"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1422",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦18,900",
+  "_sheet": {
+   "카테고리": "스타킹",
+   "PI코드": "넉넉워머삭스",
+   "상품명": "넉넉 루즈 레그워머 삭스",
+   "product_no": "1422",
+   "URL": "https://marun5.com/product/넉넉-루즈-레그워머-삭스/1422/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 449,
+  "product_code": "P00000RH",
+  "product_name": "두프리 실리콘 누드브라 - 슬림",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "실리콘브라",
+   "끈없는브라",
+   "웨딩누드브라",
+   "누드브라",
+   "오프숄더브라",
+   "웨딩브라",
+   "실리콘누드브라",
+   "비키니브라",
+   "비키니누드브라",
+   "수영복누드브라",
+   "가슴모아주는브라"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202408/5610a0c639962a9c367b0df2f341a7e8.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202408/61d154e449812129185b57b9a1450f4b.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202408/810cfc8abf1ea432b5165ef388822439.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000RH000O",
+    "options": "[10%] 4매입-스킨 C-D",
+    "display": "T",
+    "selling": "T",
+    "quantity": -105,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000RH000Q",
+    "options": "[10%] 4매입-스킨 D-E",
+    "display": "T",
+    "selling": "T",
+    "quantity": -4,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D449&h=31fe8b24216ab3f8170a13ea86b46534970540319545aaea3b0bc1a40c13ea95"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=449",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "누드브라",
+   "PI코드": "DFR01실리콘SLIM",
+   "상품명": "두프리 실리콘 누드브라 - 슬림",
+   "product_no": "449",
+   "URL": "https://marun5.com/product/두프리-실리콘-누드브라-슬림/449/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 454,
+  "product_code": "P00000RM",
+  "product_name": "브라 쉬는 날, 프리플 니플패치 2종",
+  "price": "14900.00",
+  "summary_description": "",
+  "product_tag": [
+   "니플패치",
+   "니플밴드",
+   "유두가리개",
+   "누드브라",
+   "스킨브라",
+   "실리콘니플패치",
+   "유두패치",
+   "니플패드",
+   "니플커버",
+   "꼭지가리개",
+   "젖꼭지가리개",
+   "유두보호",
+   "유두밴드",
+   "젖꼭지패드",
+   "니플브라",
+   "젖꼭지패치",
+   "실리콘브라",
+   "끈없는브라"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202601/92081081329a906b9dc0d5241243b6ac.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202601/a24ca3926e35e5d60ae344126e39668b.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202601/82d12ef9629d108cb46cc79f6e204716.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000RM00FG",
+    "options": "[20%] 4세트(글루4)-FREE(8cm)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -58,
+    "safety_inventory": -100,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000RM00FH",
+    "options": "[20%] 4세트(글루4)-XL(10cm)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -10,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000RM00FI",
+    "options": "[20%] 4세트(노글루4)-FREE(8cm)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000RM00FJ",
+    "options": "[20%] 4세트(노글루4)-XL(10cm)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -7,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000RM00FK",
+    "options": "[20%] 4세트(글루3+노글루1)-FREE(8cm)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": -100,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D454&h=f26b33bdae7b1a7ff8c6cef7b0ecd795c5fc871e59db0befd29756268c20c45d"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=454",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦14,900",
+  "_sheet": {
+   "카테고리": "누드브라",
+   "PI코드": "FRF072글루",
+   "상품명": "브라 쉬는 날, 프리플 니플패치 2종",
+   "product_no": "454",
+   "URL": "https://marun5.com/product/브라-쉬는-날-프리플-니플패치-2종/454/category/105/display/1/",
+   "구성메모": "2종 합본"
+  }
+ },
+ {
+  "product_no": 812,
+  "product_code": "P0000BFG",
+  "product_name": "프리플 딥커버 니플 패치",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "니플패치",
+   "니플밴드",
+   "유두가리개",
+   "누드브라",
+   "스킨브라",
+   "실리콘니플패치",
+   "유두패치",
+   "니플패드",
+   "니플커버",
+   "꼭지가리개",
+   "젖꼭지가리개",
+   "유두보호",
+   "유두밴드",
+   "젖꼭지패드",
+   "니플브라",
+   "젖꼭지패치",
+   "실리콘브라",
+   "끈없는브라",
+   "실리콘누드브라",
+   "실리콘패치",
+   "래쉬가드브라",
+   "수영복누드브라",
+   "비키니브라",
+   "니플보호",
+   "처진가슴",
+   "비침",
+   "BP",
+   "화이트",
+   "밝은옷"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202408/cc875a49b77739a1d6d87ca0151483d8.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202408/c47cec8fe9a78aa7a42e80372f8402b5.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202408/ba36a40570e6f65dd21c9046060b8a77.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BFG000M",
+    "options": "[10%] 4세트-LIGHT(6cm) 4세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -6,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFG000N",
+    "options": "[10%] 4세트-FREE(8cm) 4세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -36,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFG000O",
+    "options": "[10%] 4세트-XL(10cm) 4세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -6,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFG000J",
+    "options": "[10%] 4세트-LIGHT(6cm) 2세트 + FREE(8cm) 2세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -13,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFG000K",
+    "options": "[10%] 4세트-LIGHT(6cm) 2세트 + XL(10cm) 2세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D812&h=f38a9a65e7d997d51f2675b0d8b71b890ba303de1c23222c16be764719785023"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=812",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "누드브라",
+   "PI코드": "FRF074인비저블",
+   "상품명": "프리플 딥커버 니플 패치",
+   "product_no": "812",
+   "URL": "https://marun5.com/product/프리플-딥커버-니플-패치/812/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 813,
+  "product_code": "P0000BFH",
+  "product_name": "프리플 하프컵 니플 패치",
+  "price": "15900.00",
+  "summary_description": "",
+  "product_tag": [
+   "니플패치",
+   "니플밴드",
+   "유두가리개",
+   "누드브라",
+   "스킨브라",
+   "실리콘니플패치",
+   "유두패치",
+   "니플패드",
+   "니플커버",
+   "꼭지가리개",
+   "젖꼭지가리개",
+   "유두보호",
+   "유두밴드",
+   "젖꼭지패드",
+   "니플브라",
+   "젖꼭지패치",
+   "실리콘브라",
+   "끈없는브라",
+   "실리콘누드브라",
+   "실리콘패치",
+   "래쉬가드브라",
+   "수영복누드브라",
+   "비키니브라",
+   "니플보호",
+   "처진가슴",
+   "비침",
+   "BP",
+   "화이트",
+   "밝은옷",
+   "오프숄더",
+   "V넥",
+   "가슴골",
+   "노출"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202408/dcb2c2e0481126eab64da37c16162095.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202408/6b69717f8b06d047eba909e82aefec10.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202408/85da7de094d4cdf4b3a51bc6aa91e28a.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BFH000N",
+    "options": "[10%] 4세트-FREE(8cm) 4세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -12,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFH000E",
+    "options": "[5%] 2세트-FREE(8cm) 2세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -30,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BFH000B",
+    "options": "1세트-FREE(8cm) 1세트",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D813&h=388268983f3e1fed26d078c6ef71ef1d8161b4a326785083b562789f917a047b"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=813",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦15,900",
+  "_sheet": {
+   "카테고리": "누드브라",
+   "PI코드": "FRF075하프컵",
+   "상품명": "프리플 하프컵 니플 패치",
+   "product_no": "813",
+   "URL": "https://marun5.com/product/프리플-하프컵-니플-패치/813/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1444,
+  "product_code": "P0000CDO",
+  "product_name": "히트터치 홀터넥 기모 브라탑",
+  "price": "19900.00",
+  "summary_description": "",
+  "product_tag": [
+   "겨울",
+   "기모",
+   "무지",
+   "베이직",
+   "히트터치",
+   "여성이너",
+   "기본이너",
+   "이너",
+   "겨울이너",
+   "보온",
+   "내복",
+   "슬림이너",
+   "슬리브리스",
+   "홀터넥",
+   "보온이너",
+   "레이어드",
+   "심리스",
+   "캡내장",
+   "일체형",
+   "블랙",
+   "베이지",
+   "보온내의",
+   "나시탑",
+   "한파",
+   "한겨울",
+   "홀터넥나시",
+   "홀터나시",
+   "기모나시",
+   "기모브라탑",
+   "홀터넥브라탑",
+   "캡나시",
+   "코디",
+   "극세사"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202511/f1d7fc6e6a4d1c069449c37d643c2464.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202511/c7ad85511eda35f9ca819c6adbb2742d.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202511/dfd00b46bfd5ce3b533686c29e4ca662.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CDO000Q",
+    "options": "[10%] 4매입-아이보리 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDO000R",
+    "options": "[10%] 4매입-레드 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDO000S",
+    "options": "[10%] 4매입-그레이 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDO000C",
+    "options": "[10%] 4매입-블랙 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDO000T",
+    "options": "[10%] 4매입-아이보리 2매 + 레드 2매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1444&h=c3166339c58c6618728a84f4066775d684c814b6e15b5f4cac377114ada3a285"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1444",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦19,900",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT124홀터넥캡나",
+   "상품명": "히트터치 홀터넥 기모 브라탑",
+   "product_no": "1444",
+   "URL": "https://marun5.com/product/히트터치-홀터넥-기모-브라탑/1444/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1445,
+  "product_code": "P0000CDP",
+  "product_name": "히트터치 모크넥 목폴라 브라탑",
+  "price": "25900.00",
+  "summary_description": "",
+  "product_tag": [
+   "겨울",
+   "기모",
+   "무지",
+   "베이직",
+   "히트터치",
+   "여성이너",
+   "기본이너",
+   "이너",
+   "겨울이너",
+   "보온",
+   "내복",
+   "슬림이너",
+   "슬리브리스",
+   "보온이너",
+   "레이어드",
+   "심리스",
+   "캡내장",
+   "일체형",
+   "블랙",
+   "화이트",
+   "보온내의",
+   "나시탑",
+   "한파",
+   "한겨울",
+   "모크넥",
+   "모크넥나시",
+   "모크넥브라탑",
+   "목폴라",
+   "목폴라브라탑",
+   "모크넥목폴라",
+   "반폴라",
+   "기모브라탑",
+   "기모캡나시",
+   "기모모크넥",
+   "캡나시",
+   "코디",
+   "폴라",
+   "목티",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/4a47f03e7b8324ec1491baecff31a10d.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/5eccf713f438dda982f2bb745a6e34ea.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/b6d5d8cd1861060a869508c34ea25690.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CDP000Z",
+    "options": "[10%] 4매입-화이트 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDP00BA",
+    "options": "[10%] 4매입-화이트 4매-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDP000A",
+    "options": "[10%] 4매입-블랙 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDP00BQ",
+    "options": "[10%] 4매입-카키 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CDP00BR",
+    "options": "[10%] 4매입-카키 4매-XL (66-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1445&h=b32a01523f140c11b418358dcb0d4569a34dcea28c3f3b7902ea4ea1557125bb"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1445",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦25,900",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT150모크넥캡나",
+   "상품명": "히트터치 모크넥 목폴라 브라탑",
+   "product_no": "1445",
+   "URL": "https://marun5.com/product/히트터치-모크넥-목폴라-브라탑/1445/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 1460,
+  "product_code": "P0000CEE",
+  "product_name": "히트터치 스퀘어넥 기모 브라탑",
+  "price": "21900.00",
+  "summary_description": "",
+  "product_tag": [
+   "히트터치",
+   "기모나시",
+   "캡나시",
+   "캡내장나시",
+   "나시탑",
+   "브라탑",
+   "브라",
+   "심리스",
+   "프리컷",
+   "보온",
+   "이너",
+   "나시",
+   "런닝",
+   "겨울",
+   "기모",
+   "슬림이너",
+   "내복",
+   "내의",
+   "레이어드",
+   "빅사이즈",
+   "캐미솔",
+   "끈나시",
+   "겨울나시",
+   "겨울이너",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202605/884dbeec51f4404396d844f287e15da6.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202605/5da2d9d44c9abea5a942fcc7fa5bbc86.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202605/dd384be0d0ad3e404d0305a112897b4c.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000CEE00CI",
+    "options": "[10%] 4매입-크림 아이보리 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -1,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CEE00CK",
+    "options": "[10%] 4매입-미드 그레이 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CEE00CL",
+    "options": "[10%] 4매입-딥 브라운 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000CEE00CM",
+    "options": "[10%] 4매입-젯 블랙 4매-F/L (44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D1460&h=3ab21c01fd06e85d25cb0072b2cef2d48193d17443af254f5bee04c1888c8ea4"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=1460",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦21,900",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT89스퀘어넥캡나",
+   "상품명": "히트터치 스퀘어넥 기모 브라탑",
+   "product_no": "1460",
+   "URL": "https://marun5.com/product/히트터치-스퀘어넥-기모-브라탑/1460/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 207,
+  "product_code": "P00000HZ",
+  "product_name": "히트터치 모크넥 반폴라 티셔츠",
+  "price": "25900.00",
+  "summary_description": "",
+  "product_tag": [
+   "히트터치",
+   "터틀넥",
+   "모크넥",
+   "발열내의",
+   "폴라내의",
+   "기모내복",
+   "기모내의",
+   "히트터치엑스트라웜",
+   "하프넥",
+   "남성 터틀넥",
+   "여성 터틀넥",
+   "목폴라내복",
+   "폴라내복",
+   "내복",
+   "내의",
+   "목티",
+   "목폴라",
+   "남성내복",
+   "여성내복",
+   "윽박",
+   "지기"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202411/dcfac2bf7ab41afcb99bb9aad1aca35f.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202411/0c6b3202f499b9c4fc5074808528742f.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202411/9003a43883acd8e728647978c2472a53.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P00000HZ00KS",
+    "options": "[17%] 3매입-블랙 3매-M(남성 95-100/여성77-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -104,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000HZ00KU",
+    "options": "[17%] 3매입-브라운 3매-S(여성 44-66)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P00000HZ00KV",
+    "options": "[17%] 3매입-브라운 3매-M(남성 95-100/여성77-88)",
+    "display": "T",
+    "selling": "T",
+    "quantity": -100,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D207&h=33829b4de2d80e3200ed85a3f102bd62b7436f4c018c52d96d28858fab72f805"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=207",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦25,900",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT모크넥",
+   "상품명": "히트터치 모크넥 반폴라 티셔츠",
+   "product_no": "207",
+   "URL": "https://marun5.com/product/히트터치-모크넥-반폴라-티셔츠/207/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 14,
+  "product_code": "P000000O",
+  "product_name": "히트터치 오리지널 - 남녀 상하세트",
+  "price": "19800.00",
+  "summary_description": "",
+  "product_tag": [
+   "히트터치",
+   "발열내의",
+   "발열내복",
+   "남성내복",
+   "여성내복",
+   "남자내복",
+   "여자내복",
+   "내복",
+   "내의",
+   "기모내복",
+   "성인내복",
+   "기모내의",
+   "겨울내의",
+   "겨울내복",
+   "내복여자",
+   "내복남자",
+   "히트터치오리지널",
+   "보온내복",
+   "동내의",
+   "힛탠다드",
+   "양모내복",
+   "류혜영",
+   "류혜영PICK"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202601/61051a739bd6994d4a7e7968c9bea00f.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202601/6f910e3fa60a3cb82cb4f0a6e58b3bcc.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202601/cae667103c2265d3dbe8cdf7d31744c5.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P000000O00IB",
+    "options": "[10%] 3매입-남성 FREE (95-100)-블랙 상하세트만 3팩",
+    "display": "T",
+    "selling": "T",
+    "quantity": -103,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P000000O00IC",
+    "options": "[10%] 3매입-남성 FREE (95-100)-차콜 상하세트만 3팩",
+    "display": "T",
+    "selling": "T",
+    "quantity": -25,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P000000O00ID",
+    "options": "[10%] 3매입-남성 FREE (95-100)-상의화이트+하의블랙 세트만 3팩",
+    "display": "T",
+    "selling": "T",
+    "quantity": -14,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P000000O00IE",
+    "options": "[10%] 3매입-남성 FREE (95-100)-컬러별 1세트씩 섞어서 3개 패키지",
+    "display": "T",
+    "selling": "T",
+    "quantity": 0,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P000000O00IF",
+    "options": "[10%] 3매입-남성 XL (105-110)-블랙 상하세트만 3팩",
+    "display": "T",
+    "selling": "T",
+    "quantity": -101,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D14&h=40ca01fe8b133df21f012fb349b2af8b695e66725d076c6074e5d71825ce3c20"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=14",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦19,800",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT오리지널세트★",
+   "상품명": "히트터치 오리지널 - 남녀 상하세트",
+   "product_no": "14",
+   "URL": "https://marun5.com/product/히트터치-오리지널-남녀-상하세트/14/category/105/display/1/",
+   "구성메모": "단품"
+  }
+ },
+ {
+  "product_no": 722,
+  "product_code": "P0000BBU",
+  "product_name": "히트터치 슬림핏 상의 베이직 & 크롭 2종",
+  "price": "18900.00",
+  "summary_description": "",
+  "product_tag": [
+   "겨울",
+   "베이직",
+   "크롭",
+   "긴팔티셔츠",
+   "긴팔티",
+   "크롭긴팔",
+   "기모티셔츠",
+   "기모긴팔",
+   "히트터치",
+   "슬림핏",
+   "슬림티셔츠",
+   "슬림긴팔",
+   "기본이너",
+   "이너긴팔",
+   "피치기모",
+   "보온",
+   "내복",
+   "기모티",
+   "u넥",
+   "슬림이너",
+   "이너긴팔티",
+   "U넥긴팔",
+   "기본티",
+   "무지티셔츠",
+   "화이트",
+   "블랙",
+   "빅사이즈",
+   "레이어드",
+   "레이어드티셔츠",
+   "보온이너",
+   "여자긴팔",
+   "여성긴팔",
+   "무지티",
+   "무지긴팔.간절기",
+   "간절기티셔츠",
+   "간절기긴팔",
+   "가을티셔츠",
+   "가을긴팔티",
+   "여자간절기",
+   "여성간절기",
+   "여성티셔츠",
+   "여자티셔츠",
+   "내의",
+   "내복상의",
+   "크롭긴팔티",
+   "크롭티",
+   "크롭이너티"
+  ],
+  "detail_image": "https://cafe24img.poxo.com/m5m5m5/web/product/big/202412/2fb82a86baf31256715f804d8b3bfa96.jpg",
+  "tiny_image": "https://marun5.com/web/product/tiny/202412/1aeedf8b1a700427583e3609bb53259c.jpg",
+  "small_image": "https://cafe24img.poxo.com/m5m5m5/web/product/small/202412/3975986b8d7f4bec9aa266cba5c81d02.jpg",
+  "sold_out": "F",
+  "variants_simple": [
+   {
+    "variant_code": "P0000BBU000I",
+    "options": "베이직 1매 단품-화이트 FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -15,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBU000J",
+    "options": "베이직 1매 단품-화이트 XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBU000L",
+    "options": "베이직 1매 단품-블랙 XL",
+    "display": "T",
+    "selling": "T",
+    "quantity": -10,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   },
+   {
+    "variant_code": "P0000BBU000M",
+    "options": "크롭 1매 단품-화이트 FREE",
+    "display": "T",
+    "selling": "T",
+    "quantity": -3,
+    "safety_inventory": 0,
+    "display_soldout": "F"
+   }
+  ],
+  "button": {
+   "label": "상세 보기",
+   "action": "link",
+   "url": "https://cafe24.ai/mcp/redirect?url=https%3A%2F%2Fmarun5.com%2Fproduct%2Fdetail.html%3Fproduct_no%3D722&h=535fe5bc1bc1989a35544e1641dd7cb777b9090264c6a8d577a257d529a9e0e7"
+  },
+  "product_url": "https://marun5.com/product/detail.html?product_no=722",
+  "mall_id": "m5m5m5",
+  "shop_no": 1,
+  "shop_currency_code": "KRW",
+  "product_price_display": "￦18,900",
+  "_sheet": {
+   "카테고리": "FW",
+   "PI코드": "HT크롭상의",
+   "상품명": "히트터치 슬림핏 상의 베이직 & 크롭 2종",
+   "product_no": "722",
+   "URL": "https://marun5.com/product/히트터치-슬림핏-상의-베이직-크롭-2종/722/category/105/display/1/",
+   "구성메모": "2종 합본"
+  }
+ }
+]
