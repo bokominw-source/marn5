@@ -13,7 +13,9 @@ Admin API 가 아니라 공개 카탈로그 MCP 이므로 다음만 얻을 수 �
 얻을 수 없는 것(= Admin API 필요):
   전체 variant, 원산지, 소재 조성비, 상세페이지 HTML, 리뷰, 판매데이터, 카테고리 소속
 """
-import csv, json, os, re, sys, time, urllib.error, urllib.request
+import csv, json, os, sys, time, urllib.error, urllib.request
+
+from options import classify_axes, normalize_value, split_options
 
 URL = "https://mcp-catalog.cafe24.com/api/mcp"
 MALL = "m5m5m5"
@@ -75,19 +77,6 @@ class CatalogMCP:
                          {"mall_id": mall, "product_no": str(product_no), "shop_no": shop_no})
 
 
-# ---------------------------------------------------------------------------
-def split_options(opt: str):
-    """'[10%] 4매입-스킨 4매-S' → (할인표기, ['4매입','스킨 4매','S'])"""
-    if not opt:
-        return "", []
-    disc = ""
-    m = re.match(r"^\s*(\[[^\]]+\])\s*", opt)
-    if m:
-        disc = m.group(1)
-        opt = opt[m.end():]
-    return disc, [p.strip() for p in opt.split("-") if p.strip()]
-
-
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else "mvp41.csv"
     out = sys.argv[2] if len(sys.argv) > 2 else "cafe24_catalog_dump"
@@ -114,23 +103,19 @@ def main():
         d["_sheet"] = t
         got.append(d)
 
-        axes = []
-        for v in d.get("variants_simple") or []:
-            disc, parts = split_options(v.get("options", ""))
-            for j, p in enumerate(parts):
-                while len(axes) <= j:
-                    axes.append(set())
-                axes[j].add(p)
+        parsed = [split_options(v.get("options", "")) for v in d.get("variants_simple") or []]
+        axes = classify_axes([parts for _, parts in parsed if parts])
+        for v, (disc, parts) in zip(d.get("variants_simple") or [], parsed):
             vrows.append({
                 "product_no": d.get("product_no"),
                 "product_code": d.get("product_code"),
                 "variant_code": v.get("variant_code"),
                 "discount_tag": disc,
                 "options_raw": v.get("options"),
-                "opt1": parts[0] if len(parts) > 0 else "",
-                "opt2": parts[1] if len(parts) > 1 else "",
-                "opt3": parts[2] if len(parts) > 2 else "",
-                "opt4": parts[3] if len(parts) > 3 else "",
+                "opt1": normalize_value(parts[0]) if len(parts) > 0 else "",
+                "opt2": normalize_value(parts[1]) if len(parts) > 1 else "",
+                "opt3": normalize_value(parts[2]) if len(parts) > 2 else "",
+                "opt4": normalize_value(parts[3]) if len(parts) > 3 else "",
                 "quantity": v.get("quantity"),
                 "display": v.get("display"),
                 "selling": v.get("selling"),
@@ -146,7 +131,8 @@ def main():
             "price_display": d.get("product_price_display"),
             "sold_out": d.get("sold_out"),
             "option_axes": len(axes),
-            "axis_sample": " | ".join("/".join(sorted(a)[:4]) for a in axes),
+            "axis_roles": " × ".join(a["role"] for a in axes),
+            "axis_sample": " | ".join("/".join(a["values"][:4]) for a in axes),
             "variants_returned": len(d.get("variants_simple") or []),
             "tag_count": len(d.get("product_tag") or []),
             "tags": ", ".join(d.get("product_tag") or []),
