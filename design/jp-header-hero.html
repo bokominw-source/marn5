@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marn5 JP — 헤더 · 히어로 디자인안</title>
+<title>Marn5 JP — 헤더 · 히어로 디자인안 (풀 폭)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
@@ -18,31 +18,23 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
-body{
-  background:var(--field); color:var(--ink);
-  font-family:var(--jp); font-weight:400;
-  -webkit-font-smoothing:antialiased;
-  padding:10px;
-}
-.shell{background:var(--paper); border-radius:var(--r-xl); overflow:hidden; max-width:1680px; margin:0 auto}
+body{background:var(--paper); color:var(--ink); font-family:var(--jp); -webkit-font-smoothing:antialiased}
 
-/* ---------- 헤더 ---------- */
-.hd{display:flex; align-items:center; gap:16px; padding:18px var(--gut) 16px}
-.hd__logo{display:block; height:26px; width:auto; flex:none}
+/* ---------- 헤더 · 풀 폭 ---------- */
+.hd{display:flex; align-items:center; gap:16px; padding:20px var(--gut); position:relative; z-index:3}
+.hd__logo{display:block; height:28px; width:auto; flex:none}
 .hd__spacer{flex:1}
-.nav{display:flex; align-items:center; gap:2px; background:var(--field-2);
-     border-radius:var(--pill); padding:4px}
+.nav{display:flex; align-items:center; gap:2px}
 .nav a{
   font-family:var(--jp); font-size:13px; font-weight:500; letter-spacing:.02em;
-  color:var(--ink); text-decoration:none; padding:9px 16px; border-radius:var(--pill);
-  white-space:nowrap; transition:background .18s ease, color .18s ease;
+  color:var(--ink); text-decoration:none; padding:10px 17px; border-radius:var(--pill);
+  white-space:nowrap; transition:background .18s ease;
 }
-.nav a:hover{background:var(--paper)}
+.nav a:hover{background:var(--field-2)}
 .cta{
   font-family:var(--jp); font-size:13px; font-weight:500;
   background:var(--ink); color:var(--paper); text-decoration:none;
-  padding:13px 22px; border-radius:var(--pill); white-space:nowrap;
-  transition:opacity .18s ease;
+  padding:13px 24px; border-radius:var(--pill); white-space:nowrap; transition:opacity .18s ease;
 }
 .cta:hover{opacity:.82}
 .burger{display:none; width:44px; height:44px; border:0; background:var(--field-2);
@@ -50,64 +42,63 @@ body{
 .burger i{position:absolute; left:13px; right:13px; height:1.5px; background:var(--ink); border-radius:2px}
 .burger i:nth-child(1){top:17px} .burger i:nth-child(2){bottom:17px}
 
-/* ---------- 히어로 ---------- */
-.hero{position:relative; margin:0 var(--gut) 14px; border-radius:var(--r-xl); overflow:hidden;
-      background:var(--field-2); aspect-ratio:16/9; min-height:420px}
+/* ---------- 히어로 · 화면 끝까지 ---------- */
+.hero{position:relative; width:100%; height:min(88vh,940px); min-height:520px;
+      overflow:hidden; background:var(--field-2)}
 .hero__media{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block}
-.hero__scrim{position:absolute; inset:0;
-  background:linear-gradient(105deg, rgba(255,255,255,.72) 0%, rgba(255,255,255,.30) 34%, rgba(255,255,255,0) 58%);
-  pointer-events:none}
+.hero__scrim{position:absolute; inset:0; pointer-events:none;
+  background:
+    linear-gradient(100deg, rgba(255,255,255,.78) 0%, rgba(255,255,255,.34) 30%, rgba(255,255,255,0) 56%),
+    linear-gradient(0deg,  rgba(255,255,255,.30) 0%, rgba(255,255,255,0) 26%);
+}
 
-.hero__head{position:absolute; left:clamp(20px,3vw,48px); top:clamp(20px,3.2vw,52px);
-            max-width:min(46%,560px)}
+.hero__head{position:absolute; left:var(--gut); top:clamp(28px,5vw,84px); max-width:min(52%,680px)}
 .hero__head h1{
-  font-family:var(--latin); font-weight:400; line-height:.92;
-  font-size:clamp(38px,5.6vw,86px); letter-spacing:-.03em;
+  font-family:var(--latin); font-weight:400; line-height:.90;
+  font-size:clamp(46px,7.4vw,132px); letter-spacing:-.035em;
 }
 .hero__head h1 b{display:block; font-weight:700}
-.hero__head p{
-  margin-top:16px; font-size:13px; line-height:1.75; color:var(--ink-2);
-  max-width:340px; letter-spacing:.01em;
-}
+.hero__head p{margin-top:20px; font-size:13px; line-height:1.75; color:var(--ink-2);
+              max-width:360px; letter-spacing:.01em}
 
-/* 떠 있는 카드 — 관세 고지 (§7: 상단 노출 필수) */
-.note{position:absolute; left:clamp(20px,3vw,48px); bottom:clamp(20px,2.6vw,40px);
+/* 떠 있는 카드 — 관세 고지 (§7 상단 노출 필수) */
+.note{position:absolute; left:var(--gut); bottom:clamp(24px,3.4vw,54px);
       display:flex; gap:14px; align-items:flex-start;
-      background:var(--paper); border-radius:var(--r-lg); padding:14px;
-      width:min(400px,72%); box-shadow:0 12px 34px rgba(10,10,10,.10)}
-.note__mark{flex:none; width:52px; height:52px; border-radius:var(--r-md);
+      background:var(--paper); border-radius:var(--r-lg); padding:15px;
+      width:min(410px,64%); box-shadow:0 14px 40px rgba(10,10,10,.11)}
+.note__mark{flex:none; width:54px; height:54px; border-radius:var(--r-md);
             background:var(--ink); color:var(--paper); display:grid; place-items:center;
-            font-family:var(--latin); font-size:22px; font-weight:400; line-height:1}
-.note h3{font-size:13.5px; font-weight:700; letter-spacing:.01em}
-.note p{margin-top:5px; font-size:11.5px; line-height:1.6; color:var(--ink-2)}
+            font-family:var(--latin); font-size:23px; line-height:1}
+.note h3{font-size:14px; font-weight:700; letter-spacing:.01em}
+.note p{margin-top:5px; font-size:11.5px; line-height:1.62; color:var(--ink-2)}
 
 /* 떠 있는 카드 — 상품 */
-.pcard{position:absolute; right:clamp(16px,2.2vw,34px); bottom:clamp(20px,2.6vw,40px);
-       width:min(268px,40%); background:var(--paper); border-radius:var(--r-lg);
-       padding:12px; box-shadow:0 12px 34px rgba(10,10,10,.10)}
-.pcard__top{display:flex; align-items:center; gap:6px; margin-bottom:10px}
+.pcard{position:absolute; right:var(--gut); bottom:clamp(24px,3.4vw,54px);
+       width:min(282px,36%); background:var(--paper); border-radius:var(--r-lg);
+       padding:13px; box-shadow:0 14px 40px rgba(10,10,10,.11)}
+.pcard__top{display:flex; align-items:center; gap:6px; margin-bottom:11px}
 .tag{font-family:var(--jp); font-size:10.5px; font-weight:500; color:var(--ink-2);
-     background:var(--field-2); border-radius:var(--pill); padding:6px 11px; white-space:nowrap}
-.arrow{margin-left:auto; flex:none; width:32px; height:32px; border-radius:var(--pill);
+     background:var(--field-2); border-radius:var(--pill); padding:6px 12px; white-space:nowrap}
+.arrow{margin-left:auto; flex:none; width:34px; height:34px; border-radius:var(--pill);
        background:var(--ink); color:var(--paper); display:grid; place-items:center;
-       font-family:var(--latin); font-size:14px; text-decoration:none; transition:transform .18s ease}
+       font-family:var(--latin); font-size:15px; text-decoration:none; transition:transform .18s ease}
 .arrow:hover{transform:translate(2px,-2px)}
 .pcard__name{font-size:12.5px; font-weight:500; line-height:1.45}
-.pcard__pend{display:inline-block; margin-top:5px; font-size:9.5px; letter-spacing:.04em;
-             color:var(--ink-3); border:1px solid var(--hair); border-radius:var(--pill); padding:2px 8px}
-.pcard__row{display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin-top:10px}
-.pcard__price{font-family:var(--latin); font-size:19px; font-weight:500; letter-spacing:-.01em}
+.pcard__pend{display:inline-block; margin-top:6px; font-size:9.5px; letter-spacing:.04em;
+             color:var(--ink-3); border:1px solid var(--hair); border-radius:var(--pill); padding:2px 9px}
+.pcard__row{display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin-top:11px}
+.pcard__price{font-family:var(--latin); font-size:20px; font-weight:500; letter-spacing:-.01em}
 .pcard__price small{font-size:10px; font-weight:400; color:var(--ink-3); display:block; letter-spacing:.03em}
-.pcard__img{width:74px; height:92px; border-radius:var(--r-md); object-fit:cover; background:var(--field-2); flex:none}
+.pcard__img{width:76px; height:95px; border-radius:var(--r-md); object-fit:cover; background:var(--field-2); flex:none}
 
 /* ---------- 다음 섹션 힌트 ---------- */
-.next{padding:26px var(--gut) 40px}
+.next{padding:34px var(--gut) 56px}
 .label{font-size:11px; letter-spacing:.06em; color:var(--ink-3)}
 .brackets{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
-.brackets span{font-family:var(--jp); font-size:12.5px; color:var(--ink-2);
-               background:var(--field-2); border-radius:var(--pill); padding:9px 16px}
+.brackets span{font-size:12.5px; color:var(--ink-2); background:var(--field-2);
+               border-radius:var(--pill); padding:10px 18px}
 
-/* ---------- 영상 전환 (검토용, 실제 사이트에는 없음) ---------- */
+/* ---------- 영상 전환 (검토용 · 실제 사이트에는 없음) ---------- */
 .switch{position:fixed; left:50%; transform:translateX(-50%); bottom:16px; z-index:9;
         display:flex; gap:4px; background:rgba(10,10,10,.86); backdrop-filter:blur(8px);
         border-radius:var(--pill); padding:4px}
@@ -117,84 +108,76 @@ body{
 
 @media (max-width:900px){
   .nav,.cta{display:none} .burger{display:block}
-  .hero{aspect-ratio:4/5; min-height:0}
-  .hero__scrim{background:linear-gradient(180deg, rgba(255,255,255,.80) 0%, rgba(255,255,255,.25) 38%, rgba(255,255,255,0) 62%)}
-  .hero__head{max-width:82%}
-  .note{width:auto; right:clamp(20px,3vw,48px); bottom:auto; top:auto;
-        position:static; margin:14px var(--gut) 0}
-  .pcard{position:static; width:auto; margin:10px var(--gut) 0; box-shadow:none;
-         border:1px solid var(--hair)}
-  .hero{margin-bottom:0}
+  .hero{height:auto; aspect-ratio:4/5; min-height:0}
+  .hero__scrim{background:
+    linear-gradient(180deg, rgba(255,255,255,.84) 0%, rgba(255,255,255,.26) 36%, rgba(255,255,255,0) 60%)}
+  .hero__head{max-width:84%; top:clamp(24px,6vw,48px)}
+  .note,.pcard{position:static; width:auto; box-shadow:none}
+  .note{margin:16px var(--gut) 0; border:1px solid var(--hair)}
+  .pcard{margin:10px var(--gut) 0; border:1px solid var(--hair)}
 }
 </style>
 </head>
 <body>
 
-<div class="shell">
+<header class="hd">
+  <img class="hd__logo" alt="Marn5"
+       src="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/marn5-logo@2x.png">
+  <span class="hd__spacer"></span>
+  <nav class="nav">
+    <a href="#">ブラ</a><a href="#">ショーツ</a><a href="#">インナー</a>
+    <a href="#">レッグ</a><a href="#">サイズガイド</a>
+  </nav>
+  <a class="cta" href="#">配送状況</a>
+  <button class="burger" aria-label="メニュー"><i></i><i></i></button>
+</header>
 
-  <header class="hd">
-    <img class="hd__logo" alt="Marn5"
-         src="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/marn5-logo@2x.png">
-    <span class="hd__spacer"></span>
-    <nav class="nav">
-      <a href="#">ブラ</a>
-      <a href="#">ショーツ</a>
-      <a href="#">インナー</a>
-      <a href="#">レッグ</a>
-      <a href="#">サイズガイド</a>
-    </nav>
-    <a class="cta" href="#">配送状況</a>
-    <button class="burger" aria-label="メニュー"><i></i><i></i></button>
-  </header>
+<section class="hero">
+  <video class="hero__media" id="heroVideo" autoplay muted loop playsinline
+         poster="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/video/hero-b-poster.jpg">
+    <source id="heroSrc" type="video/mp4"
+            src="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/video/hero-b.mp4">
+  </video>
+  <div class="hero__scrim"></div>
 
-  <section class="hero">
-    <video class="hero__media" id="heroVideo" autoplay muted loop playsinline
-           poster="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/video/hero-a-poster.jpg">
-      <source id="heroSrc" type="video/mp4"
-              src="https://cdn.jsdelivr.net/gh/bokominw-source/marn5@8a6154e66a9f218506d8267445592100c818282f/assets/video/hero-a.mp4">
-    </video>
-    <div class="hero__scrim"></div>
-
-    <div class="hero__head">
-      <h1>PLUS&nbsp;+<b>Yourself</b></h1>
-      <p>ブランドコピーはネイティブ監修後に差し替える。<br>ここは配置の確認用。</p>
-    </div>
-
-    <aside class="note">
-      <div class="note__mark">+</div>
-      <div>
-        <h3>関税・消費税込み</h3>
-        <p>お受け取り時の追加請求はありません。<br>¥8,800以上で送料無料。</p>
-      </div>
-    </aside>
-
-    <article class="pcard">
-      <div class="pcard__top">
-        <span class="tag">( ブラ )</span>
-        <a class="arrow" href="#" aria-label="見る">↗</a>
-      </div>
-      <div class="pcard__name">쉬어 브라 커브넥 텐션윙</div>
-      <span class="pcard__pend">日本語コピー未確定</span>
-      <div class="pcard__row">
-        <div class="pcard__price">¥3,196<small>税込 · 参考換算</small></div>
-        <img class="pcard__img" alt=""
-             src="https://cdn.shopify.com/s/files/1/0769/7383/4394/files/144cd4b1f47d6c103d8a07fe96eec1c5.jpg">
-      </div>
-    </article>
-  </section>
-
-  <div class="next">
-    <div class="label">Categories</div>
-    <div class="brackets">
-      <span>( ブラ )</span><span>( ショーツ )</span><span>( インナー )</span><span>( レッグ )</span>
-    </div>
+  <div class="hero__head">
+    <h1>PLUS&nbsp;+<b>Yourself</b></h1>
+    <p>ブランドコピーはネイティブ監修後に差し替える。<br>ここは配置の確認用。</p>
   </div>
 
+  <aside class="note">
+    <div class="note__mark">+</div>
+    <div>
+      <h3>関税・消費税込み</h3>
+      <p>お受け取り時の追加請求はありません。<br>¥8,800以上で送料無料。</p>
+    </div>
+  </aside>
+
+  <article class="pcard">
+    <div class="pcard__top">
+      <span class="tag">( ブラ )</span>
+      <a class="arrow" href="#" aria-label="見る">↗</a>
+    </div>
+    <div class="pcard__name">쉬어 브라 커브넥 텐션윙</div>
+    <span class="pcard__pend">日本語コピー未確定</span>
+    <div class="pcard__row">
+      <div class="pcard__price">¥3,196<small>税込 · 参考換算</small></div>
+      <img class="pcard__img" alt=""
+           src="https://cdn.shopify.com/s/files/1/0769/7383/4394/files/144cd4b1f47d6c103d8a07fe96eec1c5.jpg">
+    </div>
+  </article>
+</section>
+
+<div class="next">
+  <div class="label">Categories</div>
+  <div class="brackets">
+    <span>( ブラ )</span><span>( ショーツ )</span><span>( インナー )</span><span>( レッグ )</span>
+  </div>
 </div>
 
 <div class="switch" role="group" aria-label="히어로 영상 전환">
-  <button type="button" data-v="a" aria-pressed="true">A안 0–15s</button>
-  <button type="button" data-v="b" aria-pressed="false">B안 10–25s</button>
+  <button type="button" data-v="a" aria-pressed="false">A안 0–15s</button>
+  <button type="button" data-v="b" aria-pressed="true">B안 10–25s</button>
 </div>
 
 <script>
@@ -203,8 +186,8 @@ const v=document.getElementById('heroVideo'), s=document.getElementById('heroSrc
 document.querySelectorAll('.switch button').forEach(b=>{
   b.addEventListener('click',()=>{
     document.querySelectorAll('.switch button').forEach(x=>x.setAttribute('aria-pressed', x===b));
-    s.src = BASE+"hero-"+b.dataset.v+".mp4";
-    v.poster = BASE+"hero-"+b.dataset.v+"-poster.jpg";
+    s.src=BASE+"hero-"+b.dataset.v+".mp4";
+    v.poster=BASE+"hero-"+b.dataset.v+"-poster.jpg";
     v.load(); v.play().catch(()=>{});
   });
 });
