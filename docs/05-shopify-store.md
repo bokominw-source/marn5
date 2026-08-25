@@ -103,6 +103,14 @@ Translate & Adapt 는 **기본 언어 위에** 번역을 얹는 구조라, 기�
 슬로건 **`PLUS + Yourself`** 를 브랜드 요소로 적극 사용한다 (발주자 요청 08-25).
 영문 그대로 쓰며, 일본어 태그라인을 임의로 만들지 않는다 (§13 무감수 번역 금지).
 
+**업로드 완료 (2026-08-25)**
+```
+gid://shopify/MediaImage/38082678685850   1358x240  READY
+https://cdn.shopify.com/s/files/1/0769/7383/4394/files/marn5-logo.png
+```
+개발 테마 `config/settings_data.json` 의 `current.logo` 에 연결됨:
+`shopify://shop_images/marn5-logo.png` · `logo_height` 36 / 모바일 28.
+
 ### 메타필드 정의 8종 (`01-audit.md` 의 P0/P1)
 | 키 | 타입 | 핀 |
 |---|---|---|
@@ -192,7 +200,55 @@ MCP 로 값을 넘기는 과정에서 한글이 깨져 **제목 16건 · 옵션�
 
 ---
 
-## 4. 다음 할 일
+## 4. 바이너리를 Shopify 에 넣는 방법 (중요)
+
+컨테이너에서 Shopify 로 파일을 올리는 정공법은 **둘 다 막혀 있다**:
+
+| 방법 | 결과 |
+|---|---|
+| `fileCreate(originalSource: "data:image/png;base64,...")` | `INVALID_IMAGE_SOURCE_URL` — `data:` URI 거부 |
+| `stagedUploadsCreate` → PUT | 컨테이너 egress 가 Shopify 스토리지를 차단 |
+
+**성립한 경로: 저장소 raw URL 을 Shopify 가 서버 측에서 가져가게 한다.**
+
+```
+1. 파일을 저장소에 커밋·푸시
+2. fileCreate(originalSource:
+     "https://raw.githubusercontent.com/{owner}/{repo}/{sha}/{path}")
+3. Shopify 가 직접 내려받아 자기 CDN 에 복사한다
+```
+
+같은 원리가 **테마 파일**에도 통한다 — `themeFilesUpsert` 의 body `type: URL`.
+텍스트를 손으로 옮겨 적지 않으므로 **오타가 원천 차단된다.**
+`config/settings_data.json` 을 이 방식으로 넣었다.
+
+> 브랜치명 대신 **커밋 SHA** 를 URL 에 쓴다. raw.githubusercontent 캐시로 옛 내용이
+> 넘어가는 것을 막는다.
+
+### ⚠ 전제: 저장소가 **공개(public)** 여야 한다
+
+이 경로는 `bokominw-source/marn5` 가 public 이라 성립한다 (`visibility: public` 확인).
+비공개로 바꾸면 raw URL 이 인증을 요구해 **이 방법은 즉시 깨진다.**
+
+공개 상태에서 무엇이 노출되는지:
+
+| | |
+|---|---|
+| 자격증명 | **없음.** `.env`·`.cafe24_token.json` 은 `.gitignore` 처리. `.env.example` 은 빈 값, 스크립트는 변수명뿐 (검사 완료) |
+| 사업자 정보 | 사업자번호·대표명·주소 — 한국 사이트에 이미 공시된 정보 |
+| **상품 데이터** | KRW 원가격, 옵션 구조, **음수 재고 실측치** |
+| **내부 판단** | 관세 설계, 미해결 리스크, **계약 방어 조항**, DISNEY 라이선스 미확인, 모델 초상권 미확인 |
+
+아래 두 줄이 발주자 입장에서 민감할 수 있다. **공개 여부는 발주자가 판단할 사항이다.**
+
+비공개로 전환할 경우의 대안:
+1. `themeFilesUpsert` body `type: BASE64` — 테마 에셋에 직접 넣는다 (저장소 불요).
+   단 base64 를 그대로 전달해야 해 페이로드가 커진다
+2. 에셋 전용 공개 저장소를 따로 두고 문서·데이터는 비공개로 분리
+
+---
+
+## 5. 다음 할 일
 
 1. **[발주자] 기본 언어를 일본어로** ← 관리자에서만 가능. 번역 작업의 전제다
 2. [발주자] 한국 마켓(`kr`) 정리 — 일본 전용 스토어인데 한국 배송 대상으로 남아 있다
@@ -201,6 +257,4 @@ MCP 로 값을 넘기는 과정에서 한글이 깨져 **제목 16건 · 옵션�
 5. Horizon 커스텀 섹션 (P0-3 브라→쇼츠 추가구매)
 6. 네이티브 카피 확보 후 `translationsRegister` → DRAFT 해제
 7. JPY 정가표 확정 (현재는 환산 자리표시자)
-8. **[발주자] 로고 파일 업로드** — Settings → Files 에 `marn5-logo.png` (+ `@2x`).
-   MCP 는 바이너리를 올릴 수 없다 (`fileCreate` 는 공개 URL 만 받고 `data:` URI 를 거부,
-   staged upload 는 컨테이너 egress 차단). 업로드되면 테마 설정에 바로 연결한다.
+8. **[발주자] 저장소 공개 범위 판단** — §5 참조
