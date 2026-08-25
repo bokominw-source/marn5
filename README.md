@@ -11,13 +11,17 @@ docs/
   02-decisions.md      결정 로그 (새 결정은 여기에 추가)
   03-jp-tax-duty.md    일본 관세·소비세 계산 구조와 제도 타임라인
   04-open-questions.md 미해결 · 발주자 요청 항목
+  05-shopify-store.md   JP Shopify 스토어 구축 현황 (실반영 상태)
 data/
   mvp41.csv            발주자 제출 MVP 41 SKU
   products_41.csv      41건 실측 (가격·옵션축·태그·이미지)
   variants_183.csv     옵션 조합 183건 (재고 포함)
   details.json         Catalog MCP 원본 응답
 scripts/
-  cafe24_catalog.py    Catalog MCP 클라이언트 (인증 불필요, 지금 동작함)
+  options.py           옵션 문자열 파서 · 정규화 · 축 역할 판정
+  cafe24_catalog.py    Catalog MCP 클라이언트 (인증 불필요)
+  rebuild_from_details.py  원본 응답 → CSV 재생성 (네트워크 불요)
+  build_product_inputs.py  → Shopify productSet 입력 생성 (네트워크 불요)
   cafe24_extract.py    Admin API 추출기 (OAuth 필요, 로컬 실행용)
 design/
   jp-home.html         일본 홈 디자인안 (풀사이즈)
